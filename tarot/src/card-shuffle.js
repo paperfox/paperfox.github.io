@@ -38,16 +38,16 @@ class MakeNumbers extends Component {
           <Button onClick={this.btnClick.bind(this)}>Draw</Button>
           <Button variant="secondary" onClick={this.btnClickReset.bind(this)}>Reset</Button>
         </div>
-        <div className="row">
-          <div className="col">
+        <div className="row justify-content-center">
+          <div className="col-lg-3 col-sm-4 col-5">
             <p>{this.state.data}</p>
             <CardPlaceholder />
           </div>
-          <div className="col">
+          <div className="col-lg-3 col-sm-4 col-5">
             <p>{this.state.data}</p>
             <CardPlaceholder />
           </div>
-          <div className="col">
+          <div className="col-lg-3 col-sm-4 col-5">
             <p>{this.state.data}</p>
             <CardPlaceholder />
           </div>
