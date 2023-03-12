@@ -1,11 +1,9 @@
 import React, { Component, Fragment } from 'react';
 import Button from 'react-bootstrap/Button';
-import logo from './logo.svg';
-import CardPlaceholder from './card-placeholder';
 import CardModal from './card-modal';
 
-// so what I need this to do is on each click generate a random number in the range an populate it 
-// in a spot so that I can use that number to serve up an image and corresponding desc
+// so what I need this to do is:
+// so that I can use that number to serve up an image and corresponding desc - image is working, need to work on desc
 // will also need to set it so a card can't be drawn twice
 
 class MakeNumbers extends Component {
@@ -13,9 +11,14 @@ class MakeNumbers extends Component {
     super();
     this.state = {data: '0'};
     this.state = {dataImg: '0'};
+    this.state = {data2: '0'};
+    this.state = {dataImg2: '0'};
+    this.state = {data3: '0'};
+    this.state = {dataImg3: '0'};
   }
 
-  btnClick(){
+  btnClick(props){
+    // first card
     function randomIntFromInterval(min, max) { // min and max included 
       return Math.floor(Math.random() * (max - min + 1) + min)
     }
@@ -27,40 +30,87 @@ class MakeNumbers extends Component {
     const rndBinary = randomBinary(1, 2);
     this.setState({data: rndInt + '_' + rndBinary});
     this.setState({dataImg: rndInt});
+
+    // second card
+    function randomIntFromInterval2(min, max) { // min and max included 
+      return Math.floor(Math.random() * (max - min + 1) + min)
+    }
+    function randomBinary2(min, max) { // min and max included 
+      return Math.floor(Math.random() * (max - min + 1) + min)
+    }
+    
+    const rndInt2 = randomIntFromInterval2(1, 5);
+    const rndBinary2 = randomBinary2(1, 2);
+    this.setState({data2: rndInt2 + '_' + rndBinary2});
+    this.setState({dataImg2: rndInt2});
+
+    // third card    
+    function randomIntFromInterval3(min, max) { // min and max included 
+      return Math.floor(Math.random() * (max - min + 1) + min)
+    }
+    function randomBinary3(min, max) { // min and max included 
+      return Math.floor(Math.random() * (max - min + 1) + min)
+    }
+    
+    const rndInt3 = randomIntFromInterval3(1, 5);
+    const rndBinary3 = randomBinary3(1, 2);
+    this.setState({data3: rndInt3 + '_' + rndBinary3});
+    this.setState({dataImg3: rndInt3});
   }
 
   btnClickReset(){
     this.setState({data: '0'});
     this.setState({dataImg: '0'});
+    this.setState({data2: '0'});
+    this.setState({dataImg2: '0'});
+    this.setState({data3: '0'});
+    this.setState({dataImg3: '0'});
   }
 
   render(){
     return (
       <Fragment>
         <div>
-          <img src={logo} className="App-logo" alt="logo" />
-          <Button onClick={this.btnClick.bind(this)}>Draw</Button>
+          <Button className="tarot-deck" variant="tertiary" onClick={this.btnClick.bind(this)}>
+            <img src={'images/cards/deck.png'}  alt="Deck of tarot cards"/>
+          </Button>
           <Button variant="secondary" onClick={this.btnClickReset.bind(this)}>Reset</Button>
+          {/* <div className="test-section" id={'tarot-content-' + this.state.data3}>
+            <p>{this.state.data3}</p>
+          </div> */}
         </div>
         <div className="row justify-content-center">
-          <div className="col-lg-3 col-sm-4 col-5" id={'tarot-content-' + this.state.data}>
+          <div className="col-lg-2 col-md-3 col-sm-4 col-5" id={'tarot-content-' + this.state.data}>
             <p>{this.state.data}</p>
             <div className="card text-white bg-dark mb-4">
-            <img src={'images/cards/' + this.state.dataImg + '.png'} className={'card-img-top tarot-' + this.state.data} alt="..."/>
-            <div className="card-body">
-              <h5 className="card-title">Title</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <CardModal />
+              <img src={'images/cards/' + this.state.dataImg + '.png'} className={'card-img-top tarot-' + this.state.data} alt="..."/>
+              <div className="card-body">
+                <h5 className="card-title">Title</h5>
+                <CardModal />
+              </div>
             </div>
           </div>
+
+          <div className="col-lg-2 col-md-3 col-sm-4 col-5" id={'tarot-content-' + this.state.data2}>
+            <p>{this.state.data2}</p>
+            <div className="card text-white bg-dark mb-4">
+              <img src={'images/cards/' + this.state.dataImg2 + '.png'} className={'card-img-top tarot-' + this.state.data2} alt="..."/>
+              <div className="card-body">
+                <h5 className="card-title">Title</h5>
+                <CardModal />
+              </div>
+            </div>
           </div>
-          <div className="col-lg-3 col-sm-4 col-5">
-            <p>{this.state.data}</p>
-            <CardPlaceholder />
-          </div>
-          <div className="col-lg-3 col-sm-4 col-5">
-            <p>{this.state.data}</p>
-            <CardPlaceholder />
+
+          <div className="col-lg-2 col-md-3 col-sm-4 col-5" id={'tarot-content-' + this.state.data3}>
+            <p>{this.state.data3}</p>
+            <div className="card text-white bg-dark mb-4">
+              <img src={'images/cards/' + this.state.dataImg3 + '.png'} className={'card-img-top tarot-' + this.state.data3} alt="..."/>
+              <div className="card-body">
+                <h5 className="card-title">Title</h5>
+                <CardModal />
+              </div>
+            </div>
           </div>
         </div>
       </Fragment>
