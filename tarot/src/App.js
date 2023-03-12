@@ -1,10 +1,9 @@
-import './App.css';
-import MakeNumbers from './card-shuffle';
+import MakeNumbers from './Card-shuffle';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="text-center">
+      <header>
         <h1>Tarot</h1>
       </header>
       <div className="container-xl">

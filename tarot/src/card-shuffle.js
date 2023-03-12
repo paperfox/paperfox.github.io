@@ -1,6 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import Button from 'react-bootstrap/Button';
-import CardModal from './card-modal';
+import CardModal from './Card-modal';
 
 // so what I need this to do is:
 // so that I can use that number to serve up an image and corresponding desc - image is working, need to work on desc
@@ -26,7 +26,7 @@ class MakeNumbers extends Component {
       return Math.floor(Math.random() * (max - min + 1) + min)
     }
     
-    const rndInt = randomIntFromInterval(1, 5);
+    const rndInt = randomIntFromInterval(1, 8);
     const rndBinary = randomBinary(1, 2);
     this.setState({data: rndInt + '_' + rndBinary});
     this.setState({dataImg: rndInt});
@@ -39,7 +39,7 @@ class MakeNumbers extends Component {
       return Math.floor(Math.random() * (max - min + 1) + min)
     }
     
-    const rndInt2 = randomIntFromInterval2(1, 5);
+    const rndInt2 = randomIntFromInterval2(1, 8);
     const rndBinary2 = randomBinary2(1, 2);
     this.setState({data2: rndInt2 + '_' + rndBinary2});
     this.setState({dataImg2: rndInt2});
@@ -52,7 +52,7 @@ class MakeNumbers extends Component {
       return Math.floor(Math.random() * (max - min + 1) + min)
     }
     
-    const rndInt3 = randomIntFromInterval3(1, 5);
+    const rndInt3 = randomIntFromInterval3(1, 8);
     const rndBinary3 = randomBinary3(1, 2);
     this.setState({data3: rndInt3 + '_' + rndBinary3});
     this.setState({dataImg3: rndInt3});

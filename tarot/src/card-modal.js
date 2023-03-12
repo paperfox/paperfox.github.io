@@ -15,14 +15,19 @@ function CardModal() {
         Card Desc
       </Button>
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal 
+        show={show} 
+        onHide={handleClose} 
+        centered
+        size="lg"
+      >
         <Modal.Header closeButton>
           <Modal.Title>Name of Card Goes Here</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div className="row">
-            <div className="col">
-              Image goes here
+            <div className="col-md-4 col-sm-5">
+              <img src={'images/cards/0.png'} className="w-100" alt="..."/>
             </div>
             <div className="col">
               <p>Text Goes here</p>
