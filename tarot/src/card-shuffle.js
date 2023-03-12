@@ -80,7 +80,7 @@ class MakeNumbers extends Component {
           </div> */}
         </div>
         <div className="row justify-content-center">
-          <div className="col-lg-2 col-md-3 col-sm-4 col-5" id={'tarot-content-' + this.state.data}>
+          <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + this.state.data}>
             <p>{this.state.data}</p>
             <div className="card text-white bg-dark mb-4">
               <img src={'images/cards/' + this.state.dataImg + '.png'} className={'card-img-top tarot-' + this.state.data} alt="..."/>
@@ -91,7 +91,7 @@ class MakeNumbers extends Component {
             </div>
           </div>
 
-          <div className="col-lg-2 col-md-3 col-sm-4 col-5" id={'tarot-content-' + this.state.data2}>
+          <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + this.state.data2}>
             <p>{this.state.data2}</p>
             <div className="card text-white bg-dark mb-4">
               <img src={'images/cards/' + this.state.dataImg2 + '.png'} className={'card-img-top tarot-' + this.state.data2} alt="..."/>
@@ -102,7 +102,7 @@ class MakeNumbers extends Component {
             </div>
           </div>
 
-          <div className="col-lg-2 col-md-3 col-sm-4 col-5" id={'tarot-content-' + this.state.data3}>
+          <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + this.state.data3}>
             <p>{this.state.data3}</p>
             <div className="card text-white bg-dark mb-4">
               <img src={'images/cards/' + this.state.dataImg3 + '.png'} className={'card-img-top tarot-' + this.state.data3} alt="..."/>
