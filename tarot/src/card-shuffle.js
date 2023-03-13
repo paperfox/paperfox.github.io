@@ -10,14 +10,14 @@ class MakeNumbers extends Component {
   constructor(){
     super();
     this.state = {data: '0'};
-    this.state = {dataImg: '0'};
+    this.state = {dataContent: '0'};
     this.state = {data2: '0'};
-    this.state = {dataImg2: '0'};
+    this.state = {dataContent2: '0'};
     this.state = {data3: '0'};
-    this.state = {dataImg3: '0'};
+    this.state = {dataContent3: '0'};
   }
 
-  btnClick(props){
+  btnClick(){
     // first card
     function randomIntFromInterval(min, max) { // min and max included 
       return Math.floor(Math.random() * (max - min + 1) + min)
@@ -26,10 +26,10 @@ class MakeNumbers extends Component {
       return Math.floor(Math.random() * (max - min + 1) + min)
     }
     
-    const rndInt = randomIntFromInterval(1, 8);
+    const rndInt = randomIntFromInterval(1, 78);
     const rndBinary = randomBinary(1, 2);
     this.setState({data: rndInt + '_' + rndBinary});
-    this.setState({dataImg: rndInt});
+    this.setState({dataContent: rndInt});
 
     // second card
     function randomIntFromInterval2(min, max) { // min and max included 
@@ -39,10 +39,10 @@ class MakeNumbers extends Component {
       return Math.floor(Math.random() * (max - min + 1) + min)
     }
     
-    const rndInt2 = randomIntFromInterval2(1, 8);
+    const rndInt2 = randomIntFromInterval2(1, 78);
     const rndBinary2 = randomBinary2(1, 2);
     this.setState({data2: rndInt2 + '_' + rndBinary2});
-    this.setState({dataImg2: rndInt2});
+    this.setState({dataContent2: rndInt2});
 
     // third card    
     function randomIntFromInterval3(min, max) { // min and max included 
@@ -52,29 +52,31 @@ class MakeNumbers extends Component {
       return Math.floor(Math.random() * (max - min + 1) + min)
     }
     
-    const rndInt3 = randomIntFromInterval3(1, 8);
+    const rndInt3 = randomIntFromInterval3(1, 78);
     const rndBinary3 = randomBinary3(1, 2);
     this.setState({data3: rndInt3 + '_' + rndBinary3});
-    this.setState({dataImg3: rndInt3});
+    this.setState({dataContent3: rndInt3});
   }
 
   btnClickReset(){
     this.setState({data: '0'});
-    this.setState({dataImg: '0'});
+    this.setState({dataContent: '0'});
     this.setState({data2: '0'});
-    this.setState({dataImg2: '0'});
+    this.setState({dataContent2: '0'});
     this.setState({data3: '0'});
-    this.setState({dataImg3: '0'});
+    this.setState({dataContent3: '0'});
   }
 
   render(){
     return (
       <Fragment>
         <div>
-          <Button className="tarot-deck" variant="tertiary" onClick={this.btnClick.bind(this)}>
-            <img src={'images/cards/deck.png'}  alt="Deck of tarot cards"/>
+          <Button className="tarot-deck" variant="tertiary" onClick={this.btnClickReset.bind(this)}>
+            <img src={'images/deck.png'}  alt="Deck of tarot cards"/>
           </Button>
-          <Button variant="secondary" onClick={this.btnClickReset.bind(this)}>Reset</Button>
+          <Button variant="secondary" onClick={this.btnClick.bind(this)}>
+            Reveal Cards
+          </Button>
           {/* <div className="test-section" id={'tarot-content-' + this.state.data3}>
             <p>{this.state.data3}</p>
           </div> */}
@@ -83,7 +85,7 @@ class MakeNumbers extends Component {
           <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + this.state.data}>
             <p>{this.state.data}</p>
             <div className="card text-white bg-dark mb-4">
-              <img src={'images/cards/' + this.state.dataImg + '.png'} className={'card-img-top tarot-' + this.state.data} alt="..."/>
+              <img src={'images/cards/' + this.state.dataContent + '.jpg'} className={'card-img-top tarot-' + this.state.data} alt="..."/>
               <div className="card-body">
                 <h5 className="card-title">Title</h5>
                 <CardModal />
@@ -94,7 +96,7 @@ class MakeNumbers extends Component {
           <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + this.state.data2}>
             <p>{this.state.data2}</p>
             <div className="card text-white bg-dark mb-4">
-              <img src={'images/cards/' + this.state.dataImg2 + '.png'} className={'card-img-top tarot-' + this.state.data2} alt="..."/>
+              <img src={'images/cards/' + this.state.dataContent2 + '.jpg'} className={'card-img-top tarot-' + this.state.data2} alt="..."/>
               <div className="card-body">
                 <h5 className="card-title">Title</h5>
                 <CardModal />
@@ -105,7 +107,7 @@ class MakeNumbers extends Component {
           <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + this.state.data3}>
             <p>{this.state.data3}</p>
             <div className="card text-white bg-dark mb-4">
-              <img src={'images/cards/' + this.state.dataImg3 + '.png'} className={'card-img-top tarot-' + this.state.data3} alt="..."/>
+              <img src={'images/cards/' + this.state.dataContent3 + '.jpg'} className={'card-img-top tarot-' + this.state.data3} alt="..."/>
               <div className="card-body">
                 <h5 className="card-title">Title</h5>
                 <CardModal />
