@@ -2,9 +2,9 @@ import React, { Fragment, useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import CardModal from './Card-modal';
 
-// so what I need this to do is:
-// so that I can use that number to serve up an image and corresponding desc - image is working, need to work on desc
-// will also need to set it so a card can't be drawn twice
+// To do list:
+// get text connected with cards. Need: title, desc (many line), link or 2
+// remove duplicate card draws
 
 function MakeNumbers() {
   const [data, setData] = useState(0);
@@ -67,7 +67,7 @@ function MakeNumbers() {
   return (
     <Fragment>
       <div>
-        <Button className="tarot-deck" variant="tertiary" onClick={handleClickReset}>
+        <Button className="tarot-deck mb-4" variant="tertiary" onClick={handleClickReset}>
           <img src={'images/deck.png'}  alt="Deck of tarot cards"/>
         </Button>
         <Button variant="secondary" onClick={handleClick}>
@@ -76,34 +76,28 @@ function MakeNumbers() {
       </div>
       <div className="row justify-content-center">
         <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + data}>
-          <p>{data}</p>
           <div className="card text-white bg-dark mb-4">
             <img src={'images/cards/' + dataContent + '.jpg'} className={'card-img-top tarot-' + data} alt="..."/>
             <div className="card-body">
-              <h5 className="card-title">Title</h5>
-              <CardModal dataContent={dataContent}  data={data}/>
+              <CardModal data={data} dataContent={dataContent}  />
             </div>
           </div>
         </div>
 
         <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + data2}>
-          <p>{data2}</p>
           <div className="card text-white bg-dark mb-4">
             <img src={'images/cards/' + dataContent2 + '.jpg'} className={'card-img-top tarot-' + data2} alt="..."/>
             <div className="card-body">
-              <h5 className="card-title">Title</h5>
-              <CardModal />
+              <CardModal data={data2} dataContent={dataContent2}  />
             </div>
           </div>
         </div>
 
         <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + data3}>
-          <p>{data3}</p>
           <div className="card text-white bg-dark mb-4">
             <img src={'images/cards/' + dataContent3 + '.jpg'} className={'card-img-top tarot-' + data3} alt="..."/>
             <div className="card-body">
-              <h5 className="card-title">Title</h5>
-              <CardModal />
+              <CardModal data={data3} dataContent={dataContent3}  />
             </div>
           </div>
         </div>

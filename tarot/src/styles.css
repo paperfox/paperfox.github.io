@@ -22,3 +22,5 @@ p  { font-size: 1.6rem; font-weight: 400; opacity: .8; }
 .modal-content { background-color: #3b474f; }
 img[class*="_1"] { /* dunno but I'll probably need this */ }
 img[class*="_2"] { rotate: 180deg; }
+.btn-tertiary { color: antiquewhite; text-decoration: dotted; }
+.btn-tertiary:hover { color: antiquewhite; opacity: .8; }

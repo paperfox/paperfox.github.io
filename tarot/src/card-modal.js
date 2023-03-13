@@ -11,8 +11,8 @@ function CardModal({ data, dataContent }) {
   
   return (
     <Fragment>
-      <Button variant="secondary" onClick={handleShow}>
-        Card Desc
+      <Button variant="tertiary" onClick={handleShow}>
+        {data}
       </Button>
 
       <Modal 
