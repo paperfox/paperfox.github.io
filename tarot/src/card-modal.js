@@ -3,12 +3,12 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 
-function CardModal() {
+function CardModal({ data, dataContent }) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
+  
   return (
     <Fragment>
       <Button variant="secondary" onClick={handleShow}>
@@ -27,10 +27,10 @@ function CardModal() {
         <Modal.Body>
           <div className="row">
             <div className="col-md-4 col-sm-5">
-              <img src={'images/cards/0.png'} className="w-100" alt="..."/>
+              <img src={'images/cards/' + dataContent + '.jpg'} className="w-100" alt="..."/>
             </div>
             <div className="col">
-              <p>Text Goes here</p>
+              <p>{data}</p>
             </div>
           </div>
         </Modal.Body>

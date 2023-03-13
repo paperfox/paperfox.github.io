@@ -1,4 +1,4 @@
-import MakeNumbers from './Card-shuffle';
+import MakeNumbers from './Card-shuffle-func';
 
 function App() {
   return (
