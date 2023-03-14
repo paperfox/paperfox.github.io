@@ -3,8 +3,11 @@ import Button from 'react-bootstrap/Button';
 import CardModal from './Card-modal';
 
 // To do list:
-// get text connected with cards. Need: title, desc (many line), link or 2
+// make art
+// write text
 // remove duplicate card draws
+// clean up code
+// make it pretty
 
 function MakeNumbers({ tarotContent }) {
   const [data, setData] = useState(0);
@@ -68,6 +71,9 @@ function MakeNumbers({ tarotContent }) {
     setDataImg2(0);
     setData3(0);
     setDataImg3(0);
+    setDataContent(0);
+    setDataContent2(0);
+    setDataContent3(0);
   }
 
   return (

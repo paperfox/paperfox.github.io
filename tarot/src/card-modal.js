@@ -22,7 +22,7 @@ function CardModal({ data, dataImg, dataContent }) {
         size="lg"
       >
         <Modal.Header closeButton>
-          <Modal.Title>Name of Card Goes Here</Modal.Title>
+          <Modal.Title as="h2">{dataContent.title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div className="row">
@@ -30,8 +30,13 @@ function CardModal({ data, dataImg, dataContent }) {
               <img src={'images/cards/' + dataImg + '.jpg'} className="w-100" alt="..."/>
             </div>
             <div className="col">
-              <p>{dataContent.title}</p>
-              <p>{dataContent.content}</p>
+              <h3>Divinatory Meanings</h3>
+              <p>{dataContent.divMean}</p>
+              <h3>Reversed</h3>
+              <p>{dataContent.rvsMean}</p>
+              <h3>About the Image</h3>
+              <p>{dataContent.bkgInfo}</p>
+              <a href={dataContent.link} target="_blank">Rider-Waite Description</a>
             </div>
           </div>
         </Modal.Body>
