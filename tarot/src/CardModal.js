@@ -36,7 +36,7 @@ function CardModal({ data, dataImg, dataContent }) {
               <p>{dataContent.rvsMean}</p>
               <h3>About the Image</h3>
               <p>{dataContent.bkgInfo}</p>
-              <a href={dataContent.link} target="_blank">Rider-Waite Description</a>
+              <a href={dataContent.link} target="_blank" rel="noreferrer">Rider-Waite Description</a>
             </div>
           </div>
         </Modal.Body>

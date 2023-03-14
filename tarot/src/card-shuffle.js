@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import Button from 'react-bootstrap/Button';
-import CardModal from './Card-modal';
+import CardModal from './CardModal';
+import TarotCard from './Card';
 
 // To do list:
 // make art
@@ -87,32 +88,9 @@ function MakeNumbers({ tarotContent }) {
         </Button>
       </div>
       <div className="row justify-content-center">
-        <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + data}>
-          <div className="card text-white bg-dark mb-4">
-            <img src={'images/cards/' + dataImg + '.jpg'} className={'card-img-top tarot-' + data} alt="..."/>
-            <div className="card-body">
-              <CardModal data={data} dataImg={dataImg} dataContent={dataContent} tarotContent={tarotContent} />
-            </div>
-          </div>
-        </div>
-
-        <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + data2}>
-          <div className="card text-white bg-dark mb-4">
-            <img src={'images/cards/' + dataImg2 + '.jpg'} className={'card-img-top tarot-' + data2} alt="..."/>
-            <div className="card-body">
-              <CardModal data={data2} dataImg={dataImg2} dataContent={dataContent2} tarotContent={tarotContent} />
-            </div>
-          </div>
-        </div>
-
-        <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + data3}>
-          <div className="card text-white bg-dark mb-4">
-            <img src={'images/cards/' + dataImg3 + '.jpg'} className={'card-img-top tarot-' + data3} alt="..."/>
-            <div className="card-body">
-              <CardModal data={data3} dataImg={dataImg3} dataContent={dataContent3} tarotContent={tarotContent} />
-            </div>
-          </div>
-        </div>
+        <TarotCard data={data} dataImg={dataImg} dataContent={dataContent} tarotContent={tarotContent}/>
+        <TarotCard data={data2} dataImg={dataImg2} dataContent={dataContent2} tarotContent={tarotContent}/>
+        <TarotCard data={data3} dataImg={dataImg3} dataContent={dataContent3} tarotContent={tarotContent}/>
       </div>
     </Fragment>
   );
