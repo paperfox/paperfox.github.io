@@ -4,7 +4,7 @@ function TarotArray() {
       id: 0, 
       title: 'Card Back', 
       divMean: 'Should I hide the modal in this state?',
-      link: 'none'
+      link: ''
     },
     {id: 1, title: 'The Fool', divMean: 'This is some sample text for the Fool card, tbh there\'s probably going to be more than 1 paragraph.', link: 'https://www.tarotcardmeanings.net/majorarcana/tarot-fool.htm'},
     {id: 2, title: 'The Magician', divMean: 'This is some sample text for the Magician card, tbh there\'s probably going to be more than 1 paragraph.', link: 'https://www.tarotcardmeanings.net/majorarcana/tarot-magician.htm'},

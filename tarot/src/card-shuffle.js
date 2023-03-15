@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from 'react';
 import Button from 'react-bootstrap/Button';
-import CardModal from './CardModal';
 import TarotCard from './Card';
 
 // To do list:
