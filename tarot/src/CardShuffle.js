@@ -29,27 +29,31 @@ function MakeNumbers({ tarotContent }) {
       }
     ]);    
 
-    // deck.pop(randomInt); 
+    
     deck.splice(randomInt, 1)
-    // figure out what the right thing is here - not pop but something similar
     console.log(deck);
   }
 
-  // const handleClickReset = () => {
-    // setData(0);
-    // setDataImg(0);
-    // setDataContent(0);
-  // }
+  const handleClickReset = () => {
+    // setCreateCard([]);
+    // there's got to be a better way to do this than the line below
+    { window. location. reload(false); } 
+    console.log(deck);
+
+  }
 
   return (
     <Fragment>
       <div>
-        <Button className="tarot-deck mb-4" variant="tertiary" onClick={handleClick}>
-          <img src={'/images/deck.png'}  alt="Deck of tarot cards"/>
-        </Button>
-        {/* <Button variant="secondary"  onClick={handleClickReset}>
-          Reveal Cards
-        </Button> */}
+        <div className="mb-4">
+          <Button className="tarot-deck" variant="tertiary" onClick={handleClick}>
+            <img src={'/images/deck.png'}  alt="Deck of tarot cards"/>
+          </Button>
+          <br />
+          <Button variant="secondary"  onClick={handleClickReset}>
+            Clear Cards
+          </Button>
+        </div>
       </div>
       <div className="row justify-content-center">
         {createCard.map((exampleCard) => {

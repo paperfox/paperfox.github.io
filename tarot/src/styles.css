@@ -31,10 +31,15 @@ p  { opacity: .8; }
 .modal-footer       { border-top: none }
 img[class*="_1"]    { /* dunno but I'll probably need this */ }
 img[class*="_2"]    { rotate: 180deg; }
+
 a,
 .btn-tertiary       { color: antiquewhite; text-decoration: dotted; }
 a:hover,
 .btn-tertiary:hover { color: antiquewhite; opacity: .8; text-decoration: underline; }
+
+@media (min-width: 992px) {
+  .tarot-deck { rotate: 90deg; }
+}
 
 /* 
 .flip-card {
