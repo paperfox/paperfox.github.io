@@ -80,7 +80,7 @@ function MakeNumbers({ tarotContent }) {
     <Fragment>
       <div>
         <Button className="tarot-deck mb-4" variant="tertiary" onClick={handleClickReset}>
-          <img src={'images/deck.png'}  alt="Deck of tarot cards"/>
+          <img src={'/images/deck.png'}  alt="Deck of tarot cards"/>
         </Button>
         <Button variant="secondary" onClick={handleClick}>
           Reveal Cards

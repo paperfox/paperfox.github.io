@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import MakeNumbers from './Card-shuffle';
+import React from 'react';
+import MakeNumbers from './CardShuffle';
 import TarotArray from './Tarot-content';
 
 function App() {

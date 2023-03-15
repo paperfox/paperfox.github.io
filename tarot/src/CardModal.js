@@ -27,7 +27,7 @@ function CardModal({ data, dataImg, dataContent }) {
         <Modal.Body>
           <div className="row">
             <div className="col-md-4 col-sm-5">
-              <img src={'images/cards/' + dataImg + '.jpg'} className="w-100" alt="..."/>
+              <img src={'/images/cards/' + dataImg + '.jpg'} className="w-100" alt="..."/>
             </div>
             <div className="col">
               <h3>Divinatory Meanings</h3>
