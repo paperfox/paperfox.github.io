@@ -6,90 +6,56 @@ import TarotCard from './Card';
 // make art
 // write text
 // remove duplicate card draws
-// clean up code
+// clean up code - 
+// rewrite array - remove 0 and 80 from deck, rewrite in json
 // make it pretty
 
 function MakeNumbers({ tarotContent }) {
-  const [data, setData] = useState(0);
-  const [dataImg, setDataImg] = useState(0);
-  const [data2, setData2] = useState(0);
-  const [dataImg2, setDataImg2] = useState(0);
-  const [data3, setData3] = useState(0);
-  const [dataImg3, setDataImg3] = useState(0);
-  const [dataContent, setDataContent] = useState(0);
-  const [dataContent2, setDataContent2] = useState(0);
-  const [dataContent3, setDataContent3] = useState(0);
+  const [createCard, setCreateCard] = useState([]);
+  let deck = tarotContent;
 
   const handleClick = () => {
-    // first card
-    function randomIntFromInterval(min, max) { // min and max included 
-      return Math.floor(Math.random() * (max - min + 1) + min)
-    }
-    function randomBinary(min, max) { // min and max included 
-      return Math.floor(Math.random() * (max - min + 1) + min)
-    }
-    
-    const rndInt = randomIntFromInterval(1, 78);
-    const rndBinary = randomBinary(1, 2);
-    setData(rndInt + '_' + rndBinary);
-    setDataImg(rndInt);
-    setDataContent(tarotContent[rndInt]);
+    let min = 1;
+    let max = deck.length - 2;
 
-    // second card
-    function randomIntFromInterval2(min, max) { // min and max included 
-      return Math.floor(Math.random() * (max - min + 1) + min)
-    }
-    function randomBinary2(min, max) { // min and max included 
-      return Math.floor(Math.random() * (max - min + 1) + min)
-    }
-    
-    const rndInt2 = randomIntFromInterval2(1, 78);
-    const rndBinary2 = randomBinary2(1, 2);
-    setData2(rndInt2 + '_' + rndBinary2);
-    setDataImg2(rndInt2);
-    setDataContent2(tarotContent[rndInt2]);
-    
-    // third card
-    function randomIntFromInterval3(min, max) { // min and max included 
-      return Math.floor(Math.random() * (max - min + 1) + min)
-    }
-    function randomBinary3(min, max) { // min and max included 
-      return Math.floor(Math.random() * (max - min + 1) + min)
-    }
-    
-    const rndInt3 = randomIntFromInterval3(1, 78);
-    const rndBinary3 = randomBinary3(1, 2);
-    setData3(rndInt3 + '_' + rndBinary3);
-    setDataImg3(rndInt3);
-    setDataContent3(tarotContent[rndInt3]);
+    let randomInt = Math.floor(Math.random() * (max - min + 1) + min);
+    let randomBinary = Math.floor(Math.random() * (2 - 1 + 1) + 1);
+
+    setCreateCard([...createCard, 
+      {
+        id: randomInt,
+        class: randomInt + '_' + randomBinary,
+        tarotText: deck[randomInt]
+      }
+    ]);    
+
+    deck.pop(randomInt); 
+    // figure out what the right thing is here - not pop but something similar
+    console.log(deck);
   }
 
   const handleClickReset = () => {
-    setData(0);
-    setDataImg(0);
-    setData2(0);
-    setDataImg2(0);
-    setData3(0);
-    setDataImg3(0);
-    setDataContent(0);
-    setDataContent2(0);
-    setDataContent3(0);
+    // setData(0);
+    // setDataImg(0);
+    // setDataContent(0);
   }
 
   return (
     <Fragment>
       <div>
-        <Button className="tarot-deck mb-4" variant="tertiary" onClick={handleClickReset}>
+        <Button className="tarot-deck mb-4" variant="tertiary" onClick={handleClick}>
           <img src={'/images/deck.png'}  alt="Deck of tarot cards"/>
         </Button>
-        <Button variant="secondary" onClick={handleClick}>
+        {/* <Button variant="secondary"  onClick={handleClickReset}>
           Reveal Cards
-        </Button>
+        </Button> */}
       </div>
       <div className="row justify-content-center">
-        <TarotCard data={data} dataImg={dataImg} dataContent={dataContent} tarotContent={tarotContent}/>
-        <TarotCard data={data2} dataImg={dataImg2} dataContent={dataContent2} tarotContent={tarotContent}/>
-        <TarotCard data={data3} dataImg={dataImg3} dataContent={dataContent3} tarotContent={tarotContent}/>
+        {createCard.map((exampleCard) => {
+          return (
+            <TarotCard key={exampleCard.id} data={exampleCard.class} dataImg={exampleCard.id} dataContent={exampleCard.tarotText} tarotContent={tarotContent}/>
+          )
+        })}
       </div>
     </Fragment>
   );
