@@ -29,16 +29,17 @@ function MakeNumbers({ tarotContent }) {
       }
     ]);    
 
-    deck.pop(randomInt); 
+    // deck.pop(randomInt); 
+    deck.splice(randomInt, 1)
     // figure out what the right thing is here - not pop but something similar
     console.log(deck);
   }
 
-  const handleClickReset = () => {
+  // const handleClickReset = () => {
     // setData(0);
     // setDataImg(0);
     // setDataContent(0);
-  }
+  // }
 
   return (
     <Fragment>
@@ -53,7 +54,7 @@ function MakeNumbers({ tarotContent }) {
       <div className="row justify-content-center">
         {createCard.map((exampleCard) => {
           return (
-            <TarotCard key={exampleCard.id} data={exampleCard.class} dataImg={exampleCard.id} dataContent={exampleCard.tarotText} tarotContent={tarotContent}/>
+            <TarotCard key={exampleCard.tarotText.id} data={exampleCard.class} dataImg={exampleCard.tarotText.id} dataContent={exampleCard.tarotText} tarotContent={tarotContent}/>
           )
         })}
       </div>
