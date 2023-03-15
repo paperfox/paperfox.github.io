@@ -24,7 +24,7 @@ function MakeNumbers({ tarotContent }) {
     setCreateCard([...createCard, 
       {
         id: randomInt,
-        class: randomInt + '_' + randomBinary,
+        reverseCard: '_' + randomBinary,
         tarotText: deck[randomInt]
       }
     ]);    
@@ -58,7 +58,7 @@ function MakeNumbers({ tarotContent }) {
       <div className="row justify-content-center">
         {createCard.map((exampleCard) => {
           return (
-            <TarotCard key={exampleCard.tarotText.id} data={exampleCard.class} dataImg={exampleCard.tarotText.id} dataContent={exampleCard.tarotText} tarotContent={tarotContent}/>
+            <TarotCard key={exampleCard.tarotText.id} dataImg={exampleCard.tarotText.id} dataContent={exampleCard.tarotText} reverseCard={exampleCard.reverseCard} />
           )
         })}
       </div>

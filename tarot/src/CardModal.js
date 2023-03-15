@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 
 
-function CardModal({ data, dataImg, dataContent }) {
+function CardModal({ reverseCard, dataImg, dataContent }) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -12,7 +12,7 @@ function CardModal({ data, dataImg, dataContent }) {
   return (
     <Fragment>
       <Button variant="tertiary" onClick={handleShow}>
-      {dataContent.title} {data}
+      {dataContent.title} {dataImg}{reverseCard}
       </Button>
 
       <Modal 
