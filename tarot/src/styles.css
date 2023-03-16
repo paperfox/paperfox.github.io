@@ -29,27 +29,14 @@ p  { opacity: .8; }
 .modal-content      { background-color: #3b474f; }
 .modal-header       { border-bottom: none }
 .modal-footer       { border-top: none }
-img[class*="_1"]    { /* dunno but I'll probably need this */ }
 img[class*="_2"]    { rotate: 180deg; }
-.info-icon { 
-  width: 2.4rem; 
-  /* Info icon created by i cons from the noun project - tinyurl.com/47b8m4an */
-}
-
+.info-icon          { width: 2.4rem; } /* Info icon created by i cons from the noun project - tinyurl.com/47b8m4an */
 a,
 .btn-tertiary       { color: antiquewhite; text-decoration: dotted; }
 a:hover,
 .btn-tertiary:hover { color: antiquewhite; opacity: .8; text-decoration: underline; }
-
-.btn-flip { width: 100%; }
-
-@media (min-width: 992px) {
-  .tarot-deck { rotate: 90deg; }
-}
-
-.flip-card {
-  perspective: 1000px;
-}
+.btn-flip           { width: 100%; }
+.flip-card          { perspective: 1000px; }
 
 .flip-card-inner {
   transition: transform 0.6s;
@@ -58,8 +45,8 @@ a:hover,
 }
 
 .flip-card:active .flip-card-inner,
-.flip-card .flip-card-inner.show {
-  transform: rotateX(180deg);
+.flip-card .flip-card-inner.show { 
+  transform: rotateX(180deg); 
 }
 
 .flip-card-front, .flip-card-back {
@@ -70,4 +57,8 @@ a:hover,
 .flip-card-back {
   transform: rotateX(180deg);
   height: 0;
+}
+
+@media (min-width: 992px) {
+  .tarot-deck { rotate: 90deg; }
 }

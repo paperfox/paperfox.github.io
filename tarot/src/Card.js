@@ -4,13 +4,11 @@ import Button from 'react-bootstrap/Button';
 
 function TarotCard({ reverseCard, dataImg, dataContent }) {
   const [cardFace, setCardFace] = useState('');
-  const [visibility, setVisibility] = useState('d-none');
 
   const handleVisibility = () => {
     setCardFace('show');
-    setVisibility('');
   }
-  
+
   return (
     <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + dataImg + reverseCard}>
       <div className="card text-white bg-dark mb-4">
