@@ -30,7 +30,6 @@ function MakeNumbers({ tarotContent }) {
       ]);    
   
       deck.splice(randomInt, 1)
-      console.log(deck);
     }
   }
 

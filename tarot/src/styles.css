@@ -31,52 +31,43 @@ p  { opacity: .8; }
 .modal-footer       { border-top: none }
 img[class*="_1"]    { /* dunno but I'll probably need this */ }
 img[class*="_2"]    { rotate: 180deg; }
+.info-icon { 
+  width: 2.4rem; 
+  /* Info icon created by i cons from the noun project - tinyurl.com/47b8m4an */
+}
 
 a,
 .btn-tertiary       { color: antiquewhite; text-decoration: dotted; }
 a:hover,
 .btn-tertiary:hover { color: antiquewhite; opacity: .8; text-decoration: underline; }
 
+.btn-flip { width: 100%; }
+
 @media (min-width: 992px) {
   .tarot-deck { rotate: 90deg; }
 }
 
-/* 
 .flip-card {
-  background-color: transparent;
-  height: 30rem;
   perspective: 1000px;
 }
 
 .flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.flip-card:active .flip-card-inner {
-  background: url("images/cards/0.jpg")  center no-repeat;
+.flip-card:active .flip-card-inner,
+.flip-card .flip-card-inner.show {
   transform: rotateX(180deg);
 }
 
 .flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-.flip-card-front {
-  background-color: #bbb;
-  color: black;
-}
-
 .flip-card-back {
-  background-size: contain;
   transform: rotateX(180deg);
-} */
+  height: 0;
+}

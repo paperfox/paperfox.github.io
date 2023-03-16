@@ -1,11 +1,34 @@
+import React, {  useState } from 'react';
 import CardModal from './CardModal';
+import Button from 'react-bootstrap/Button';
 
 function TarotCard({ reverseCard, dataImg, dataContent }) {
+  const [cardFace, setCardFace] = useState('');
+  const [visibility, setVisibility] = useState('d-none');
+
+  const handleVisibility = () => {
+    setCardFace('show');
+    setVisibility('');
+  }
+  
   return (
     <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + dataImg + reverseCard}>
       <div className="card text-white bg-dark mb-4">
-        <img src={'/images/cards/' + dataImg + '.jpg'} className={'card-img-top tarot-' + dataImg + reverseCard} alt="..."/>
         <div className="card-body">
+          <div className="mb-4">
+            <Button variant="tertiary" className="btn-flip" onClick={handleVisibility}>
+              <div className="flip-card">
+                <div className={'flip-card-inner ' + cardFace}>
+                  <div className="flip-card-front">
+                      <img src='/images/cards/0.jpg' className='card-img-top' alt="..."/>
+                  </div>
+                  <div className="flip-card-back">
+                      <img src={'/images/cards/' + dataImg + '.jpg'} className={'card-img-top tarot-' + dataImg + reverseCard} alt="..."/>
+                  </div>
+                </div>
+              </div>
+            </Button>
+          </div>
           <CardModal reverseCard={reverseCard} dataImg={dataImg} dataContent={dataContent} />
         </div>
       </div>
