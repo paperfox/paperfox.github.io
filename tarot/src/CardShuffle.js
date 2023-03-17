@@ -57,19 +57,19 @@ function MakeNumbers({ tarotContent }) {
               </div>
             </div>
           </Button>
-          <br />
-          <Button variant="secondary"  onClick={handleClickReset}>
-            Clear Cards
-          </Button>
         </div>
       </div>
-      <div className="row justify-content-center">
+      <div className="row justify-content-center mb-4">
         {createCard.map((exampleCard) => {
           return (
             <TarotCard key={exampleCard.tarotText.id} dataImg={exampleCard.tarotText.id} dataContent={exampleCard.tarotText} reverseCard={exampleCard.reverseCard} />
           )
         })}
       </div>
+      
+      <Button variant="secondary" className="mb-4" onClick={handleClickReset}>
+        Reset
+      </Button>
     </Fragment>
   );
 }
