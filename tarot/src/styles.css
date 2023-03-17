@@ -35,7 +35,8 @@ a,
 .btn-tertiary       { color: antiquewhite; text-decoration: dotted; }
 a:hover,
 .btn-tertiary:hover { color: antiquewhite; opacity: .8; text-decoration: underline; }
-.btn-flip           { width: 100%; }
+.btn-100,
+.deck-card-stack    { width: 100%; }
 .flip-card          { perspective: 1000px; }
 
 .flip-card-inner {
@@ -59,6 +60,52 @@ a:hover,
   height: 0;
 }
 
-@media (min-width: 992px) {
-  .tarot-deck { rotate: 90deg; }
+.flip-card-front {
+  border: .1rem solid rgba(253, 184, 19, .3);
 }
+
+/* @media (min-width: 992px) {
+  .tarot-deck { rotate: 90deg; }
+} */
+
+
+
+.build-deck { 
+  position: relative; 
+  height: 30rem;
+}
+
+@media (max-width: 575.9px) {
+  .build-deck { 
+    height: 42rem;
+  }
+}
+
+@media (max-width: 486px) {
+  .build-deck { 
+    height: 34rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .build-deck { 
+    height: 28rem;
+  }
+}
+.build-deck .deck-card-stack { 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  border: .1rem solid rgba(253, 184, 19, .3);
+  box-shadow: 0 .3rem 1rem 0 rgba(0,0,0,0.6);
+}
+
+/* .build-deck img:nth-child(1) { rotate: 5deg; } */
+.build-deck img:nth-child(2) { rotate: -2deg; }
+.build-deck img:nth-child(3) { rotate: 1deg; }
+.build-deck img:nth-child(4) { rotate: -2deg; }
+
+
+/* animate dealing cards - https://codepen.io/jmorris/pen/GgBmbo https://www.the-art-of-web.com/javascript/css-animation-demo/  */
+
+

@@ -44,8 +44,18 @@ function MakeNumbers({ tarotContent }) {
     <Fragment>
       <div>
         <div className="mb-4">
-          <Button className="tarot-deck" variant="tertiary" onClick={handleClick}>
-            <img src={'/images/deck.png'}  alt="Deck of tarot cards"/>
+          <Button className="tarot-deck btn-100" variant="tertiary" onClick={handleClick}>
+            <div className="row justify-content-center">
+              <div className="col-lg-2 col-md-3 col-sm-4 col-7">
+                <div className="mx-4 build-deck">
+                  <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
+                  <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
+                  <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
+                  <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
+                  <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
+                </div>
+              </div>
+            </div>
           </Button>
           <br />
           <Button variant="secondary"  onClick={handleClickReset}>

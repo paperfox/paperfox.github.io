@@ -14,7 +14,7 @@ function TarotCard({ reverseCard, dataImg, dataContent }) {
       <div className="card text-white bg-dark mb-4">
         <div className="card-body">
           <div className="mb-4">
-            <Button variant="tertiary" className="btn-flip" onClick={handleVisibility}>
+            <Button variant="tertiary" className="btn-100" onClick={handleVisibility}>
               <div className="flip-card">
                 <div className={'flip-card-inner ' + cardFace}>
                   <div className="flip-card-front">

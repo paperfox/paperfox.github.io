@@ -11,7 +11,7 @@ function CardModal({ reverseCard, dataImg, dataContent }) {
 
   return (
     <Fragment>
-      <Button variant="tertiary" className="float-end" onClick={handleShow} ariaLabel={`More information about ` + dataContent.title}>
+      <Button variant="tertiary" className="float-end" onClick={handleShow} aria-label={`More information about ` + dataContent.title}>
         <img src='/images/info-icon-by-i-con.svg' className="info-icon" alt="info icon"/>
       </Button>
 
