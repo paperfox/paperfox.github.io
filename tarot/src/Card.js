@@ -10,11 +10,11 @@ function TarotCard({ reverseCard, dataImg, dataContent }) {
   }
 
   return (
-    <div className="col-lg-2 col-md-3 col-sm-4 col-7" id={'tarot-content-' + dataImg + reverseCard}>
+    <div className="col-auto" id={'tarot-content-' + dataImg + reverseCard}>
       <div className="card text-white bg-dark mb-4">
         <div className="card-body">
           <div className="mb-4">
-            <Button variant="tertiary" className="btn-100" onClick={handleVisibility}>
+            <Button variant="tertiary" onClick={handleVisibility} >
               <div className="flip-card">
                 <div className={'flip-card-inner ' + cardFace}>
                   <div className="flip-card-front">

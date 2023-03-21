@@ -5,7 +5,6 @@ import TarotCard from './Card';
 // To do list:
 // make art
 // write text
-// clean up code - 
 // rewrite array - remove 0 and 80 from deck, rewrite in json
 // make it pretty
 
@@ -34,8 +33,7 @@ function MakeNumbers({ tarotContent }) {
   }
 
   const handleClickReset = () => {
-    // setCreateCard([]);
-    // there's got to be a better way to do this than the line below
+    // there's got to be a better way to do this than refreshing the whole page
     window.location.reload(false);
     console.log(deck);
   }
@@ -44,9 +42,9 @@ function MakeNumbers({ tarotContent }) {
     <Fragment>
       <div>
         <div className="mb-4">
-          <Button className="tarot-deck btn-100" variant="tertiary" onClick={handleClick} aria-label="Click to draw card from Tarot Deck">
+          <Button className="tarot-deck" variant="tertiary" onClick={handleClick} aria-label="Click to draw card from Tarot Deck">
             <div className="row justify-content-center">
-              <div className="col-lg-2 col-md-3 col-sm-4 col-7">
+              <div className="col-auto">
                 <div className="mx-4 build-deck">
                   <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
                   <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>

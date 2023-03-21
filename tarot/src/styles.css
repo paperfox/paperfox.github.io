@@ -25,18 +25,20 @@ h3 { font-size: 1.8rem; }
 p,
 a  { font-size: 1.4rem; font-weight: 400; }
 p  { opacity: .8; }
+a,
+.btn-tertiary       { color: antiquewhite; text-decoration: dotted; }
+a:hover,
+.btn-tertiary:hover { color: antiquewhite; text-decoration: underline; opacity: .8; }
 
 .modal-content      { background-color: #3b474f; }
 .modal-header       { border-bottom: none }
 .modal-footer       { border-top: none }
+
 img[class*="_2"]    { rotate: 180deg; }
 .info-icon          { width: 2.4rem; } /* Info icon created by i cons from the noun project - tinyurl.com/47b8m4an */
-a,
-.btn-tertiary       { color: antiquewhite; text-decoration: dotted; }
-a:hover,
-.btn-tertiary:hover { color: antiquewhite; opacity: .8; text-decoration: underline; }
-.btn-100,
-.deck-card-stack    { width: 100%; }
+.flip-card,
+.build-deck,
+.deck-card-stack    { width: 20rem; }
 .flip-card          { perspective: 1000px; }
 
 .flip-card-inner {
@@ -45,53 +47,22 @@ a:hover,
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-.flip-card:active .flip-card-inner,
-.flip-card .flip-card-inner.show { 
-  transform: rotateX(180deg); 
-}
-
 .flip-card-front, .flip-card-back {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
-.flip-card-back {
-  transform: rotateX(180deg);
-  height: 0;
-}
-
-.flip-card-front {
-  border: .1rem solid rgba(253, 184, 19, .3);
-}
-
-/* @media (min-width: 992px) {
-  .tarot-deck { rotate: 90deg; }
-} */
-
-
+.flip-card-back,
+.flip-card .flip-card-inner.show,
+.flip-card:active .flip-card-inner { transform: rotateX(180deg); }
+.flip-card-back                    { height: 0; }
+.flip-card-front                   { border: .1rem solid rgba(253, 184, 19, .3); }
 
 .build-deck { 
   position: relative; 
-  height: 30rem;
+  height: 33rem;
 }
 
-@media (max-width: 575.9px) {
-  .build-deck { 
-    height: 42rem;
-  }
-}
-
-@media (max-width: 486px) {
-  .build-deck { 
-    height: 34rem;
-  }
-}
-
-@media (max-width: 420px) {
-  .build-deck { 
-    height: 28rem;
-  }
-}
 .build-deck .deck-card-stack { 
   position: absolute; 
   top: 0;
@@ -100,12 +71,13 @@ a:hover,
   box-shadow: 0 .3rem 1rem 0 rgba(0,0,0,0.6);
 }
 
-/* .build-deck img:nth-child(1) { rotate: 5deg; } */
 .build-deck img:nth-child(2) { rotate: -2deg; }
 .build-deck img:nth-child(3) { rotate: 1deg; }
 .build-deck img:nth-child(4) { rotate: -2deg; }
 
-
-/* animate dealing cards - https://codepen.io/jmorris/pen/GgBmbo https://www.the-art-of-web.com/javascript/css-animation-demo/  */
-
-
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .flip-card,
+  .build-deck,
+  .deck-card-stack { width: 15rem; }
+  .build-deck { height: 25rem; }
+}
