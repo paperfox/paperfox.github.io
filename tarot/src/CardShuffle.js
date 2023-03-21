@@ -44,7 +44,7 @@ function MakeNumbers({ tarotContent }) {
     <Fragment>
       <div>
         <div className="mb-4">
-          <Button className="tarot-deck btn-100" variant="tertiary" onClick={handleClick}>
+          <Button className="tarot-deck btn-100" variant="tertiary" onClick={handleClick} aria-label="Click to draw card from Tarot Deck">
             <div className="row justify-content-center">
               <div className="col-lg-2 col-md-3 col-sm-4 col-7">
                 <div className="mx-4 build-deck">

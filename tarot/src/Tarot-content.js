@@ -31,8 +31,8 @@ function TarotArray() {
     {
       id: 23, 
       title: 'Ace of Staves', 
-      divMean: 'Creation, invention, enterprise, the powers which result in these; principle, beginning, source; birth, family, origin, and in a sense the virility which is behind them; the starting point of enterprises; according to another account, money, fortune, inheritance.', 
-      rvsMean: 'Fall, decadence, ruin, perdition, to perish also a certain clouded joy.',
+      divMean: 'The beginning of things, the spark, the idea that sets us on a path. Whether it\'s in leisure or business, family or friendship, ideas spring from all places and can inspire in many directions.',
+      rvsMean: 'Beware excess pursuits leading to ruin. Don\'t let joy and revel cloud you to seeing the consequences of your own actions.',
       bkgInfo: 'Warrior of Light (Tarquin Merricke), Final Fantasy XIV',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#1'
     },
@@ -44,8 +44,8 @@ function TarotArray() {
     {
       id: 29, 
       title: 'Seven of Staves', 
-      divMean: 'It is a card of valour, for, on the surface, six are attacking one, who has, however, the vantage position. On the intellectual plane, it signifies discussion, wordy strife; in business — negotiations, war of trade, barter, competition. It is further a card of success, for the combatant is on the top and his enemies may be unable to reach him.', 
-      rvsMean: 'Perplexity, embarrassments, anxiety. It is also a caution against indecision.',
+      divMean: 'Victory over adversity, adversaries, and in negotiations. Courage. It might look like they\'ve gotten the last laugh, but heck I\'m pole dancing on this pyre and nothing will take me down.', 
+      rvsMean: 'Anxiety, enarassment and confusion. Beware of getting paralyzed by indecision.',
       bkgInfo: 'Warrior of Light (Mike Hawke), Final Fantasy XIV',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#7'
     },
