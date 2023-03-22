@@ -6,8 +6,20 @@ function TarotArray() {
       divMean: 'Should I hide the modal in this state?',
       link: ''
     },
-    {id: 1, title: 'The Fool', divMean: 'This is some sample text for the Fool card, tbh there\'s probably going to be more than 1 paragraph.', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-fool.htm'},
-    {id: 2, title: 'The Magician', divMean: 'This is some sample text for the Magician card, tbh there\'s probably going to be more than 1 paragraph.', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-magician.htm'},
+    {
+      id: 1, 
+      title: 'The Fool', 
+      divMean: 'On the brink of the unknown you stand about to plunge into something new. Opportunity is hand in hand with risk, but optimism leads you to step forward without knowing what the future holds. Embrace the unlimited potential of an unwritten future and seek new experiences - trust in the journey ahead, even if you don\'t know where it may lead. Caution and mindfulness along the way are key as this card can also indicate naivety and falling into recklessness and extravagance. Take the leap of faith towards the unknown, embrace change, but don\’t lose yourself. Remember, nothing is without consequences.',
+      rvsMean: 'In reverse, this card signifies blindly charging forth into the unknown, believing oneself invulnerable to risks. The fool neglects to consider dangers - to oneself or others. Overvaluing your achievements, accomplishments, or looks will lead you down a negative path.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-fool.htm'
+    },
+    {
+      id: 2, 
+      title: 'The Magician', 
+      divMean: 'Take control of your life and trust in your abilities to create the reality that you desire. Know what you want and know that you have the ability to turn your ideas into reality through focused attention and effort. While this card is a powerful symbol of manifestation, creativity, and taking action, it can also indicate the potential for trickery or manipulation, reminding you to be cautious of those who may abuse their power. Aspire for greatness, be confident in yourself. Embrace your unique talents and skills and use them to your advantage.', 
+      rvsMean: 'Your mind is in disorder. A fall from grace leaves you with ill feelings. What was once agency and taking control of oneself has become manipulation and scheming.',
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-magician.htm'
+    },
     {id: 3, title: 'The High Priestess', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-highpriestess.htm'},
     {id: 4, title: 'The Empress', divMean: 'This is some sample text for', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-empress.htm'},
     {id: 5, title: 'The Emperor', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-emperor.htm'},
