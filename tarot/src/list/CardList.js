@@ -1,8 +1,7 @@
 import React from 'react';
-import MakeNumbers from './deck/CardShuffle';
-import TarotArray from './static/Tarot-content';
+import TarotArray from '../Tarot-content';
 
-function App() {
+function CardList() {
   const tarotContent = TarotArray();
 
   return (
@@ -11,10 +10,10 @@ function App() {
         <h1>Tarot</h1>
       </header>
       <div className="container-xl">
-        <MakeNumbers tarotContent={tarotContent} />
+        <p>sample text</p>
       </div>
     </div>
   );
 }
 
-export default App;
+export default CardList;

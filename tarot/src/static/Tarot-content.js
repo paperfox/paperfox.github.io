@@ -45,7 +45,7 @@ function TarotArray() {
       title: 'Ace of Staves', 
       divMean: 'The beginning of things, the spark, the idea that sets us on a path. Whether it\'s in leisure or business, family or friendship, ideas spring from all places and can inspire in many directions.',
       rvsMean: 'Beware excess pursuits leading to ruin. Don\'t let joy and revel cloud you to seeing the consequences of your own actions.',
-      bkgInfo: 'Warrior of Light (Tarquin Merricke), Final Fantasy XIV',
+      bkgInfo: 'Tarquin Merricke - Miqo\'te - Player Character, Final Fantasy XIV',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#1'
     },
     {id: 24, title: 'Two of Staves', divMean: 'This is some sample text for Staves (wands)', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#2'},
@@ -58,7 +58,7 @@ function TarotArray() {
       title: 'Seven of Staves', 
       divMean: 'Victory over adversity, adversaries, and in negotiations. Courage. It might look like they\'ve gotten the last laugh, but heck I\'m pole dancing on this pyre and nothing will take me down.', 
       rvsMean: 'Anxiety, enarassment and confusion. Beware of getting paralyzed by indecision.',
-      bkgInfo: 'Warrior of Light (Mike Hawke), Final Fantasy XIV',
+      bkgInfo: 'Mike Hawke - Hrothgar - Player Character, Final Fantasy XIV',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#7'
     },
     {id: 30, title: 'Eight of Staves', divMean: 'This is some sample text for Staves (wands)', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#8'},
