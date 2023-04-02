@@ -31,9 +31,9 @@ function CardModal({ reverseCard, dataImg, dataContent }) {
             </div>
             <div className="col">
               <h3>Divinatory Meanings</h3>
-              <p>{dataContent.divMean}</p>
+              <p>{dataContent.uprightCard}</p>
               {/* <h3>Reversed</h3>
-              <p>{dataContent.rvsMean}</p>
+              <p>{dataContent.reverseCard}</p>
               <h3>About the Image</h3>
               <p>{dataContent.bkgInfo}</p>
               <a href={dataContent.link} target="_blank" rel="noreferrer">Rider-Waite Description</a> */}
