@@ -20,8 +20,19 @@ function TarotArray() {
       rvsMean: 'Your mind is in disorder. A fall from grace leaves you with ill feelings. What was once agency and taking control of oneself has become manipulation and scheming.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-magician.htm'
     },
-    {id: 3, title: 'The High Priestess', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-highpriestess.htm'},
-    {id: 4, title: 'The Empress', divMean: 'This is some sample text for', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-empress.htm'},
+    {
+      id: 3, 
+      title: 'The High Priestess', 
+      divMean: 'The hidden depths of your mind whisper to you to trust your intuition. Listen to that inner voice. Look within yourself for answers, taking time for reflection and introspection. Seek answers beyond the surface, explore the unknown, and find the knowledge that has not yet been revealed. Examining your innermost thoughts and feelings can lead you to gain a better understanding of yourself and discover deeper truths, laying the foundation for spiritual growth. Introspection may entice you to take a step back and look beyond the obvious, to seek deeper meaning and understanding in your life. By tapping into your intuition and inner wisdom, you can access powerful insights and uncover hidden truths that will become a guide towards greater clarity and enlightenment.', 
+      rvsMean: 'You\'ve become disconnected from your emotions, relying too heavily on logic, rational thinking, or external validation to make decisions. This can leave you feeling lonely, cold, and cut off. Relying on another to validate your decisions and feelings leaves you open to manipulation. Don\'t ignore your gut feelings - your intuition is reaching out even though you\'ve tried to push it away.',
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-highpriestess.htm'
+    },
+    {
+      id: 4, 
+      title: 'The Empress', 
+      divMean: 'This is a time of abundance, growth, and expansion - in any aspect of your life, personal or professional. Embrace your natural creativity and nurture your own growth and well-being. Channel energies of creation - fertility, creativity, life - into the surrounding natural world and you will be rewarded with great harvests. This card suggests that you may be experiencing a period of creativity, productivity, and abundance in your life. Connect with your nurturing side and take care of yourself and those around you.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-empress.htm'
+    },
     {id: 5, title: 'The Emperor', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-emperor.htm'},
     {id: 6, title: 'The Hierophant', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hierophant.htm'},
     {id: 7, title: 'The Lovers', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-lovers.htm'},
@@ -29,8 +40,19 @@ function TarotArray() {
     {id: 9, title: 'Strength', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-strength.htm'},
     {id: 10, title: 'The Hermit', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hermit.htm'},
     {id: 11, title: 'Wheel of Fortune', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wheeloffortune.htm'},
-    {id: 12, title: 'Justice', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-justice.htm'},
-    {id: 13, title: 'The Hanged Man', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hangedman.htm'},
+    {
+      id: 12, 
+      title: 'Justice', 
+      divMean: 'Balance, fairness, and impartiality are the core concepts of this card. It\'s a moment when you\'re faced with important decisions or choices that require a fair and just assessment. Seek truth, be just, and hold all accountable for their actions - including yourself. Weigh the pros and cons of a situation carefully before making a decision. Find balance. Make ethically sound and morally upright decisions based on reason and careful consideration rather than emotion or personal bias. Justice can also symbolize the need for legal or ethical considerations and may indicate the resolution of a conflict or dispute.  Act with integrity and strive for fairness and equality in all aspects of your life.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-justice.htm'
+    },
+    {
+      id: 13, 
+      title: 'The Hanged Man', 
+      divMean: 'A major perspective shift is needed - let go of preconceived notions. This is a time of surrender, letting go, and sacrifice. Relinquish control and trust in the process. Be patient and wait. Take the time to consider the needs of others instead of simply your own. It may be time for some self-reflection and introspection. Accept the consequences of your actions, let go of negative attachments, and allow yourself room for growth, as uncomfortable as the process may be.', 
+      rvsMean: 'Selfishness. You\'re unwilling to consider other perspectives or opinions. Change is never easy, but dependence on something stagnant, stale, or toxic will leave you with regret.',
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hangedman.htm'
+    },
     {id: 14, title: 'Death', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-death.htm'},
     {id: 15, title: 'Temperance', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-temperance.htm'},
     {id: 16, title: 'The Devil', divMean: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-devil.htm'},
