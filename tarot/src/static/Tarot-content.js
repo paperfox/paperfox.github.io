@@ -336,7 +336,6 @@ function TarotArray() {
     {id: 76, title: 'Knight of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#12'},
     {id: 77, title: 'Queen of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#13'},
     {id: 78, title: 'King of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#14'},
-    {id: undefined, title: 'Sad Mushroom', uprightCard: 'It appears there\'s an error here. Big sad.', link: ''},
   ];
 }
 

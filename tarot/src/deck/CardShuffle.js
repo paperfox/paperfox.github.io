@@ -35,7 +35,6 @@ function MakeNumbers({ tarotContent }) {
   const handleClickReset = () => {
     // there's got to be a better way to do this than refreshing the whole page
     window.location.reload(false);
-    console.log(deck);
   }
 
   return (

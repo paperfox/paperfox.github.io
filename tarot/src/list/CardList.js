@@ -1,15 +1,19 @@
-import React from 'react';
-// import TarotArray from '../Tarot-content';
+import React, { useState } from 'react';
+import CardDesc from './CardDesc';
 
-function CardList() {
-  // const tarotContent = TarotArray();
+function CardList({ tarotContent }) {
+  let tarotList = tarotContent;
+
+  const fullDescriptions = tarotList.map((exampleCard) => {
+    return <CardDesc dataContent={exampleCard} key={exampleCard.id}/>
+  });
 
   return (
-    <div className="text-center">
-      <h1>Tarot</h1>
-      <div className="container-xl">
-        <p>sample text</p>
-      </div>
+    <div className="container-xl">
+      <h1 className="text-center">Tarot</h1>
+        <div className="row justify-content-center mb-4">
+          {fullDescriptions}
+        </div>
     </div>
   );
 }

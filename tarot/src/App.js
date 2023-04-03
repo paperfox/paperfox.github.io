@@ -17,7 +17,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route path="/deck/CardShuffle" element={<MakeNumbers tarotContent={tarotContent} />} />
-              <Route path="/list/CardList" element={<CardList />} />
+              <Route path="/list/CardList" element={<CardList tarotContent={tarotContent} />} />
             </Route>
           </Routes>
         </BrowserRouter>
