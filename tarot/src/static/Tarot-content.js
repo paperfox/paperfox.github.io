@@ -34,7 +34,13 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-empress.htm'
     },
     {id: 5, title: 'The Emperor', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-emperor.htm'},
-    {id: 6, title: 'The Hierophant', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hierophant.htm'},
+    {
+      id: 6, 
+      title: 'The Hierophant', 
+      uprightCard: 'The Hierophant encourages you to look toward tradition, spirituality, and mentorship. They represent an authority figure, teacher, or advisor who is deeply rooted in tradition and established beliefs or values. You may be seeking guidance and spiritual wisdom from someone with more experience or knowledge. Remember to honor your own beliefs and stay true to your spiritual path. It can be hard to manage the struggle between personal beliefs and societal expectations, knowing when to reconcile individuality with existing cultural practices and when to throw established patterns out the window. Seek out knowledge and guidance from trusted sources. Respect tradition and spirituality, but stay true to your own beliefs and values.', 
+      reverseCard: 'Tradition has set a foundation but it does\'t have all the answers. It can become the stone holding you down - let it instead be a foundation for growth and innovation. Take a moment to consider your reliance on tradition and the authority figures therein and how that may be holding you back. Don\'t follow others for fear of making waves when you are just compromising yourself.',
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hierophant.htm'
+    },
     {id: 7, title: 'The Lovers', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-lovers.htm'},
     {id: 8, title: 'The Chariot', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-chariot.htm'},
     {id: 9, title: 'Strength', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-strength.htm'},

@@ -1,18 +1,30 @@
 import React from 'react';
 import MakeNumbers from './deck/CardShuffle';
 import TarotArray from './static/Tarot-content';
+import Layout from './Layout';
+import CardList from './list/CardList';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+  
+
 
 function App() {
   const tarotContent = TarotArray();
 
   return (
-    <div className="text-center">
+    <div>
       <header>
-        <h1>Tarot</h1>
-      </header>
-      <div className="container-xl">
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route path="/deck/CardShuffle" element={<MakeNumbers tarotContent={tarotContent} />} />
+              <Route path="/list/CardList" element={<CardList />} />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </header>        
+      {/* <div className="container-xl">
         <MakeNumbers tarotContent={tarotContent} />
-      </div>
+      </div> */}
     </div>
   );
 }

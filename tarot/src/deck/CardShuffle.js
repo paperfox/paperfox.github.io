@@ -39,23 +39,22 @@ function MakeNumbers({ tarotContent }) {
   }
 
   return (
-    <Fragment>
-      <div>
-        <div className="mb-4">
-          <Button className="tarot-deck" variant="tertiary" onClick={handleClick} aria-label="Click to draw card from Tarot Deck">
-            <div className="row justify-content-center">
-              <div className="col-auto">
-                <div className="mx-4 build-deck">
-                  <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
-                  <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
-                  <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
-                  <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
-                  <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
-                </div>
+    <div className="container-xl text-center">
+      <h1>Tarot</h1>
+      <div className="mb-4">
+        <Button className="tarot-deck" variant="tertiary" onClick={handleClick} aria-label="Click to draw card from Tarot Deck">
+          <div className="row justify-content-center">
+            <div className="col-auto">
+              <div className="mx-4 build-deck">
+                <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
               </div>
             </div>
-          </Button>
-        </div>
+          </div>
+        </Button>
       </div>
       <div className="row justify-content-center mb-4">
         {createCard.map((exampleCard) => {
@@ -68,7 +67,7 @@ function MakeNumbers({ tarotContent }) {
       <Button variant="secondary" className="mb-4" onClick={handleClickReset}>
         Reset
       </Button>
-    </Fragment>
+    </div>
   );
 }
 
