@@ -19,7 +19,7 @@ function MakeNumbers({ tarotContent }) {
     let randomInt = Math.floor(Math.random() * (max - min + 1) + min);
     let randomBinary = Math.floor(Math.random() * (2 - 1 + 1) + 1);
 
-    if (deck.length > 77) {
+    if (deck.length > 76) {
       setCreateCard([...createCard, 
         {
           id: randomInt,
@@ -39,7 +39,7 @@ function MakeNumbers({ tarotContent }) {
 
   return (
     <div className="container-xl text-center">
-      <h1>Tarot</h1>
+      <h1 className="mb-4">Tarot</h1>
       <div className="mb-4">
         <Button className="tarot-deck" variant="tertiary" onClick={handleClick} aria-label="Click to draw card from Tarot Deck">
           <div className="row justify-content-center">

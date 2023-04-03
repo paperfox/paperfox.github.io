@@ -8,9 +8,11 @@ function CardList({ tarotContent }) {
     return <CardDesc dataContent={exampleCard} key={exampleCard.id}/>
   });
 
+  const hideFirstElement = fullDescriptions.shift();
+
   return (
     <div className="container-xl">
-      <h1 className="text-center">Tarot</h1>
+        <h1 className="text-center mb-4">Tarot</h1>
         <div className="row justify-content-center mb-4">
           {fullDescriptions}
         </div>

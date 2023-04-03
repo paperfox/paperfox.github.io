@@ -22,9 +22,6 @@ function App() {
           </Routes>
         </BrowserRouter>
       </header>        
-      {/* <div className="container-xl">
-        <MakeNumbers tarotContent={tarotContent} />
-      </div> */}
     </div>
   );
 }
