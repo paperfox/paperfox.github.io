@@ -5,7 +5,7 @@ function CardDesc({ dataContent }) {
   return (
     <div className="row justify-content-center">
       <div className="col-lg-3 col-sm-4 mb-4">
-        <img src={'/images/cards/' + dataContent.id + '.jpg'} className="w-100" alt={'Image of ' + dataContent.title + ' card'}/>
+        <img src={'/images/cards/' + dataContent.id + '.jpg'} className="w-100 rounded" alt={'Image of ' + dataContent.title + ' card'}/>
       </div>
       <div className="col-lg-5 col-md-7 col-sm-8 mb-4">
       <h2>{dataContent.title}</h2>

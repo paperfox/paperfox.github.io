@@ -5,11 +5,11 @@ import MakeNumbers from './deck/CardShuffle';
 function Navbar() {
   return (
     <nav>
-      <ul>
-        <li>
+      <ul className="text-end">
+        <li className="d-inline-block m-2">
           <Link to="/deck/CardShuffle">Deck</Link>
         </li>
-        <li>
+        <li className="d-inline-block m-2">
           <Link to="/list/CardList">List</Link>
         </li>
       </ul>
