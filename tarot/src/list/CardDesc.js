@@ -9,7 +9,7 @@ function CardDesc({ dataContent }) {
       </div>
       <div className="col-lg-5 col-md-7 col-sm-8 mb-4">
       <h2>{dataContent.title}</h2>
-        <h3>Divinatory Meanings</h3>
+        {/* <h3>Divinatory Meanings</h3> */}
         <p>{dataContent.uprightCard}</p>
         {/* <h3>Reversed</h3>
         <p>{dataContent.reverseCard}</p> */}

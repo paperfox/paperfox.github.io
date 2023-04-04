@@ -322,8 +322,18 @@ function TarotArray() {
       uprightCard: 'Use your wisdom and experience to make sound decisions while maintaining a sense of authority and leadership. Rely on reason and logic rather than emotion. Consider how to balance being fair and impartial in your judgments with maintaining compassion and consideration of others.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#14'
     },
-    {id: 65, title: 'Ace of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#1'},
-    {id: 66, title: 'Two of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#2'},
+    {
+      id: 65, 
+      title: 'Ace of Pentacles', 
+      uprightCard: 'Open the door to prosperity, opportunity, and abundance. This is a time of material and financial growth, and could indicate a new opportunity or investment that will lead to long-term stability. Be mindful of your resources and take care to make wise financial decisions.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#1'
+    },
+    {
+      id: 66, 
+      title: 'Two of Pentacles', 
+      uprightCard: 'Find ways to maintain harmony and equilibrium as you juggle multiple priorities and responsibilities. You may need to be flexible and adaptable in the face of changing circumstances, and to embrace new challenges with a positive and open mindset.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#2'
+    },
     {id: 67, title: 'Three of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#3'},
     {id: 68, title: 'Four of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#4'},
     {id: 69, title: 'Five of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#5'},
@@ -332,10 +342,30 @@ function TarotArray() {
     {id: 72, title: 'Eight of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#8'},
     {id: 73, title: 'Nine of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#9'},
     {id: 74, title: 'Ten of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#10'},
-    {id: 75, title: 'Page of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#11'},
-    {id: 76, title: 'Knight of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#12'},
-    {id: 77, title: 'Queen of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#13'},
-    {id: 78, title: 'King of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#14'},
+    {
+      id: 75, 
+      title: 'Page of Pentacles', 
+      uprightCard: 'You are surrounded by a youthful, curious, and studious energy. Take the time to explore new interests, learn new skills, and discover your passions. Approach your goals with a sense of practicality and attention to detail in order to lay a strong foundation for future success.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#11'
+    },
+    {
+      id: 76, title: 
+      'Knight of Pentacles', 
+      uprightCard: 'With hard work and careful planning, you reliably make steady progress towards your goals. Methodically pursuing your goals is key. Stay grounded and focused on the task at hand. Be patient and persistent in order to achieve long-term success.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#12'
+    },
+    {
+      id: 77, 
+      title: 'Queen of Pentacles', 
+      uprightCard: 'Secure in your material and physical well-being, it is a time of abundance and care. Use your resources wisely in order to create a sense of stability and comfort. Focus on caring for yourself and others during this moment of  a time of financial and material security.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#13'
+    },
+    {
+      id: 78, title: 
+      'King of Pentacles', 
+      uprightCard: 'Focus on using your resources wisely. This is a time of financial success and material security driven by stability, and practicality. Take a responsible and disciplined approach to achieving your goals. Stay grounded and focused on the long-term picture, others will follow your lead.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#14'
+    },
   ];
 }
 

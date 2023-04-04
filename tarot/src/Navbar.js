@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import MakeNumbers from './deck/CardShuffle';
 
 function Navbar() {
   return (
