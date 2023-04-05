@@ -34,7 +34,7 @@ function HomePage() {
         </div>
       </main>
       <footer>
-          <p className="text-center"><small>© 2021 Nathalie Garfinkle</small></p>
+          <p className="text-center"><small>© {new Date().getFullYear()} Nathalie Garfinkle</small></p>
       </footer>
     </body>
   );
