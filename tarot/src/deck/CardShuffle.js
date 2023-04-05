@@ -4,7 +4,6 @@ import TarotCard from './Card';
 
 // To do list:
 // make art
-// write text
 // rewrite array - remove 0 and 80 from deck, rewrite in json
 // make it pretty
 

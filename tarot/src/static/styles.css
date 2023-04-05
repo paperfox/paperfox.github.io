@@ -81,11 +81,3 @@ img[class*="_2"]    { rotate: 180deg; }
   .deck-card-stack { width: 15rem; }
   .build-deck { height: 25rem; }
 }
-
-/* @media print {
-  img {
-    height: 45.3rem;
-    width: 27.5rem !important;
-  }
-  * { color: #000000; }
-} */
