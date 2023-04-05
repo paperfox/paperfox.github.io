@@ -334,14 +334,54 @@ function TarotArray() {
       uprightCard: 'Find ways to maintain harmony and equilibrium as you juggle multiple priorities and responsibilities. You may need to be flexible and adaptable in the face of changing circumstances, and to embrace new challenges with a positive and open mindset.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#2'
     },
-    {id: 67, title: 'Three of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#3'},
-    {id: 68, title: 'Four of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#4'},
-    {id: 69, title: 'Five of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#5'},
-    {id: 70, title: 'Six of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#6'},
-    {id: 71, title: 'Seven of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#7'},
-    {id: 72, title: 'Eight of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#8'},
-    {id: 73, title: 'Nine of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#9'},
-    {id: 74, title: 'Ten of Pentacles', uprightCard: 'This is some sample text for Pentacles', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#10'},
+    {
+      id: 67, 
+      title: 'Three of Pentacles', 
+      uprightCard: 'Collaboration, teamwork, and cooperation are critical. Work with others to achieve a common goal, and recognize the value of everyone\'s contributions. Hone your skills and seek out opportunities to learn from others, in order to achieve mastery and success in one\'s endeavors.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#3'
+    },
+    {
+      id: 68, 
+      title: 'Four of Pentacles', 
+      uprightCard: 'Accumulating wealth and possessions, you are being mindful of your resources in order to maintain a sense of stability and security. Be wary of the potential pitfalls of excessive attachment to material possessions. Cultivate a sense of generosity and openness in your dealings with others in order to avoid becoming overly possessive.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#4'
+    },
+    {
+      id: 69, 
+      title: 'Five of Pentacles', 
+      uprightCard: 'Struggling with material or financial difficulties while feeling cut off from others, you must find ways to overcome adversity and isolation. Seek help and support from others in order to overcome challenges and find a sense of belonging.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#5'
+    },
+    {
+      id: 70, 
+      title: 'Six of Pentacles', 
+      uprightCard: 'This is a time of generosity, charity, and sharing. That could mean giving to others and being in a position of abundance, or it could be the other end -  receiving help and support when needed. Be mindful of power imbalances and use your resources and influence in a fair and just manner.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#6'
+    },
+    {
+      id: 71, 
+      title: 'Seven of Pentacles', 
+      uprightCard: 'This is a time to invest in yourself or your projects. Some hard work and patience will allow the fruits of your labor to grow and mature. Take a step back. Reassess your goals and progress in order to be sure that your efforts are aligned with your vision and values.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#7'
+    },
+    {
+      id: 72, 
+      title: 'Eight of Pentacles', 
+      uprightCard: 'Dedication to study or apprenticeship is its own reward. Diligent effort is worth it - commit yourself to learning and perfecting your craft or skill. Find fulfillment in the process of working towards a goal, rather than solely focusing on the end result.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#8'
+    },
+    {
+      id: 73, 
+      title: 'Nine of Pentacles', 
+      uprightCard: 'A time of abundance. Enjoy the fruits of your labor, and feel secure in your material possessions and resources. Cultivate a sense of self-sufficiency and independence while appreciating the simple pleasures in life.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#9'
+    },
+    {
+      id: 74, 
+      title: 'Ten of Pentacles', 
+      uprightCard: 'In this time of abundance and wealth, pass down traditions and wisdom to family and loved ones. Consider the importance of family and community. Invest in the well-being of future generations, create a lasting legacy.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#10'
+    },
     {
       id: 75, 
       title: 'Page of Pentacles', 
