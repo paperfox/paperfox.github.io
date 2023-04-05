@@ -42,7 +42,7 @@ function TarotArray() {
     {
       id: 6, 
       title: 'The Hierophant', 
-      uprightCard: 'The Hierophant encourages you to look toward tradition, spirituality, and mentorship. They represent an authority figure, teacher, or advisor who is deeply rooted in tradition and established beliefs or values. You may be seeking guidance and spiritual wisdom from someone with more experience or knowledge. Remember to honor your own beliefs and stay true to your spiritual path. It can be hard to manage the struggle between personal beliefs and societal expectations, knowing when to reconcile individuality with existing cultural practices and when to throw established patterns out the window. Seek out knowledge and guidance from trusted sources. Respect tradition and spirituality, but stay true to your own beliefs and values.', 
+      uprightCard: 'Look toward tradition, spirituality, and mentorship. This is an authority figure, teacher, or advisor who is deeply rooted in tradition and established beliefs or values. You may be seeking guidance and spiritual wisdom from someone with more experience or knowledge. Remember to honor your own beliefs and stay true to your spiritual path. It can be hard to manage the struggle between personal beliefs and societal expectations, knowing when to reconcile individuality with existing cultural practices and when to throw established patterns out the window. Seek out knowledge and guidance from trusted sources. Respect tradition and spirituality, but stay true to your own beliefs and values.', 
       reverseCard: 'Tradition has set a foundation but it does\'t have all the answers. It can become the stone holding you down - let it instead be a foundation for growth and innovation. Take a moment to consider your reliance on tradition and the authority figures therein and how that may be holding you back. Don\'t follow others for fear of making waves when you are just compromising yourself.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hierophant.htm'
     },
@@ -59,7 +59,12 @@ function TarotArray() {
       uprightCard: 'Draw upon your personal power to face challenges and overcome obstacles. There is a need for patience and self-control, as well as compassion and understanding in many difficult situations. Find balance between your inner and outer worlds - balance your physical, emotional, and spiritual self. Acknowledge and confront your fears, and remain centered in the face of adversity. Courage and resilience are key. You have the ability to overcome even the most difficult of obstacles if you persevere.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-strength.htm'
     },
-    {id: 10, title: 'The Hermit', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hermit.htm'},
+    {
+      id: 10, 
+      title: 'The Hermit', 
+      uprightCard: 'Withdraw from the outside world to seek wisdom and understanding. You may have a need for inner reflection and self-discovery. A search for truth and knowledge starts by looking inward. Go within yourself to find answers, to examine your beliefs, and to gain a deeper understanding of yourself. This could be a period of transition, moving from one phase of life to another, spiritual growth and development, as well as the need to find peace and clarity in the midst of chaos.  Sometimes the greatest insights and understanding come from within. Find solace in being alone when needed.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hermit.htm'
+    },
     {
       id: 11, 
       title: 'Wheel of Fortune', 
@@ -79,10 +84,30 @@ function TarotArray() {
       reverseCard: 'Selfishness. You\'re unwilling to consider other perspectives or opinions. Change is never easy, but dependence on something stagnant, stale, or toxic will leave you with regret.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hangedman.htm'
     },
-    {id: 14, title: 'Death', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-death.htm'},
-    {id: 15, title: 'Temperance', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-temperance.htm'},
-    {id: 16, title: 'The Devil', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-devil.htm'},
-    {id: 17, title: 'The Tower', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-tower.htm'},
+    {
+      id: 14, 
+      title: 'Death', 
+      uprightCard: 'While this card could signify an actual death and is a reminder of mortality, it is more likely hinting toward a transformation, change, or ending phase in your life. The inevitability of change - it is a time of letting go of the past, an end, but also a moment for embracing new beginnings. The Death card often represents a major life transition and may suggest the need to confront your fears and to let go of attachments. There is a need for release, spiritual growth, and transformation - the old must die to make way for the new. Death represents a natural and inevitable part of life, and may suggest a need to accept and embrace the inevitability of change. Face endings with grace and to trust in the process of transformation, knowing that something new and beautiful may arise from what has been lost.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-death.htm'
+    },
+    {
+      id: 15, 
+      title: 'Temperance', 
+      uprightCard: 'It is important to integrate different aspects of yourself into a cohesive whole and find inner peace. Find balance between different areas of your life, such as work and play, or spiritual and material pursuits. Exercise moderation in all things, employ the power of self-control and discipline. Remember to stay centered and to seek harmony and balance in all aspects of your life. Cultivate inner harmony and emotional stability in order to navigate life\'s challenges.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-temperance.htm'
+    },
+    {
+      id: 16, 
+      title: 'The Devil', 
+      uprightCard: 'Are you feeling trapped, either by your own vices or by external forces? Struggle to break free. There is a need for caution and self-control, be careful of making hasty decisions or giving in to destructive impulses. Confront your fears, desires, and attachments. Release yourself from the grip of temptation and temptation\'s trappings. You must overcome your demons and take control of your life. Confront your fears and make the necessary changes.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-devil.htm'
+    },
+    {
+      id: 17, 
+      title: 'The Tower', 
+      uprightCard: 'The Tower suggests that you are about to experience a major shake-up in your life or collapse of established structures and beliefs.  This could be a major crisis or disaster set to upset the foundation of your life, forcing you to reassess your priorities and values. It can be a necessary catalyst for growth and transformation, forcing you to confront their deepest fears and rebuild your life from the ground up after the collapse. Forcing you to confront your fears and embrace the unknown, this will be a catalyst for transformation and growth, in order to rebuild a stronger, more resilient foundation.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-tower.htm'
+    },
     {
       id: 18, 
       title: 'The Star', 
