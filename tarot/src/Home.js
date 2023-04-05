@@ -18,9 +18,10 @@ function HomePage() {
       <main>
         <div className="row justify-content-center mb-4">
           <div className="col-md-6">
-            <p>Paperfox.net is the home of Nathalie Garfinkle's design, development, and other works.</p>
-            <p>Currently I'm working in the authenticated space of <a href="https://www.massmutual.com/">MassMutual</a> so my site is looking a bit sparse and neglected. Having explored a mix of development and design roles in the last 10+ years, I'm spending most my time on the development side of things as of late.</p>
-            <p>In my free time, I'm working on paintings and illustrations of the many things I love (books, games, my lovely doggos, and more!). I've also started gardening, because who hasn't in some form these last couple years?</p>
+            <p>Paperfox is the home of Nathalie Garfinkle's design, development, and other works.</p>
+            <p>Currently I'm working as a developer in the authenticated space of <a href="https://www.massmutual.com/">MassMutual</a> so my site has been looking a bit sparse and neglected. I decided to start building a tarot app since it pulls together my development and design skills, while also giving me a place to showcase my art. Plus, its fun to build with lots of places I can expand it!</p>
+            <p>The tarot app is a work in progress, so feel free to drop me throughts or feedback via instagram, linkedin, or github.</p>
+            <p>If I'm not poking away at this, I'm likely doodling up some of the card images, playing with my dog, or out in my garden.</p>
             <br />
             <ul className="list-unstyled d-flex justify-content-center">
               <li>
