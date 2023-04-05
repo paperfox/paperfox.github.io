@@ -52,7 +52,12 @@ function TarotArray() {
       uprightCard: 'This major arcana card represents love, relationships, partnerships, and choices. You have a decision to make between options or a deep connection between individuals - romantic or platonic. It could be a significant choice or decision related to love, partnerships, and relationships. A deep connection, romantically or otherwise, between individuals may be forming. Never forget the importance of communication and honesty in relationships. Encourage open and honest dialogue. Find harmony, balance, and alignment within yourself or with your values and principles.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-lovers.htm'
     },
-    {id: 8, title: 'The Chariot', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-chariot.htm'},
+    {
+      id: 8, 
+      title: 'The Chariot', 
+      uprightCard: 'This is a journey, a time of progression toward a destination, both physically and metaphorically. Employ self-discipline, harnessing your inner strength to overcome obstacles or challenges along the way. You may need to effectively balance opposing forces and harness them towards a common goal. With willpower and focus you will be able to guide them to helping you on your way. This is a time of triumph and success. You are in control and moving forward towards your goals. Have faith in yourself and to trust in your abilities to achieve victory.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-chariot.htm'
+    },
     {
       id: 9, 
       title: 'Strength', 
