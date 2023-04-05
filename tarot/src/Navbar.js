@@ -9,7 +9,7 @@ function PageNav() {
         <Navbar.Brand href="/">
           <img
             alt="Paperfox Logo"
-            src="https://paperfox.github.io/images/paperfoxlogo.svg"
+            src="../images/paperfoxlogo.svg"
             width="30"
             height="30"
             className="d-inline-block align-top"
