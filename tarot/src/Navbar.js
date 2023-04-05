@@ -16,9 +16,9 @@ function PageNav() {
           />
         </Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="../deck/CardShuffle">Draw Cards</Nav.Link>
+          <Nav.Link href="../deck/CardShuffle">Tarot App</Nav.Link>
           <Navbar.Text> . </Navbar.Text>
-          <Nav.Link href="../list/CardList">Full Card List</Nav.Link>
+          <Nav.Link href="../list/CardList">Tarot Card List</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
