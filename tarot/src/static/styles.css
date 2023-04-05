@@ -1,0 +1,90 @@
+*, 
+*:before, 
+*:after { box-sizing: border-box;}
+
+html { 
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100%;
+  background-color: #282c34;
+  font-family: 'Quicksand', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+}
+
+h1,
+h2,
+h3 { font-weight: 500; margin-bottom: 1.6rem; }
+h1 { font-size: 3.4rem; }
+h2 { font-size: 2.4rem; }
+h3 { font-size: 1.8rem; }
+p,
+a  { font-size: 1.6rem; font-weight: 400; }
+p  { opacity: .8; }
+a,
+.btn-tertiary       { color: antiquewhite; text-decoration: dotted; }
+a:hover,
+.btn-tertiary:hover { color: antiquewhite; text-decoration: underline; opacity: .8; }
+
+.modal-content      { background-color: #3b474f; }
+.modal-header       { border-bottom: none }
+.modal-footer       { border-top: none }
+
+img[class*="_2"]    { rotate: 180deg; }
+.info-icon          { width: 2.4rem; } /* Info icon created by i cons from the noun project - tinyurl.com/47b8m4an */
+.flip-card,
+.build-deck,
+.deck-card-stack    { width: 20rem; }
+.flip-card          { perspective: 1000px; }
+
+.flip-card-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card-front, .flip-card-back {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back,
+.flip-card .flip-card-inner.show,
+.flip-card:active .flip-card-inner { transform: rotateX(180deg); }
+.flip-card-back                    { height: 0; }
+.flip-card-front                   { border: .1rem solid rgba(253, 184, 19, .3); }
+
+.build-deck { 
+  position: relative; 
+  height: 33rem;
+}
+
+.build-deck .deck-card-stack { 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  border: .1rem solid rgba(253, 184, 19, .3);
+  box-shadow: 0 .3rem 1rem 0 rgba(0,0,0,0.6);
+}
+
+.build-deck img:nth-child(2) { rotate: -2deg; }
+.build-deck img:nth-child(3) { rotate: 1deg; }
+.build-deck img:nth-child(4) { rotate: -2deg; }
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .flip-card,
+  .build-deck,
+  .deck-card-stack { width: 15rem; }
+  .build-deck { height: 25rem; }
+}
+
+/* Stuff from paperfox styles */
+/* a               { color: #b82300; text-decoration: none; }
+a:hover         { color: #ad1a01; text-decoration: underline; }
+ul              { list-style: none; padding: 0; margin-bottom: 2rem; text-align: center; }
+ul li img       { height: 2.4rem; }
+.sm-copy        { font-size: 1.2rem; opacity: .75; } */
