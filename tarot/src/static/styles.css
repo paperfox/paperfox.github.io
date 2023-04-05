@@ -81,3 +81,10 @@ img[class*="_2"]    { rotate: 180deg; }
   .deck-card-stack { width: 15rem; }
   .build-deck { height: 25rem; }
 }
+
+/* Stuff from paperfox styles */
+/* a               { color: #b82300; text-decoration: none; }
+a:hover         { color: #ad1a01; text-decoration: underline; }
+ul              { list-style: none; padding: 0; margin-bottom: 2rem; text-align: center; }
+ul li img       { height: 2.4rem; }
+.sm-copy        { font-size: 1.2rem; opacity: .75; } */

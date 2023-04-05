@@ -6,7 +6,7 @@ function PageNav() {
 
     <Navbar bg="dark" variant="dark" className="mb-4">
       <Container>
-        <Navbar.Brand href="https://paperfox.github.io">
+        <Navbar.Brand href="/">
           <img
             alt="Paperfox Logo"
             src="https://paperfox.github.io/images/paperfoxlogo.svg"
@@ -16,9 +16,9 @@ function PageNav() {
           />
         </Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="/deck/CardShuffle">Draw Cards</Nav.Link>
+          <Nav.Link href="../deck/CardShuffle">Draw Cards</Nav.Link>
           <Navbar.Text> . </Navbar.Text>
-          <Nav.Link href="/list/CardList">Full Card List</Nav.Link>
+          <Nav.Link href="../list/CardList">Full Card List</Nav.Link>
         </Nav>
       </Container>
     </Navbar>

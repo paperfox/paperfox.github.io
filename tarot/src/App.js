@@ -3,6 +3,7 @@ import MakeNumbers from './deck/CardShuffle';
 import TarotArray from './static/Tarot-content';
 import Layout from './Layout';
 import CardList from './list/CardList';
+import HomePage from './Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
             </Route>
           </Routes>
         </BrowserRouter>
-      </header>        
+      </header>    
+      <HomePage />    
     </div>
   );
 }
