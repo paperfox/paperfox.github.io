@@ -83,7 +83,12 @@ function TarotArray() {
     {id: 15, title: 'Temperance', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-temperance.htm'},
     {id: 16, title: 'The Devil', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-devil.htm'},
     {id: 17, title: 'The Tower', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-tower.htm'},
-    {id: 18, title: 'The Star', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-star.htm'},
+    {
+      id: 18, 
+      title: 'The Star', 
+      uprightCard: 'You are moving towards a brighter and more positive future and may be feeling optimism restored and a sense of spiritual renewal. Tap into your intuition and trust your inner voice for spiritual guidance and a connection to the divine. You may have overcome a difficult period in your life. Are you now ready to move forward with a sense of purpose and clarity? Even in the darkest of times, there is always a glimmer of light shining in the distance, guiding us towards a better future. Trust in your inner wisdom and to have faith in the journey ahead.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-star.htm'
+    },
     {
       id: 19, 
       title: 'The Moon', 
@@ -93,7 +98,7 @@ function TarotArray() {
     {
       id: 20, 
       title: 'The Sun', 
-      uprightCard: 'Joy, vitality, growth, and success. Enjoy a period of abundance, fulfillment, happiness, and optimism. You have a sense of clarity and purpose, and are confident in your ability to achieve your goals. You may be gaining a deeper understanding of yourself and the world around them, this could be a time of enlightenment. Embrace the light within yourself and let it shine brightly for all to see. You are capable of achieving great things. Celebrate your successes with gratitude and humility. The Sun is often associated with positivity and optimism, reminding you that even in the darkest of times, there is always a glimmer of hope.', 
+      uprightCard: 'Joy, vitality, growth, and success. Enjoy a period of abundance, fulfillment, happiness, and optimism. You have a sense of clarity and purpose, and are confident in your ability to achieve your goals. You may be gaining a deeper understanding of yourself and the world around them, this could be a time of enlightenment. Embrace the light within yourself and let it shine brightly for all to see. Positivity and optimism are your guides as you know within yourself, you are capable of achieving great things. Celebrate your successes with gratitude and humility.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-sun.htm'
     },
     {
@@ -102,7 +107,12 @@ function TarotArray() {
       uprightCard: 'Take action and make significant changes in your life. Based on better understanding your own purpose and values, you may have to make some hard choices. Let go of old patterns and beliefs that no longer serve you and experience a sense of liberation and release. Every action has a consequence and you are responsible for the choices you have made and continue to make - accept those consequences. Forgive yourself, then move forward. The karma you create today awaits you in the future - both positive and negative. The Judgement card encourages you to trust in your inner guidance and to embrace the transformative power of change, even if it feels uncomfortable or challenging at first.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-judgement.htm'
     },
-    {id: 22, title: 'The World', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-world.htm'},
+    {
+      id: 22, 
+      title: 'The World', 
+      uprightCard: 'Having reached a significant milestone in your life journey, you feel a sense of accomplishment and mastery. A sense of harmony and balance encompasses both yourself and your relationships with others. You may be arriving at a place of closure and resolution. Reach a state of completion and move on to new challenges and opportunities. Celebrate your accomplishments with gratitude and humility, and embrace your ongoing journey of growth and evolution. It is intrinsic to the human experience.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-world.htm'
+    },
     {
       id: 23, 
       title: 'Ace of Wands', 
