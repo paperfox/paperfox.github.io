@@ -33,7 +33,12 @@ function TarotArray() {
       uprightCard: 'This is a time of abundance, growth, and expansion - in any aspect of your life, personal or professional. Embrace your natural creativity and nurture your own growth and well-being. Channel energies of creation - fertility, creativity, life - into the surrounding natural world and you will be rewarded with great harvests. This card suggests that you may be experiencing a period of creativity, productivity, and abundance in your life. Connect with your nurturing side and take care of yourself and those around you.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-empress.htm'
     },
-    {id: 5, title: 'The Emperor', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-emperor.htm'},
+    {
+      id: 5, 
+      title: 'The Emperor', 
+      uprightCard: 'Order and discipline are needed.  Focus on creating a strong foundation and structure in your life - whether that be in your career, relationships, or personal development. Remember to take responsibility for your actions and to establish clear boundaries. Embrace your leadership qualities and create a stable and secure future for yourself -  control the trajectory of your life.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-emperor.htm'
+    },
     {
       id: 6, 
       title: 'The Hierophant', 
@@ -41,7 +46,12 @@ function TarotArray() {
       reverseCard: 'Tradition has set a foundation but it does\'t have all the answers. It can become the stone holding you down - let it instead be a foundation for growth and innovation. Take a moment to consider your reliance on tradition and the authority figures therein and how that may be holding you back. Don\'t follow others for fear of making waves when you are just compromising yourself.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hierophant.htm'
     },
-    {id: 7, title: 'The Lovers', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-lovers.htm'},
+    {
+      id: 7, 
+      title: 'The Lovers', 
+      uprightCard: 'This major arcana card represents love, relationships, partnerships, and choices. You have a decision to make between options or a deep connection between individuals - romantic or platonic. It could be a significant choice or decision related to love, partnerships, and relationships. A deep connection, romantically or otherwise, between individuals may be forming. Never forget the importance of communication and honesty in relationships. Encourage open and honest dialogue. Find harmony, balance, and alignment within yourself or with your values and principles.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-lovers.htm'
+    },
     {id: 8, title: 'The Chariot', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-chariot.htm'},
     {
       id: 9, 
@@ -50,7 +60,12 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-strength.htm'
     },
     {id: 10, title: 'The Hermit', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hermit.htm'},
-    {id: 11, title: 'Wheel of Fortune', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wheeloffortune.htm'},
+    {
+      id: 11, 
+      title: 'Wheel of Fortune', 
+      uprightCard: 'The cycles of change are upon you, both positive and negative, and the inevitable ups and downs of life. This is a time of transition. You are often at the mercy of external forces, where fate and destiny play a significant role in the events that unfold. Embrace the unexpected and learn from all experiences - the good and the bad - circumstances may be beyond your control. Let go of control and surrender to the natural flow of life, you may need to just trust that everything will work out in the end. Life is full of twists and turns, and the key to navigating them is to remain centered and grounded in the present moment.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wheeloffortune.htm'
+    },
     {
       id: 12, 
       title: 'Justice', 
@@ -69,9 +84,24 @@ function TarotArray() {
     {id: 16, title: 'The Devil', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-devil.htm'},
     {id: 17, title: 'The Tower', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-tower.htm'},
     {id: 18, title: 'The Star', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-star.htm'},
-    {id: 19, title: 'The Moon', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-moon.htm'},
-    {id: 20, title: 'The Sun', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-sun.htm'},
-    {id: 21, title: 'Judgement', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-judgement.htm'},
+    {
+      id: 19, 
+      title: 'The Moon', 
+      uprightCard: 'The Moon can represent feelings of uncertainty, confusion, and fear. You may be going through a period of emotional turmoil, or facing hidden or subconscious aspects of yourself that you are not yet ready to confront. It is a symbol of intuition and creativity, indicating that you are tapping into your inner wisdom and imagination. Often associated with cycles and change, this card reminds you that just as the moon waxes and wanes, so does your life. Ultimately, it is a message of exploration and discovery, urging you  to embrace the mysteries of life and to trust in your intuition as a guide through the darkness. It reminds us that sometimes you need to face your fears and dive into the depths of your own psyche in order to find the answers you seek.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-moon.htm'
+    },
+    {
+      id: 20, 
+      title: 'The Sun', 
+      uprightCard: 'Joy, vitality, growth, and success. Enjoy a period of abundance, fulfillment, happiness, and optimism. You have a sense of clarity and purpose, and are confident in your ability to achieve your goals. You may be gaining a deeper understanding of yourself and the world around them, this could be a time of enlightenment. Embrace the light within yourself and let it shine brightly for all to see. You are capable of achieving great things. Celebrate your successes with gratitude and humility. The Sun is often associated with positivity and optimism, reminding you that even in the darkest of times, there is always a glimmer of hope.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-sun.htm'
+    },
+    {
+      id: 21, 
+      title: 'Judgement', 
+      uprightCard: 'Take action and make significant changes in your life. Based on better understanding your own purpose and values, you may have to make some hard choices. Let go of old patterns and beliefs that no longer serve you and experience a sense of liberation and release. Every action has a consequence and you are responsible for the choices you have made and continue to make - accept those consequences. Forgive yourself, then move forward. The karma you create today awaits you in the future - both positive and negative. The Judgement card encourages you to trust in your inner guidance and to embrace the transformative power of change, even if it feels uncomfortable or challenging at first.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-judgement.htm'
+    },
     {id: 22, title: 'The World', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-world.htm'},
     {
       id: 23, 
