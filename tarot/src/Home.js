@@ -1,6 +1,6 @@
 function HomePage() {
   return (
-    <body className="container-xl">
+    <div className="container-xl">
       <header>
         <div className="row justify-content-center mb-4">
           <div className="col-md-4 col-sm-6 text-center">
@@ -33,10 +33,7 @@ function HomePage() {
           </div>
         </div>
       </main>
-      <footer>
-          <p className="text-center"><small>© {new Date().getFullYear()} Nathalie Garfinkle</small></p>
-      </footer>
-    </body>
+    </div>
   );
 }
 

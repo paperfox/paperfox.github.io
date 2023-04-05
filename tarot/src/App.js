@@ -4,6 +4,7 @@ import MakeNumbers from './deck/CardShuffle';
 import TarotArray from './static/Tarot-content';
 import CardList from './list/CardList';
 import HomePage from './Home';
+import Footer from './Footer';
 
 function App() {
   const tarotContent = TarotArray();
@@ -25,6 +26,7 @@ function App() {
           <CardList tarotContent={tarotContent} />
         </Tab>
       </Tabs>
+      <Footer />
     </div>
   );
 }
