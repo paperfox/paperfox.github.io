@@ -3,7 +3,14 @@ function HomePage() {
     <body className="container-xl">
       <header>
         <div className="row justify-content-center mb-4">
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-4 col-sm-6 text-center">
+            <img
+              alt="Paperfox Logo"
+              src="../images/paperfoxlogo.svg"
+              width="30"
+              height="30"
+              className="d-inline-block align-top mt-4"
+            />
             <h1 className="text-center mb-4">Work in progress</h1>
           </div>
         </div>
@@ -26,8 +33,8 @@ function HomePage() {
           </div>
         </div>
       </main>
-      <footer class="footer">
-          <p class="text-center">© 2021 Nathalie Garfinkle</p>
+      <footer>
+          <p className="text-center"><small>© 2021 Nathalie Garfinkle</small></p>
       </footer>
     </body>
   );
