@@ -12,7 +12,7 @@ function CardList({ tarotContent }) {
 
   return (
     <div className="container-xl">
-        <h1 className="text-center mb-4">Tarot</h1>
+        <h1 className="text-center mb-4">Complete Card Listing</h1>
         <div className="row justify-content-center mb-4">
           {fullDescriptions}
         </div>

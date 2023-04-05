@@ -2,6 +2,8 @@ import React from 'react';
 import ImageModal from './ImageModal';
 
 function CardDesc({ dataContent }) {
+  let dataTitle = dataContent.title;
+  const titleID = dataTitle.replace(/ /g, '')
 
   return (
     <div className="row justify-content-center">
@@ -9,7 +11,7 @@ function CardDesc({ dataContent }) {
         <ImageModal dataImg={dataContent.id} dataContent={dataContent} />
       </div>
       <div className="col-lg-5 col-md-7 col-sm-8 mb-4">
-      <h2>{dataContent.title}</h2>
+      <h2 id={titleID}>{dataContent.title}</h2>
         {/* <h3>Divinatory Meanings</h3> */}
         <p>{dataContent.uprightCard}</p>
         
