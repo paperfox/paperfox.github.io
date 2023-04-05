@@ -43,7 +43,12 @@ function TarotArray() {
     },
     {id: 7, title: 'The Lovers', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-lovers.htm'},
     {id: 8, title: 'The Chariot', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-chariot.htm'},
-    {id: 9, title: 'Strength', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-strength.htm'},
+    {
+      id: 9, 
+      title: 'Strength', 
+      uprightCard: 'Draw upon your personal power to face challenges and overcome obstacles. There is a need for patience and self-control, as well as compassion and understanding in many difficult situations. Find balance between your inner and outer worlds - balance your physical, emotional, and spiritual self. Acknowledge and confront your fears, and remain centered in the face of adversity. Courage and resilience are key. You have the ability to overcome even the most difficult of obstacles if you persevere.', 
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-strength.htm'
+    },
     {id: 10, title: 'The Hermit', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hermit.htm'},
     {id: 11, title: 'Wheel of Fortune', uprightCard: 'This is some sample text', link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wheeloffortune.htm'},
     {

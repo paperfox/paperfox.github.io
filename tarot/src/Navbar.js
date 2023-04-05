@@ -1,19 +1,29 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Nav, Navbar, Container } from 'react-bootstrap';
 
-function Navbar() {
+function PageNav() {
   return (
-    <nav>
-      <ul className="text-end">
-        <li className="d-inline-block m-2">
-          <Link to="/deck/CardShuffle">Deck</Link>
-        </li>
-        <li className="d-inline-block m-2">
-          <Link to="/list/CardList">List</Link>
-        </li>
-      </ul>
-    </nav>
+
+    <Navbar bg="dark" variant="dark" className="mb-4">
+      <Container>
+        <Navbar.Brand href="https://paperfox.github.io">
+          <img
+            alt="Paperfox Logo"
+            src="https://paperfox.github.io/images/paperfoxlogo.svg"
+            width="30"
+            height="30"
+            className="d-inline-block align-top"
+          />
+        </Navbar.Brand>
+        <Nav className="me-auto">
+          <Nav.Link href="/deck/CardShuffle">Draw Cards</Nav.Link>
+          <Navbar.Text> . </Navbar.Text>
+          <Nav.Link href="/list/CardList">Full Card List</Nav.Link>
+        </Nav>
+      </Container>
+    </Navbar>
+    
   );
 }
 
-export default Navbar;
+export default PageNav;
