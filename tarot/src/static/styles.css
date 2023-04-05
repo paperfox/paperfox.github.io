@@ -30,6 +30,30 @@ a,
 a:hover,
 .btn-tertiary:hover { color: antiquewhite; text-decoration: underline; opacity: .8; }
 
+.nav-tabs { 
+  border-bottom: none;
+  background-color: rgba(0,0,0,.25);
+  font-size: 1.6rem;
+}
+
+.nav-tabs .nav-link {
+  color: antiquewhite;
+  border-bottom: .2rem solid transparent;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:focus, 
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus-visible  {
+  background-color: rgba(0,0,0,.25);
+  border: none;
+  border-bottom: .2rem solid goldenrod;
+}
+
+.nav-tabs .nav-link.active {
+  color: white;
+}
+
 .modal-content      { background-color: #3b474f; }
 .modal-header       { border-bottom: none }
 .modal-footer       { border-top: none }
