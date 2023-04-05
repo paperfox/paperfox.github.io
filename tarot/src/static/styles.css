@@ -27,9 +27,9 @@ p,
 a  { font-size: 1.6rem; font-weight: 400; }
 p  { opacity: .8; }
 a,
-.btn-tertiary       { color: antiquewhite; text-decoration: dotted; }
+.btn-tertiary       { color: #DE7826; text-decoration: none; font-weight: 600; }
 a:hover,
-.btn-tertiary:hover { color: antiquewhite; text-decoration: underline; opacity: .8; }
+.btn-tertiary:hover { color: #DE7826; text-decoration: underline; }
 
 .nav-tabs { 
   background-color: rgba(0,0,0,.25);
@@ -55,10 +55,21 @@ a:hover,
 .btn:focus-visible,
 .nav-tabs .nav-link:focus-visible { outline: .1rem dotted goldenrod; }
 .nav-tabs .nav-link.active        { color: white; }
+.set-height                       { height: 80vh; }
 
-.modal-content      { background-color: #3b474f; }
-.modal-header       { border-bottom: none }
-.modal-footer       { border-top: none }
+.modal-header       {
+  border-bottom: none;
+  position: relative; 
+}
+.modal-header .btn-close {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+.modal-content { background-color: #3b474f; }
+.modal-footer  { border-top: none; }
+.modal-header,
+.modal-footer { justify-content: space-around; }
 
 img[class*="_2"]    { rotate: 180deg; }
 .info-icon          { width: 2.4rem; } /* Info icon created by i cons from the noun project - tinyurl.com/47b8m4an */
@@ -108,9 +119,6 @@ img[class*="_2"]    { rotate: 180deg; }
   .build-deck { height: 25rem; }
 }
 
-/* Stuff from paperfox styles */
-/* a               { color: #b82300; text-decoration: none; }
-a:hover         { color: #ad1a01; text-decoration: underline; }
-ul              { list-style: none; padding: 0; margin-bottom: 2rem; text-align: center; }
-ul li img       { height: 2.4rem; }
-.sm-copy        { font-size: 1.2rem; opacity: .75; } */
+@media (max-width: 991.98px) {
+  .set-height { height: auto; width: 100%; }
+}
