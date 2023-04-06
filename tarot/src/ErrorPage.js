@@ -1,6 +1,6 @@
 function HomePage() {
   return (
-    <body className="container-xl">
+    <body className="container-xxl">
       <header>
         <div className="row justify-content-center mb-4">
           <div className="col-md-4 col-sm-6 text-center">

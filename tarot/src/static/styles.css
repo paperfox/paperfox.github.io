@@ -111,6 +111,11 @@ img[class*="_2"]    { rotate: 180deg; }
 .build-deck img:nth-child(3) { rotate: 1deg; }
 .build-deck img:nth-child(4) { rotate: -2deg; }
 
+@media (min-width: 768px) {
+  .side-nav { position: fixed; }
+  .side-nav li { margin-bottom: 1.5rem; }
+}
+
 @media (min-width: 576px) and (max-width: 767.98px) {
   .flip-card,
   .build-deck,

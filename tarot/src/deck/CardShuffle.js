@@ -37,7 +37,7 @@ function MakeNumbers({ tarotContent }) {
   }
 
   return (
-    <div className="container-xl text-center">
+    <div className="container-xxl text-center">
       <h1 className="mb-4">Three Card Draw</h1>
       <div className="mb-4">
         <Button className="tarot-deck" variant="tertiary" onClick={handleClick} aria-label="Click to draw card from Tarot Deck">
