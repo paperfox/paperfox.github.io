@@ -7,9 +7,7 @@ function HomePage() {
             <img
               alt="Paperfox Logo"
               src="../images/paperfoxlogo.svg"
-              width="30"
-              height="30"
-              className="d-inline-block align-top mt-4"
+              className="d-inline-block align-top mt-4 logo"
             />
             <h1 className="text-center mb-4">Work in progress</h1>
           </div>
@@ -24,10 +22,10 @@ function HomePage() {
             <p>If I'm not poking away at this, I'm likely doodling up some of the card images, playing with my dog, or out in my garden.</p>
             <br />
             <ul className="list-unstyled d-flex justify-content-center">
-              <li>
+              <li className="m-3">
                   <a href="https://www.linkedin.com/in/paperfox/"><img src="../images/linkedinlogo.svg" alt="linkedin" /></a>
               </li>
-              <li>
+              <li className="m-3">
                   <a href="https://www.instagram.com/paperfoxmakesart/"><img src="../images/instagramlogo.svg" alt="instagram" /></a>
               </li>
           </ul>

@@ -30,7 +30,11 @@ a,
 .btn-tertiary       { color: #DE7826; text-decoration: none; font-weight: 600; }
 a:hover,
 .btn-tertiary:hover { color: #DE7826; text-decoration: underline; }
-
+.btn:focus                        { box-shadow: none; }
+.btn:focus-visible,
+.nav-tabs .nav-link:focus-visible { outline: .1rem dotted goldenrod; }
+.nav-tabs .nav-link.active        { color: white; }
+.set-height                       { height: 80vh; }
 .nav-tabs { 
   background-color: rgba(0,0,0,.25);
   font-size: 1.6rem;
@@ -51,12 +55,6 @@ a:hover,
   border-bottom: .2rem solid goldenrod;
 }
 
-.btn:focus                        { box-shadow: none; }
-.btn:focus-visible,
-.nav-tabs .nav-link:focus-visible { outline: .1rem dotted goldenrod; }
-.nav-tabs .nav-link.active        { color: white; }
-.set-height                       { height: 80vh; }
-
 .modal-header       {
   border-bottom: none;
   position: relative; 
@@ -71,6 +69,7 @@ a:hover,
 .modal-header,
 .modal-footer { justify-content: space-around; }
 
+.logo               { height: 4rem; width: 4rem; }
 img[class*="_2"]    { rotate: 180deg; }
 .info-icon          { width: 2.4rem; } /* Info icon created by i cons from the noun project - tinyurl.com/47b8m4an */
 .flip-card,
