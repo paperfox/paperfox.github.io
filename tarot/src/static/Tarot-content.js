@@ -179,33 +179,34 @@ function TarotArray() {
       id: 25, 
       title: 'Three of Wands',
       uprightCard: 'Progress, expansion, travel, and collaboration - go forth into the future with conviction. Your hard work and efforts are beginning to pay off, and you may see the results of your endeavors. Consider networking with others and seek new opportunities for growth and success. Have faith in your vision and the stable foundation you have laid. Continue to think big and keep moving forward with confidence.',
-      reverseCard: 'A lack of collaboration leaves you disappointed and isolated. Delays pile up and plans are derailed. Some expectations may have been too high, but other places you have simply missed grasping ideal opportunities and now regret it.',
+      reverseCard: 'A lack of collaboration leaves you disappointed and isolated. Delays pile up and plans are derailed. Some expectations may have been too high, but in other places, you have simply missed grasping ideal opportunities and now regret it.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#3'
     },
     {
       id: 26, title: 'Four of Wands', 
       uprightCard: 'You may be experiencing a time of joy and abundance in your life, perhaps related to a milestone, achievement, or return of some nature. Enjoy this moment of stability and harmony. Take time to appreciate the blessings in your life, connect with loved ones, and create a sense of home and security.', 
-      reverseCard: 'Insecurity has left you narrow minded. Unhappy due to a lack of stability and unity at home or work, success seems a far off dream. Transition is scary, but moving on may be a valid solution.',
+      reverseCard: 'Insecurity has left you narrow-minded. Unhappy due to a lack of stability and unity at home or work, success seems a distant dream. Transition is scary, but moving on may be a valid solution.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#4'
     },
     {
       id: 27, 
       title: 'Five of Wands', 
       uprightCard: 'Competition, conflict, and struggle. Obstacles or opposition from others could be on the way, and you may need to assert yourself and defend your position or ideas. Conflict can be constructive or costly, depending on whether those involved can find common ground.', 
-      reverseCard: 'Enjoy the feeling of relief after a resolved conflict. This may present an opportunity as you move forward. Let go of or resolve conflict and don’t ignore it or resort to passive aggressive behavior. Competition can be either healthy or unhealthy - try to always steer it in the right direction.',
+      reverseCard: 'Enjoy the feeling of relief after a resolved conflict. This may present an opportunity as you move forward. Let go of or resolve conflict and don\'t ignore it or resort to passive-aggressive behavior. Competition can be either healthy or unhealthy - try to always steer it in the right direction.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#5'
     },
     {
       id: 28, 
       title: 'Six of Wands', 
       uprightCard: 'It is a time of victory, recognition, and success. You may be achieving a significant goal or receiving praise for your accomplishments. Remember to stay humble, show gratitude, and share your success with others.', 
+      reverseCard: 'Feeling unimportant, overlooked, and undervalued by others chips away at your confidence and lays seeds of self-doubt. With a lack of outside validation, do not draw inward to the point of becoming self-centered.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#6'
     },
     {
       id: 29, 
       title: 'Seven of Wands', 
       uprightCard: 'It is a struggle, but with courage you will persevere through adversity. You may be facing opposition or a difficult situation, but you have the inner strength and determination to overcome it. Stand up for yourself, be assertive, and trust in your abilities to succeed.', 
-      reverseCard: 'Anxiety, enarassment and confusion. Beware of getting paralyzed by indecision.',
+      reverseCard: 'Feeling overwhelmed with challenges and lacking confidence, you have given up too readily. You\'re not where you want to be but are plagued with anxiety over confronting your fears or obstacles in order to move forward.',
       bkgInfo: 'Mike Hawke - Hrothgar - Player Character, Final Fantasy XIV',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#7'
     },
@@ -213,6 +214,7 @@ function TarotArray() {
       id: 30, 
       title: 'Eight of Wands', 
       uprightCard: 'This is a period of swift movement, obstacles, or growth, and you need to be flexible and adaptable to keep up. Take advantage of opportunities as they arise, don\'t let rapid change become a deterrent, and stay focused on your goals.', 
+      reverseCard: 'Miscommunications and delays compound other obstacles hindering progress. Don\'t force the issue, patience and attention may solve many of your problems.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#8'
     },
     {
