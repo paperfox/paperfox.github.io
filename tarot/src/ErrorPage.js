@@ -11,7 +11,7 @@ function HomePage() {
               height="30"
               className="d-inline-block align-top mt-4"
             />
-            <h1 className="text-center mb-4">Welp. We have an error.</h1>
+            <h1 className="text-center">Welp. We have an error.</h1>
           </div>
         </div>
       </header>

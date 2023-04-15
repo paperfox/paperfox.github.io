@@ -9,7 +9,7 @@ function HomePage() {
               src="../images/paperfoxlogo.svg"
               className="d-inline-block align-top mt-4 logo"
             />
-            <h1 className="text-center mb-4">Work in progress</h1>
+            <h1 className="text-center">Work in progress</h1>
           </div>
         </div>
       </header>
