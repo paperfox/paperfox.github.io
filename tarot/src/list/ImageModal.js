@@ -8,11 +8,14 @@ function ImageModal({ dataImg, dataContent }) {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+  
+  let dataTitle = dataContent.title;
+  const titleID = dataTitle.replace(/ /g, '')
 
   return (
     <Fragment>
       <Button variant="tertiary" className="float-end" onClick={handleShow} aria-label={`More information about ` + dataContent.title}>
-        <img src={'/images/cards/' + dataImg + '.jpg'} className="w-100 rounded" alt={'Image of ' + dataContent.title + ' card'}/>
+        <img src={'/images/cards/' + dataImg + '.jpg'} className="w-100 rounded" alt={'Image of ' + dataContent.title + ' card'} id={titleID + '_img'} />
       </Button>
 
       <Modal 

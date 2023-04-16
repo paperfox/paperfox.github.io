@@ -221,12 +221,14 @@ function TarotArray() {
       id: 31, 
       title: 'Nine of Wands', 
       uprightCard: 'Despite feeling weary or battle-worn, you have the determination and  perseverance to keep going. Recovering from past disadvantages has left you resilient and with greater inner strength. Stay focused on your goals, be prepared for more challenges, but trust in your ability to overcome obstacles.', 
+      reverseCard: 'You\'re overwhelmed and lack the ability or tenacity to persevere. Feeling helpless, weak, and scared, the current situation has depleted and exhausted you. You might be hesitant or unsure of yourself, but address your fears and build greater self-confidence.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#9'
     },
     {
       id: 32, 
       title: 'Ten of Wands', 
       uprightCard: 'Taking on too great a burden doesn\'t ensure reward. You are feeling overwhelmed or overburdened by your current situation or responsibilities. Take a break, delegate tasks, or seek support to lighten your load and avoid burnout.', 
+      reverseCard: '',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#10'
     },
     {
