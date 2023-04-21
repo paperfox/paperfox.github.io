@@ -8,8 +8,6 @@ function CardList({ tarotContent }) {
     return <CardDesc dataContent={exampleCard} key={exampleCard.id}/>
   });
 
-  const hideFirstElement = fullDescriptions.shift();
-
   return (
     <div className="container-xxl">
         <h1 className="text-center">Complete Card Listing</h1>
