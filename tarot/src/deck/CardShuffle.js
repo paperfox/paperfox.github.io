@@ -4,7 +4,7 @@ import TarotCard from './Card';
 
 // To do list:
 // make art
-// rewrite array - remove 0 and 80 from deck, rewrite in json
+// rewrite array in json
 // make it pretty
 
 function MakeNumbers({ tarotContent }) {

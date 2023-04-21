@@ -3,6 +3,8 @@ function TarotArray() {
     {
       id: 0, 
       title: 'The Fool', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'On the brink of the unknown you stand about to plunge into something new. Opportunity is hand in hand with risk, but optimism leads you to step forward without knowing what the future holds. Embrace the unlimited potential of an unwritten future and seek new experiences - trust in the journey ahead, even if you don\'t know where it may lead. Caution and mindfulness along the way are key as this card can also indicate naivety and falling into recklessness and extravagance. Take the leap of faith towards the unknown, embrace change, but don\'t lose yourself. Remember, nothing is without consequences.',
       reverseCard: 'In reverse, this card signifies blindly charging forth into the unknown, believing oneself invulnerable to risks. The fool neglects to consider dangers - to oneself or others. Overvaluing your achievements, accomplishments, or looks will lead you down a negative path.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-fool.htm'
@@ -10,6 +12,8 @@ function TarotArray() {
     {
       id: 1, 
       title: 'The Magician', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Take control of your life and trust in your abilities to create the reality that you desire. Know what you want and know that you have the ability to turn your ideas into reality through focused attention and effort. While this card is a powerful symbol of manifestation, creativity, and taking action, it can also indicate the potential for trickery or manipulation, reminding you to be cautious of those who may abuse their power. Aspire for greatness, be confident in yourself. Embrace your unique talents and skills and use them to your advantage.', 
       reverseCard: 'Your mind is in disorder. A fall from grace leaves you with ill feelings. What was once agency and taking control of oneself has become manipulation and scheming.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-magician.htm'
@@ -17,6 +21,8 @@ function TarotArray() {
     {
       id: 2, 
       title: 'The High Priestess', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'The hidden depths of your mind whisper to you to trust your intuition. Listen to that inner voice. Look within yourself for answers, taking time for reflection and introspection. Seek answers beyond the surface, explore the unknown, and find the knowledge that has not yet been revealed. Examining your innermost thoughts and feelings can lead you to gain a better understanding of yourself and discover deeper truths, laying the foundation for spiritual growth. Introspection may entice you to take a step back and look beyond the obvious, to seek deeper meaning and understanding in your life. By tapping into your intuition and inner wisdom, you can access powerful insights and uncover hidden truths that will become a guide towards greater clarity and enlightenment.', 
       reverseCard: 'You\'ve become disconnected from your emotions, relying too heavily on logic, rational thinking, or external validation to make decisions. This can leave you feeling lonely, cold, and cut off. Relying on another to validate your decisions and feelings leaves you open to manipulation. Don\'t ignore your gut feelings - your intuition is reaching out even though you\'ve tried to push it away.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-highpriestess.htm'
@@ -24,6 +30,8 @@ function TarotArray() {
     {
       id: 3, 
       title: 'The Empress', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'This is a time of abundance, growth, and expansion - in any aspect of your life, personal or professional. Embrace your natural creativity and nurture your own growth and well-being. Channel energies of creation - fertility, creativity, life - into the surrounding natural world and you will be rewarded with great harvests. This card suggests that you may be experiencing a period of creativity, productivity, and abundance in your life. Connect with your nurturing side and take care of yourself and those around you.', 
       reverseCard: 'The Empress in reverse is a sign that things are just too much. It could be that you\'re overindulging in creative pursuits at the cost of your career, or it could be you\'re diving too deep into work and neglecting self-care. Take a moment to recenter yourself. No matter where you are at, look for a bit more balance in life.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-empress.htm'
@@ -31,6 +39,8 @@ function TarotArray() {
     {
       id: 4, 
       title: 'The Emperor', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Order and discipline are needed.  Focus on creating a strong foundation and structure in your life - whether that be in your career, relationships, or personal development. Remember to take responsibility for your actions and to establish clear boundaries. Embrace your leadership qualities and create a stable and secure future for yourself -  control the trajectory of your life.', 
       reverseCard: 'Life in chaos - a lack of stability and structure. As things begin to spiral, you may be in a place of overcorrection with overly rigid or controlling behaviors. This lack of balance could lead you to be impulsive, lack confidence, and lower self-esteem - leading to negative consequences in your personal and professional life. In order to get back on track, let go of your rigid expectations and embrace more adaptable and flexible thinking.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-emperor.htm'
@@ -38,6 +48,8 @@ function TarotArray() {
     {
       id: 5, 
       title: 'The Hierophant', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Look toward tradition, spirituality, and mentorship. This is an authority figure, teacher, or advisor who is deeply rooted in tradition and established beliefs or values. You may be seeking guidance and spiritual wisdom from someone with more experience or knowledge. Remember to honor your own beliefs and stay true to your spiritual path. It can be hard to manage the struggle between personal beliefs and societal expectations, knowing when to reconcile individuality with existing cultural practices and when to throw established patterns out the window. Seek out knowledge and guidance from trusted sources. Respect tradition and spirituality, but stay true to your own beliefs and values.', 
       reverseCard: 'Tradition has set a foundation but it doesn\'t have all the answers. It can become the stone holding you down - let it instead be a foundation for growth and innovation. Take a moment to consider your reliance on tradition and the authority figures therein and how that may be holding you back. Don\'t follow others for fear of making waves when you are just compromising yourself.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hierophant.htm'
@@ -45,6 +57,8 @@ function TarotArray() {
     {
       id: 6, 
       title: 'The Lovers', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'This major arcana card represents love, relationships, partnerships, and choices. You have a decision to make between options or a deep connection between individuals - romantic or platonic. It could be a significant choice or decision related to love, partnerships, and relationships. A deep connection, romantically or otherwise, between individuals may be forming. Never forget the importance of communication and honesty in relationships. Encourage open and honest dialogue. Find harmony, balance, and alignment within yourself or with your values and principles.', 
       reverseCard: 'A lack of communication or other imbalance has led to frustration, arguments, and silence. This could corrupt what you once treasured. You\'ve become disconnected, causing a rift that will soon be too wide to bridge. Figure out how to repair communications or find balance before things go too far. Finding balance and harmony between opposing forces may help you move forward on a positive path.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-lovers.htm'
@@ -52,6 +66,8 @@ function TarotArray() {
     {
       id: 7, 
       title: 'The Chariot', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'This is a journey, a time of progression toward a destination, both physically and metaphorically. Employ self-discipline, harnessing your inner strength to overcome obstacles or challenges along the way. You may need to effectively balance opposing forces and harness them towards a common goal. With willpower and focus you will be able to guide them to helping you on your way. This is a time of triumph and success. You are in control and moving forward towards your goals. Have faith in yourself and to trust in your abilities to achieve victory.', 
       reverseCard: 'Unresolved arguments or disjointed ideas are stymying progress. It\'s impossible to move ahead with opposing forces pulling in different directions without the unity of a common goal. This is causing a time of chaos and it may be difficult to see the path forward.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-chariot.htm'
@@ -59,6 +75,8 @@ function TarotArray() {
     {
       id: 8, 
       title: 'Strength', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Draw upon your personal power to face challenges and overcome obstacles. There is a need for patience and self-control, as well as compassion and understanding in many difficult situations. Find balance between your inner and outer worlds - balance your physical, emotional, and spiritual self. Acknowledge and confront your fears, and remain centered in the face of adversity. Courage and resilience are key. You have the ability to overcome even the most difficult of obstacles if you persevere.', 
       reverseCard: 'Circumstances may be overwhelming you leaving you unsure how to proceed. A lack of self-confidence leaves you hesitant to take action. On the other hand, trying to exert too much control over a situation or relationship also causes pain. Work on cultivating more compassion in order to better find balance.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-strength.htm'
@@ -66,6 +84,8 @@ function TarotArray() {
     {
       id: 9, 
       title: 'The Hermit', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Withdraw from the outside world to seek wisdom and understanding. You may have a need for inner reflection and self-discovery. A search for truth and knowledge starts by looking inward. Go within yourself to find answers, to examine your beliefs, and to gain a deeper understanding of yourself. This could be a period of transition, moving from one phase of life to another, spiritual growth and development, as well as the need to find peace and clarity in the midst of chaos.  Sometimes the greatest insights and understanding come from within. Find solace in being alone when needed.', 
       reverseCard: 'Stepping back can be a reprieve from the busy world, but take caution that you\'re not withdrawing out of fear and anxiety. An overabundance of caution and concern of external factors can lead to loneliness and isolation. Retreat needs to be for the right reasons. Take time to reflect and seek wisdom, not run away from problems.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hermit.htm'
@@ -73,6 +93,8 @@ function TarotArray() {
     {
       id: 10, 
       title: 'Wheel of Fortune', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'The cycles of change are upon you, both positive and negative, and the inevitable ups and downs of life. This is a time of transition. You are often at the mercy of external forces, where fate and destiny play a significant role in the events that unfold. Embrace the unexpected and learn from all experiences - the good and the bad - circumstances may be beyond your control. Let go of control and surrender to the natural flow of life, you may need to just trust that everything will work out in the end. Life is full of twists and turns, and the key to navigating them is to remain centered and grounded in the present moment.', 
       reverseCard: 'Too much luck can be distressing and harmful - especially when you\'re dealing with an overabundance of bad luck. Fate isn\'t always kind, but time is always moving forward and know that nothing is stagnant and these troubling times shall also pass.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wheeloffortune.htm'
@@ -80,6 +102,8 @@ function TarotArray() {
     {
       id: 11, 
       title: 'Justice', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Balance, fairness, and impartiality are the core concepts of this card. It\'s a moment when you\'re faced with important decisions or choices that require a fair and just assessment. Seek truth, be just, and hold all accountable for their actions - including yourself. Weigh the pros and cons of a situation carefully before making a decision. Find balance. Make ethically sound and morally upright decisions based on reason and careful consideration rather than emotion or personal bias. Justice can also symbolize the need for legal or ethical considerations and may indicate the resolution of a conflict or dispute.  Act with integrity and strive for fairness and equality in all aspects of your life.', 
       reverseCard: 'Decisions are being made with significant bias. Externally - this may be someone getting unjust advantages or outcomes. Internally - you may be prioritizing some areas over others at a significant cost. Look to regain balance. Avoiding accountability or responsibility causes trouble in the long run. Reflect and make amends if needed. In reverse, this is also the card of legal complications - seek advice and make sure to protect your rights.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-justice.htm'
@@ -87,6 +111,8 @@ function TarotArray() {
     {
       id: 12, 
       title: 'The Hanged Man', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'A major perspective shift is needed - let go of preconceived notions. This is a time of surrender, letting go, and sacrifice. Relinquish control and trust in the process. Be patient and wait. Take the time to consider the needs of others instead of simply your own. It may be time for some self-reflection and introspection. Accept the consequences of your actions, let go of negative attachments, and allow yourself room for growth, as uncomfortable as the process may be.', 
       reverseCard: 'Selfishness. You\'re unwilling to consider other perspectives or opinions. Change is never easy, but dependence on something stagnant, stale, or toxic will leave you with regret.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hangedman.htm'
@@ -94,6 +120,8 @@ function TarotArray() {
     {
       id: 13, 
       title: 'Death', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'While this card could signify an actual death and is a reminder of mortality, it is more likely hinting toward a transformation, change, or ending phase in your life. The inevitability of change - it is a time of letting go of the past, an end, but also a moment for embracing new beginnings. The Death card often represents a major life transition and may suggest the need to confront your fears and to let go of attachments. There is a need for release, spiritual growth, and transformation - the old must die to make way for the new. Death represents a natural and inevitable part of life, and may suggest a need to accept and embrace the inevitability of change. Face endings with grace and to trust in the process of transformation, knowing that something new and beautiful may arise from what has been lost.', 
       reverseCard: 'A building sense of inertia is caused by clinging to old habits, beliefs, or relationships that no longer serve you. Your unwillingness to let go and move forward is delaying progress in your personal or professional life. Familiar patterns may be comfortable, but change will always come and you will only move forward when you embrace it.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-death.htm'
@@ -101,6 +129,8 @@ function TarotArray() {
     {
       id: 14, 
       title: 'Temperance', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'It is important to integrate different aspects of yourself into a cohesive whole and find inner peace. Find balance between different areas of your life, such as work and play, or spiritual and material pursuits. Exercise moderation in all things, employ the power of self-control and discipline. Remember to stay centered and to seek harmony and balance in all aspects of your life. Cultivate inner harmony and emotional stability in order to navigate life\'s challenges.', 
       reverseCard: 'A lack of self-control and self-discipline has thrown your life into chaos. It is a time of imbalance as rushed decisions and lack of moderation has left you failing to consider the long-term consequences. This imbalance may be manifesting externally in strained relationships or internally with unhealthy coping behaviors or dependencies.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-temperance.htm'
@@ -108,6 +138,8 @@ function TarotArray() {
     {
       id: 15, 
       title: 'The Devil', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Are you feeling trapped, either by your own vices or by external forces? Struggle to break free. There is a need for caution and self-control, be careful of making hasty decisions or giving in to destructive impulses. Confront your fears, desires, and attachments. Release yourself from the grip of temptation and temptation\'s trappings. You must overcome your demons and take control of your life. Confront your fears and make the necessary changes.', 
       reverseCard: 'Let go of your fears and break free of the vices that bind you. This is a moment of healing and inner strength as you choose positive relationships and behaviors over previous self-destructive ones. Enjoy this new feeling of freedom and be wary of the sweet temptation to slip into familiar but harmful patterns.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-devil.htm'
@@ -115,6 +147,8 @@ function TarotArray() {
     {
       id: 16, 
       title: 'The Tower', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'The Tower suggests that you are about to experience a major shake-up in your life or collapse of established structures and beliefs.  This could be a major crisis or disaster set to upset the foundation of your life, forcing you to reassess your priorities and values. It can be a necessary catalyst for growth and transformation, forcing you to confront their deepest fears and rebuild your life from the ground up after the collapse. Forcing you to confront your fears and embrace the unknown, this will be a catalyst for transformation and growth, in order to rebuild a stronger, more resilient foundation.', 
       reverseCard: 'The card remains mostly unchanged in reverse. Change is coming whether you\'re ready or not. Unforeseen changes can be particularly traumatic and impactful but the best approach may be acceptance, humility, and surrender. Remember, we are not invincible and can\'t control everything.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-tower.htm'
@@ -122,6 +156,8 @@ function TarotArray() {
     {
       id: 17, 
       title: 'The Star', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'You are moving towards a brighter and more positive future and may be feeling optimism restored and a sense of spiritual renewal. Tap into your intuition and trust your inner voice for spiritual guidance and a connection to the divine. You may have overcome a difficult period in your life. Are you now ready to move forward with a sense of purpose and clarity? Even in the darkest of times, there is always a glimmer of light shining in the distance, guiding us towards a better future. Trust in your inner wisdom and to have faith in the journey ahead.', 
       reverseCard: 'When the Star tarot card appears in reverse, it can indicate a sense of hopelessness, disillusionment, or lack of direction and clarity. A sense of stagnation is darkening your life. You may feel like you have lost faith in yourself, the world, or a higher power. You may be struggling to find meaning or purpose in your life. You are placing too much faith in external sources of validation or approval in order to judge success and progress - change your perspective and find a new light forward.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-star.htm'
@@ -129,6 +165,8 @@ function TarotArray() {
     {
       id: 18, 
       title: 'The Moon', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'The Moon can represent feelings of uncertainty, confusion, and fear. You may be going through a period of emotional turmoil, or facing hidden or subconscious aspects of yourself that you are not yet ready to confront. It is a symbol of intuition and creativity, indicating that you are tapping into your inner wisdom and imagination. Often associated with cycles and change, this card reminds you that just as the moon waxes and wanes, so does your life. Ultimately, it is a message of exploration and discovery, urging you  to embrace the mysteries of life and to trust in your intuition as a guide through the darkness. It reminds us that sometimes you need to face your fears and dive into the depths of your own psyche in order to find the answers you seek.', 
       reverseCard: 'Change is constant, as with the cycles of the moon. That doesn\'t mean we shouldn\'t be wary of inconsistencies occurring around us - these errors add up and could spell trouble. Darkness is a time of mystery but is also a cover for deceptions great and small. Are you being deceived or have you deceived yourself?',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-moon.htm'
@@ -136,6 +174,8 @@ function TarotArray() {
     {
       id: 19, 
       title: 'The Sun', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Joy, vitality, growth, and success. Enjoy a period of abundance, fulfillment, happiness, and optimism. You have a sense of clarity and purpose, and are confident in your ability to achieve your goals. You may be gaining a deeper understanding of yourself and the world around them, this could be a time of enlightenment. Embrace the light within yourself and let it shine brightly for all to see. Positivity and optimism are your guides as you know within yourself, you are capable of achieving great things. Celebrate your successes with gratitude and humility.', 
       reverseCard: 'The glow you bask under is ultimately artificial. Like fluorescent indoor lighting, the glow is cold and hollow, lacking in joy and vitality. Material happiness may be bringing you momentary joy, but don\'t let that eclipse other pursuits leading to long term fulfillment.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-sun.htm'
@@ -143,6 +183,8 @@ function TarotArray() {
     {
       id: 20, 
       title: 'Judgement', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Take action and make significant changes in your life. Based on better understanding your own purpose and values, you may have to make some hard choices. Let go of old patterns and beliefs that no longer serve you and experience a sense of liberation and release. Every action has a consequence and you are responsible for the choices you have made and continue to make - accept those consequences. Forgive yourself, then move forward. The karma you create today awaits you in the future - both positive and negative. The Judgement card encourages you to trust in your inner guidance and to embrace the transformative power of change, even if it feels uncomfortable or challenging at first.', 
       reverseCard: 'When met with choices, taking no action is a choice on its own. It\'s crucial to keep moving forward even when difficult decisions must be made. Seeking the easiest path, the simplest path, the most comfortable path, is easy, but it leads you to where you already are. It doesn\'t lead you forward.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-judgement.htm'
@@ -150,6 +192,8 @@ function TarotArray() {
     {
       id: 21, 
       title: 'The World', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Having reached a significant milestone in your life journey, you feel a sense of accomplishment and mastery. A sense of harmony and balance encompasses both yourself and your relationships with others. You may be arriving at a place of closure and resolution. Reach a state of completion and move on to new challenges and opportunities. Celebrate your accomplishments with gratitude and humility, and embrace your ongoing journey of growth and evolution. It is intrinsic to the human experience.', 
       reverseCard: 'This is a single step on your journey. It\'s great to recognise your achievement but don\'t let it stop you here. This isn\'t all you have to offer - to yourself or to the world at large. Celebrate, but look next to the future, don\'t spend all your time looking back, even if it is with fondness.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-world.htm'
@@ -157,6 +201,8 @@ function TarotArray() {
     {
       id: 22, 
       title: 'Ace of Wands', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'The spark of creativity that starts that blaze, the beginning, the start of something new. It\'s a time of bold action and you see the potential for what things may be or what may come. Trust in yourself to find success.',
       reverseCard: 'Significant changes can delay established plans. Of the myriad options presented, it\'s hard to choose one to pursue. Focus becomes scattered, direction is lacking, and motivation begins to drop.',
       bkgInfo: 'Tarquin Merricke - Miqo\'te - Player Character, Final Fantasy XIV',
@@ -165,6 +211,8 @@ function TarotArray() {
     {
       id: 23, 
       title: 'Two of Wands', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Decisions have been made and the first steps towards achieving your goals are being taken, expanding your horizons. You have a clear vision and are ready to take action to bring your ideas to life. This card is a reminder to be confident and to trust in your ability to succeed. Explore the world, it has much to offer - you may have already conquered more of it than you think.', 
       reverseCard: 'Progress is stagnating. You are unable to see the potential and are losing interest. Doubt and indecision cloud your mind. Fear of change or impatience may cause you to wield your authority decisively - in all the wrong ways.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#2'
@@ -172,12 +220,16 @@ function TarotArray() {
     {
       id: 24, 
       title: 'Three of Wands',
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Progress, expansion, travel, and collaboration - go forth into the future with conviction. Your hard work and efforts are beginning to pay off, and you may see the results of your endeavors. Consider networking with others and seek new opportunities for growth and success. Have faith in your vision and the stable foundation you have laid. Continue to think big and keep moving forward with confidence.',
       reverseCard: 'A lack of collaboration leaves you disappointed and isolated. Delays pile up and plans are derailed. Some expectations may have been too high, but in other places, you have simply missed grasping ideal opportunities and now regret it.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#3'
     },
     {
       id: 25, title: 'Four of Wands', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'You may be experiencing a time of joy and abundance in your life, perhaps related to a milestone, achievement, or return of some nature. Enjoy this moment of stability and harmony. Take time to appreciate the blessings in your life, connect with loved ones, and create a sense of home and security.', 
       reverseCard: 'Insecurity has left you narrow-minded. Unhappy due to a lack of stability and unity at home or work, success seems a distant dream. Transition is scary, but moving on may be a valid solution.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#4'
@@ -185,6 +237,8 @@ function TarotArray() {
     {
       id: 26, 
       title: 'Five of Wands', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Competition, conflict, and struggle. Obstacles or opposition from others could be on the way, and you may need to assert yourself and defend your position or ideas. Conflict can be constructive or costly, depending on whether those involved can find common ground.', 
       reverseCard: 'Enjoy the feeling of relief after a resolved conflict. This may present an opportunity as you move forward. Let go of or resolve conflict and don\'t ignore it or resort to passive-aggressive behavior. Competition can be either healthy or unhealthy - try to always steer it in the right direction.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#5'
@@ -192,6 +246,8 @@ function TarotArray() {
     {
       id: 27, 
       title: 'Six of Wands', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'It is a time of victory, recognition, and success. You may be achieving a significant goal or receiving praise for your accomplishments. Remember to stay humble, show gratitude, and share your success with others.', 
       reverseCard: 'Feeling unimportant, overlooked, and undervalued by others chips away at your confidence and lays seeds of self-doubt. With a lack of outside validation, do not draw inward to the point of becoming self-centered.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#6'
@@ -199,6 +255,8 @@ function TarotArray() {
     {
       id: 28, 
       title: 'Seven of Wands', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'It is a struggle, but with courage you will persevere through adversity. You may be facing opposition or a difficult situation, but you have the inner strength and determination to overcome it. Stand up for yourself, be assertive, and trust in your abilities to succeed.', 
       reverseCard: 'Feeling overwhelmed with challenges and lacking confidence, you have given up too readily. You\'re not where you want to be but are plagued with anxiety over confronting your fears or obstacles in order to move forward.',
       bkgInfo: 'Mike Hawke - Hrothgar - Player Character, Final Fantasy XIV',
@@ -207,6 +265,8 @@ function TarotArray() {
     {
       id: 29, 
       title: 'Eight of Wands', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'This is a period of swift movement, obstacles, or growth, and you need to be flexible and adaptable to keep up. Take advantage of opportunities as they arise, don\'t let rapid change become a deterrent, and stay focused on your goals.', 
       reverseCard: 'Miscommunications and delays compound other obstacles hindering progress. Don\'t force the issue, patience and attention may solve many of your problems.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#8'
@@ -214,6 +274,8 @@ function TarotArray() {
     {
       id: 30, 
       title: 'Nine of Wands', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Despite feeling weary or battle-worn, you have the determination and  perseverance to keep going. Recovering from past disadvantages has left you resilient and with greater inner strength. Stay focused on your goals, be prepared for more challenges, but trust in your ability to overcome obstacles.', 
       reverseCard: 'You\'re overwhelmed and lack the ability or tenacity to persevere. Feeling helpless, weak, and scared, the current situation has depleted and exhausted you. You might be hesitant or unsure of yourself, but address your fears and build greater self-confidence.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#9'
@@ -221,6 +283,8 @@ function TarotArray() {
     {
       id: 31, 
       title: 'Ten of Wands', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Taking on too great a burden doesn\'t ensure reward. You are feeling overwhelmed or overburdened by your current situation or responsibilities. Take a break, delegate tasks, or seek support to lighten your load and avoid burnout.', 
       reverseCard: 'Simplify your life. Identify your true responsibilities and the things that bring you joy. Let everything else go, or delegate it to someone else.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#10'
@@ -228,6 +292,8 @@ function TarotArray() {
     {
       id: 32, 
       title: 'Page of Wands', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'This is a chance to enthusiastically pursue a new creative project or passion. Embrace curiosity. Be inspired and open to new experiences. Trust in your intuition and explore new opportunities. With many new ideas it may be hard to pick a direction, but stay focused and forge a path forward.', 
       reverseCard: 'Impulsively grasping too many opportunities will leave you tired and unable to reliably fulfill obligations. Obstacles of your own making cause you trouble. Bad news may be headed your way.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#11'
@@ -235,6 +301,8 @@ function TarotArray() {
     {
       id: 33, 
       title: 'Knight of Wands', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'The Knight of Wands is a tarot card that represents action, adventure, and passion. Feelings of restlessness may have you seeking new adventures or challenges. Take bold action, be spontaneous, and embrace change as you pursue your goals with energy, enthusiasm, and passion.', 
       reverseCard: 'Action without consideration of the consequences is reckless and impulsive. This could lead to a lack of follow-through - half-finished projects and ideas surround you. Indecision and frustration mount. Stress turns to arguments and possibly even violence.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#12'
@@ -242,6 +310,8 @@ function TarotArray() {
     {
       id: 34, 
       title: 'Queen of Wands', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Confidence, courage, and leadership shine forth from you. You feel empowered and in control of your life, and are able to inspire others with your vision and passion. Trust in your instincts, stay true to your values, and lead by example as you pursue your goals.', 
       reverseCard: 'Confidence has turned to dominance. Competitive thoughts leave you jealous and moody. Your charm and charisma are being used to manipulate those around you rather than lead.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#13'
@@ -249,8 +319,10 @@ function TarotArray() {
     {
       id: 35, 
       title: 'King of Wands', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Charismatic leadership helps you share your vision with others. You may be in a position of authority. Take a leadership role in your life. Be confident in your abilities, take bold action, and inspire others with your passion and drive.', 
-      reverseCard: '',
+      reverseCard: 'It is arrogant to assume that a position of authority equates leadership. Arrogantly bossing others around accomplishes nothing other than starting arguments, especially when you lack the vision of where you are headed.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#14'
     },
     {
