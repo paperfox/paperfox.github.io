@@ -228,13 +228,14 @@ function TarotArray() {
       id: 32, 
       title: 'Ten of Wands', 
       uprightCard: 'Taking on too great a burden doesn\'t ensure reward. You are feeling overwhelmed or overburdened by your current situation or responsibilities. Take a break, delegate tasks, or seek support to lighten your load and avoid burnout.', 
-      reverseCard: '',
+      reverseCard: 'Simplify your life. Identify your true responsibilities and the things that bring you joy. Let everything else go, or delegate it to someone else.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#10'
     },
     {
       id: 33, 
       title: 'Page of Wands', 
       uprightCard: 'This is a chance to enthusiastically pursue a new creative project or passion. Embrace curiosity. Be inspired and open to new experiences. Trust in your intuition and explore new opportunities. With many new ideas it may be hard to pick a direction, but stay focused and forge a path forward.', 
+      reverseCard: 'Impulsively grasping too many opportunities will leave you tired and unable to reliably fulfill obligations. Obstacles of your own making cause you trouble. Bad news may be headed your way.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#11'
     },
     {
