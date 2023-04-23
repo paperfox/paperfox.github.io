@@ -30,11 +30,11 @@ function CardModal({ reverseCard, dataImg, dataContent }) {
               <img src={'/images/cards/' + dataImg + '.jpg'} className="w-100 rounded" alt={'Image of ' + dataContent.title + ' card'}/>
             </div>
             <div className="col">
-              <h3>Divinatory Meanings</h3>
-              <p>{dataContent.uprightCard}</p>
-              {/* <h3>Reversed</h3>
+              <h3>{dataContent.uprightTitle}</h3>
+              <p className="mb-5">{dataContent.uprightCard}</p>
+              <h3>{dataContent.reverseTitle}</h3>
               <p>{dataContent.reverseCard}</p>
-              <h3>About the Image</h3>
+              {/* <h3>About the Image</h3>
               <p>{dataContent.bkgInfo}</p>
               <a href={dataContent.link} target="_blank" rel="noreferrer">Rider-Waite Description</a> */}
             </div>
