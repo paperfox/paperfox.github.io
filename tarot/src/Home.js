@@ -28,7 +28,7 @@ function HomePage() {
               <li className="m-3">
                   <a href="https://www.instagram.com/paperfoxmakesart/"><img src="../images/instagramlogo.svg" alt="instagram" /></a>
               </li>
-          </ul>
+            </ul>
           </div>
         </div>
       </main>
