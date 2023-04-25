@@ -9,10 +9,10 @@ function CardDesc({ dataContent }) {
           <ImageModal dataImg={dataContent.id} dataContent={dataContent} />
         </div>
         <div className="col-lg-6 col-md-7 col-sm-8 mb-4">
-          <h2>{dataContent.title}</h2>
-          <h3>{dataContent.uprightTitle}</h3>
+          <h3>{dataContent.title}</h3>
+          <h4>{dataContent.uprightTitle}</h4>
           <p className="mb-5">{dataContent.uprightCard}</p>
-          <h3>{dataContent.reverseTitle}</h3>
+          <h4>{dataContent.reverseTitle}</h4>
           <p>{dataContent.reverseCard}</p>
           {/* <h3>About the Image</h3>
           <p>{dataContent.bkgInfo}</p> */}
