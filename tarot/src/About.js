@@ -15,7 +15,7 @@ function AboutPage() {
               <h2>Sources</h2>
               <h3>Writing</h3>
               <p>As I found when I started working on descriptions for the tarot cards, this is very much more art than science. I also very much gor the reinforcement that writing is not my jam. I've done my best with all the tools I have and cross referencing, but feel free to message me if something seems off to you!</p>
-              <ul>
+              <ul className="mb-4">
                 <li>
                   <a href="https://www.tarotcardmeanings.net/">Tarot Card Meanings</a>
                 </li>
@@ -30,8 +30,8 @@ function AboutPage() {
                 </li>
               </ul>
               <h3>Images</h3>
-              <p>Images on this site come from 2 sources, either I have personally drawn them, or they come from the Rider-Waite-Smith Tarot Deck, which is in the public domain.</p>
-              <p>My images are not for reuse or reposting, though if you want one for any reason, please reach out to me and we can probably work something out <a href="https://www.instagram.com/paperfoxmakesart/">@paperfoxmakesart</a> on instagram.</p>
+              <p>Images on this site come from two sources, either I have personally drawn them, or they come from the Rider-Waite-Smith Tarot Deck, which is in the public domain.</p>
+              <p>My images are not for reuse or reposting, though if you want one for any reason, please reach out to me and we can probably work something out - <a href="https://www.instagram.com/paperfoxmakesart/">@paperfoxmakesart</a> on instagram.</p>
               <p>Many of the characters in my Tarot images belong to others, please check out their work!</p>
             </div>
             <h2>Where to Find Me</h2>
