@@ -4,7 +4,7 @@ import TarotCard from './Card';
 
 // To do list:
 // make art
-// rewrite array - remove 0 and 80 from deck, rewrite in json
+// rewrite array in json
 // make it pretty
 
 function MakeNumbers({ tarotContent }) {
@@ -18,7 +18,7 @@ function MakeNumbers({ tarotContent }) {
     let randomInt = Math.floor(Math.random() * (max - min + 1) + min);
     let randomBinary = Math.floor(Math.random() * (2 - 1 + 1) + 1);
 
-    if (deck.length > 76) {
+    if (deck.length > 75) {
       setCreateCard([...createCard, 
         {
           id: randomInt,
@@ -37,18 +37,18 @@ function MakeNumbers({ tarotContent }) {
   }
 
   return (
-    <div className="container-xl text-center">
-      <h1 className="mb-4">Tarot</h1>
+    <div className="container-xxl text-center">
+      <h1>Three Card Draw</h1>
       <div className="mb-4">
         <Button className="tarot-deck" variant="tertiary" onClick={handleClick} aria-label="Click to draw card from Tarot Deck">
           <div className="row justify-content-center">
             <div className="col-auto">
               <div className="mx-4 build-deck">
-                <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
-                <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
-                <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
-                <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
-                <img src='/images/cards/0.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
               </div>
             </div>
           </div>

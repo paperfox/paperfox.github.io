@@ -18,7 +18,7 @@ function TarotCard({ reverseCard, dataImg, dataContent }) {
               <div className="flip-card">
                 <div className={'flip-card-inner ' + cardFace}>
                   <div className="flip-card-front">
-                      <img src='/images/cards/0.jpg' className='card-img-top' alt="Back of Tarot Card"/>
+                      <img src='/images/cards/back.jpg' className='card-img-top' alt="Back of Tarot Card"/>
                   </div>
                   <div className="flip-card-back">
                       <img src={'/images/cards/' + dataImg + '.jpg'} className={'card-img-top tarot-' + dataImg + reverseCard} alt={'Image of ' + dataContent.title + ' card'}/>

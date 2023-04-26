@@ -1,0 +1,56 @@
+import React from 'react';
+
+function AboutPage() {
+  return (
+    <div className="container-xxl">
+        <h1 className="text-center">About The App</h1>
+        <div className="row justify-content-center mb-4">
+          <div className="col-md-6">
+            <div className="mb-5">
+              <p>Paperfox is current the home of an evolving Tarot app. This also serves as a working portfolio for me, Nathalie Garfinkle, and my design, development, and artwork.</p>
+              <p>Currently I'm working as a developer in the authenticated space of <a href="https://www.massmutual.com/">MassMutual</a> so my site had been looking a bit sparse and neglected. I decided to start building a tarot app since it pulls together my development and design skills, while also giving me a place to showcase my art. Plus, its fun to build with lots of places I can expand it!</p>
+              <p>If I'm not poking away at this, I'm likely doodling up some of the card images, playing with my dog, or out in my garden.</p>
+            </div>
+            <div className="mb-5">
+              <h2>Sources</h2>
+              <h3>Writing</h3>
+              <p>As I found when I started working on descriptions for the tarot cards, this is very much more art than science. I also very much gor the reinforcement that writing is not my jam. I've done my best with all the tools I have and cross referencing, but feel free to message me if something seems off to you!</p>
+              <ul>
+                <li>
+                  <a href="https://www.tarotcardmeanings.net/">Tarot Card Meanings</a>
+                </li>
+                <li>
+                  <a href="https://labyrinthos.co/blogs/tarot-card-meanings-list">Labyrinthos</a>
+                </li>
+                <li>
+                  <a href="https://www.healthmanifested.com/list-of-tarot-cards-in-order/">Health Manifested</a>
+                </li>
+                <li>
+                  <a href="https://chat.openai.com/">Chat GPT-3</a>
+                </li>
+              </ul>
+              <h3>Images</h3>
+              <p>Images on this site come from 2 sources, either I have personally drawn them, or they come from the Rider-Waite-Smith Tarot Deck, which is in the public domain.</p>
+              <p>My images are not for reuse or reposting, though if you want one for any reason, please reach out to me and we can probably work something out <a href="https://www.instagram.com/paperfoxmakesart/">@paperfoxmakesart</a> on instagram.</p>
+              <p>Many of the characters in my Tarot images belong to others, please check out their work!</p>
+            </div>
+            <h2>Where to Find Me</h2>
+            <p>You'll find me on the web in these places if you're looking to reach out.</p>
+            <ul className="list-unstyled d-flex justify-content-center">
+              <li className="m-3">
+                  <a href="https://www.linkedin.com/in/paperfox/"><img src="../images/linkedinlogo.svg" alt="linked in" /></a>
+              </li>
+              <li className="m-3">
+                  <a href="https://www.instagram.com/paperfoxmakesart/"><img src="../images/instagramlogo.svg" alt="instagram" /></a>
+              </li>
+              <li className="m-3">
+                  <a href="https://github.com/paperfox"><img src="../images/github-mark.svg" alt="github" /></a>
+              </li>
+          </ul>
+          </div>
+        </div>
+    </div>
+  );
+}
+
+export default AboutPage;
