@@ -14,8 +14,14 @@ function AboutPage() {
             <div className="mb-5">
               <h2>Sources</h2>
               <h3>Writing</h3>
-              <p>As I found when I started working on descriptions for the tarot cards, this is very much more art than science. I also very much gor the reinforcement that writing is not my jam. I've done my best with all the tools I have and cross referencing, but feel free to message me if something seems off to you!</p>
+              <p>As I found when I started working on descriptions for the tarot cards, this is very much more art than science. I also very much got the reinforcement that writing is not my jam. I've done my best with all the tools I have and cross referencing the sources below, but feel free to message me if something seems off to you!</p>
               <ul className="mb-4">
+                <li>
+                  <a href="https://www.shadowscapes.com/Tarot/cardsmain.php?suit=0">Shadowscapes Tarot Deck</a>
+                </li>
+                <li>
+                  <a href="https://wyrmwoodgaming.com/corrupted-tarot/">Corrupted Tarot Deck</a>
+                </li>
                 <li>
                   <a href="https://www.tarotcardmeanings.net/">Tarot Card Meanings</a>
                 </li>

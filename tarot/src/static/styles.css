@@ -36,7 +36,7 @@ a            { font-size: 1.6rem; }
 .btn         { font-size: 1.4rem; font-weight: 500; opacity: .8; }
 p,
 a            { font-weight: 400; }
-p            { opacity: .8; }
+p            { color: #d4d4d6;}
 
 a,
 .btn-tertiary                     { color: #DE7826; text-decoration: none; font-weight: 600; }
