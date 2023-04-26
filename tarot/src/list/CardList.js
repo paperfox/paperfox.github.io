@@ -5,12 +5,9 @@ import SectionDesc from './SectionDesc';
 import { Button, ButtonGroup, ButtonToolbar } from 'react-bootstrap';
 
 function CardList({ tarotContent }) {
+  const [filteredCards, setFilteredCards] = useState(tarotContent)
   const sectionContent = SectionArray();
   
-  const [filteredCards, setFilteredCards] = useState(tarotContent)
-  const [artStatus, setArtStatus] = useState()
-
-  // Using Set to filter unique values
   const handleClickComplete = () => {
     setFilteredCards(
       tarotContent.filter(t=>t.artStatus === 'Complete')
@@ -27,10 +24,6 @@ function CardList({ tarotContent }) {
     setFilteredCards(
       tarotContent.filter(t=>t.artStatus)
     )
-  }
-
-  const clearFilters = () => {
-    setArtStatus(tarotContent)
   }
 
   return (
