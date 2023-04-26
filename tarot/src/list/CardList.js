@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, Fragment } from 'react';
 import CardDesc from './CardDesc';
 import SectionArray from '../static/Section-content';
 import SectionDesc from './SectionDesc';
@@ -25,8 +25,6 @@ function CardList({ tarotContent }) {
       tarotContent.filter(t=>t.artStatus)
     )
   }
-
-  const ofWands = sectionContent.filter(desc => desc.id.includes('Wands'));
 
   return (
     <div className="container-xxl">
@@ -57,38 +55,19 @@ function CardList({ tarotContent }) {
         </div>
         <div className="col-lg-10 col-md-9">
           {sectionContent.filter(desc => desc.id.includes('Major')).map(sectionHeading => (
-            <SectionDesc sectionData={sectionHeading} />
+            <SectionDesc sectionData={sectionHeading} key={sectionHeading.id} />
           ))}
           {filteredCards.filter(desc => desc.cardValue <= 21).map(exampleCard => (
             <CardDesc dataContent={exampleCard} key={exampleCard.cardValue}/>
           ))}
 
-          {ofWands.map(sectionHeading => (
-            <SectionDesc sectionData={sectionHeading} />
-          ))}
-          {filteredCards.filter(desc => desc.title.includes('of Wands')).map(exampleCard => (
-            <CardDesc dataContent={exampleCard} key={exampleCard.cardValue}/>
-          ))}
-
-          {sectionContent.filter(desc => desc.id.includes('Cups')).map(sectionHeading => (
-            <SectionDesc sectionData={sectionHeading} />
-          ))}
-          {filteredCards.filter(desc => desc.title.includes('of Cups')).map(exampleCard => (
-            <CardDesc dataContent={exampleCard} key={exampleCard.cardValue}/>
-          ))}
-
-          {sectionContent.filter(desc => desc.id.includes('Swords')).map(sectionHeading => (
-            <SectionDesc sectionData={sectionHeading} />
-          ))}
-          {filteredCards.filter(desc => desc.title.includes('of Swords')).map(exampleCard => (
-            <CardDesc dataContent={exampleCard} key={exampleCard.cardValue}/>
-          ))}
-
-          {sectionContent.filter(desc => desc.id.includes('Pentacles')).map(sectionHeading => (
-            <SectionDesc sectionData={sectionHeading} />
-          ))}
-          {filteredCards.filter(desc => desc.title.includes('of Pentacles')).map(exampleCard => (
-            <CardDesc dataContent={exampleCard} key={exampleCard.cardValue}/>
+          {sectionContent.slice(1).map((sectionHeading, index) => (
+            <Fragment key={sectionHeading.id}>
+              <SectionDesc sectionData={sectionHeading} key={sectionHeading.id} />
+              {filteredCards.filter(desc => desc.title.includes(sectionHeading.title)).map(exampleCard => (
+                <CardDesc dataContent={exampleCard} key={exampleCard.cardValue}/>
+              ))}
+            </Fragment>
           ))}
         </div>
       </div>

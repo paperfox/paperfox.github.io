@@ -3,7 +3,7 @@ import ImageModal from './ImageModal';
 
 function CardDesc({ dataContent }) {
   return (
-    <div>
+    <>
       <div className="row justify-content-center">
         <div className="col-xl-3 col-lg-4 col-md-5 col-sm-4 col-6 mb-4">
           <ImageModal dataImg={dataContent.cardValue} dataContent={dataContent} />
@@ -24,7 +24,7 @@ function CardDesc({ dataContent }) {
           <hr className="mb-5" />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
