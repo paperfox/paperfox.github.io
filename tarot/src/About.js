@@ -5,7 +5,7 @@ function AboutPage() {
     <div className="container-xxl">
         <h1 className="text-center">About The App</h1>
         <div className="row justify-content-center mb-4">
-          <div className="col-md-6">
+          <div className="col-xl-5 col-lg-6 col-md-7 col-sm-10">
             <div className="mb-5">
               <p>Paperfox is current the home of an evolving Tarot app. This also serves as a working portfolio for me, Nathalie Garfinkle, and my design, development, and artwork.</p>
               <p>Currently I'm working as a developer in the authenticated space of <a href="https://www.massmutual.com/">MassMutual</a> so my site had been looking a bit sparse and neglected. I decided to start building a tarot app since it pulls together my development and design skills, while also giving me a place to showcase my art. Plus, its fun to build with lots of places I can expand it!</p>

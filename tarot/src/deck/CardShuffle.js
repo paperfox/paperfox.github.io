@@ -44,11 +44,11 @@ function MakeNumbers({ tarotContent }) {
           <div className="row justify-content-center">
             <div className="col-auto">
               <div className="mx-4 build-deck">
-                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
-                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
-                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
-                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
-                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack rounded" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack rounded" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack rounded" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack rounded" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack rounded" alt="..."/>
               </div>
             </div>
           </div>
@@ -57,7 +57,7 @@ function MakeNumbers({ tarotContent }) {
       <div className="row justify-content-center mb-4">
         {createCard.map((exampleCard) => {
           return (
-            <TarotCard key={exampleCard.tarotText.id} dataImg={exampleCard.tarotText.id} dataContent={exampleCard.tarotText} reverseCard={exampleCard.reverseCard} />
+            <TarotCard key={exampleCard.tarotText.cardValue} dataImg={exampleCard.tarotText.cardValue} dataContent={exampleCard.tarotText} reverseCard={exampleCard.reverseCard} />
           )
         })}
       </div>

@@ -6,7 +6,7 @@ function CardDesc({ dataContent }) {
     <div>
       <div className="row justify-content-center">
         <div className="col-xl-3 col-lg-4 col-md-5 col-sm-4 col-6 mb-4">
-          <ImageModal dataImg={dataContent.id} dataContent={dataContent} />
+          <ImageModal dataImg={dataContent.cardValue} dataContent={dataContent} />
         </div>
         <div className="col-lg-6 col-md-7 col-sm-8 mb-4">
           <h3>{dataContent.title}</h3>

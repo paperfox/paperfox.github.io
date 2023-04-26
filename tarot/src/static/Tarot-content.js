@@ -1,7 +1,7 @@
 function TarotArray() {
   return [
     {
-      id: 0, 
+      cardValue: 0, 
       artStatus: 'Ideation',
       title: 'The Fool', 
       uprightTitle: 'Upright',
@@ -11,7 +11,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-fool.htm'
     },
     {
-      id: 1, 
+      cardValue: 1, 
       artStatus: 'Complete',
       title: 'The Magician', 
       uprightTitle: 'Upright',
@@ -21,7 +21,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-magician.htm'
     },
     {
-      id: 2, 
+      cardValue: 2, 
       artStatus: 'Draft',
       title: 'The High Priestess', 
       uprightTitle: 'Upright',
@@ -31,7 +31,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-highpriestess.htm'
     },
     {
-      id: 3, 
+      cardValue: 3, 
       artStatus: '',
       title: 'The Empress', 
       uprightTitle: 'Upright',
@@ -41,7 +41,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-empress.htm'
     },
     {
-      id: 4, 
+      cardValue: 4, 
       artStatus: 'Ideation',
       title: 'The Emperor', 
       uprightTitle: 'Upright',
@@ -51,7 +51,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-emperor.htm'
     },
     {
-      id: 5, 
+      cardValue: 5, 
       artStatus: '',
       title: 'The Hierophant', 
       uprightTitle: 'Upright',
@@ -61,7 +61,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hierophant.htm'
     },
     {
-      id: 6, 
+      cardValue: 6, 
       artStatus: 'Draft',
       title: 'The Lovers', 
       uprightTitle: 'Upright',
@@ -71,7 +71,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-lovers.htm'
     },
     {
-      id: 7, 
+      cardValue: 7, 
       artStatus: 'Draft',
       title: 'The Chariot', 
       uprightTitle: 'Upright',
@@ -81,7 +81,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-chariot.htm'
     },
     {
-      id: 8, 
+      cardValue: 8, 
       artStatus: '',
       title: 'Strength', 
       uprightTitle: 'Upright',
@@ -91,7 +91,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-strength.htm'
     },
     {
-      id: 9, 
+      cardValue: 9, 
       artStatus: 'Complete',
       title: 'The Hermit', 
       uprightTitle: 'Upright',
@@ -101,7 +101,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hermit.htm'
     },
     {
-      id: 10, 
+      cardValue: 10, 
       artStatus: '',
       title: 'Wheel of Fortune', 
       uprightTitle: 'Upright',
@@ -111,7 +111,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wheeloffortune.htm'
     },
     {
-      id: 11, 
+      cardValue: 11, 
       artStatus: '',
       title: 'Justice', 
       uprightTitle: 'Upright',
@@ -121,7 +121,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-justice.htm'
     },
     {
-      id: 12, 
+      cardValue: 12, 
       artStatus: 'Draft',
       title: 'The Hanged Man', 
       uprightTitle: 'Upright',
@@ -131,7 +131,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-hangedman.htm'
     },
     {
-      id: 13, 
+      cardValue: 13, 
       artStatus: 'Complete',
       title: 'Death', 
       uprightTitle: 'Upright',
@@ -141,7 +141,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-death.htm'
     },
     {
-      id: 14, 
+      cardValue: 14, 
       artStatus: 'Draft',
       title: 'Temperance', 
       uprightTitle: 'Upright',
@@ -151,7 +151,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-temperance.htm'
     },
     {
-      id: 15, 
+      cardValue: 15, 
       artStatus: '',
       title: 'The Devil', 
       uprightTitle: 'Upright',
@@ -161,7 +161,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-devil.htm'
     },
     {
-      id: 16, 
+      cardValue: 16, 
       artStatus: '',
       title: 'The Tower', 
       uprightTitle: 'Upright',
@@ -171,7 +171,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-tower.htm'
     },
     {
-      id: 17, 
+      cardValue: 17, 
       artStatus: 'Complete',
       title: 'The Star', 
       uprightTitle: 'Upright',
@@ -181,7 +181,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-star.htm'
     },
     {
-      id: 18, 
+      cardValue: 18, 
       artStatus: 'Draft',
       title: 'The Moon', 
       uprightTitle: 'Upright',
@@ -191,7 +191,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-moon.htm'
     },
     {
-      id: 19, 
+      cardValue: 19, 
       artStatus: 'Draft',
       title: 'The Sun', 
       uprightTitle: 'Upright',
@@ -201,7 +201,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-sun.htm'
     },
     {
-      id: 20, 
+      cardValue: 20, 
       artStatus: '',
       title: 'Judgement', 
       uprightTitle: 'Upright',
@@ -211,7 +211,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-judgement.htm'
     },
     {
-      id: 21, 
+      cardValue: 21, 
       artStatus: 'Draft',
       title: 'The World', 
       uprightTitle: 'Upright',
@@ -221,7 +221,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-world.htm'
     },
     {
-      id: 22, 
+      cardValue: 22, 
       artStatus: 'Complete',
       title: 'Ace of Wands', 
       uprightTitle: 'Upright',
@@ -232,7 +232,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#1'
     },
     {
-      id: 23, 
+      cardValue: 23, 
       artStatus: 'Ideation',
       title: 'Two of Wands', 
       uprightTitle: 'Upright',
@@ -242,7 +242,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#2'
     },
     {
-      id: 24, 
+      cardValue: 24, 
       artStatus: '',
       title: 'Three of Wands',
       uprightTitle: 'Upright',
@@ -252,7 +252,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#3'
     },
     {
-      id: 25,
+      cardValue: 25,
       artStatus: '',
       title: 'Four of Wands', 
       uprightTitle: 'Upright',
@@ -262,7 +262,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#4'
     },
     {
-      id: 26, 
+      cardValue: 26, 
       artStatus: '',
       title: 'Five of Wands', 
       uprightTitle: 'Upright',
@@ -272,7 +272,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#5'
     },
     {
-      id: 27, 
+      cardValue: 27, 
       artStatus: '',
       title: 'Six of Wands', 
       uprightTitle: 'Upright',
@@ -282,7 +282,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#6'
     },
     {
-      id: 28, 
+      cardValue: 28, 
       artStatus: 'Complete',
       title: 'Seven of Wands', 
       uprightTitle: 'Upright',
@@ -293,7 +293,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#7'
     },
     {
-      id: 29, 
+      cardValue: 29, 
       artStatus: '',
       title: 'Eight of Wands', 
       uprightTitle: 'Upright',
@@ -303,7 +303,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#8'
     },
     {
-      id: 30, 
+      cardValue: 30, 
       artStatus: '',
       title: 'Nine of Wands', 
       uprightTitle: 'Upright',
@@ -313,7 +313,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#9'
     },
     {
-      id: 31, 
+      cardValue: 31, 
       artStatus: '',
       title: 'Ten of Wands', 
       uprightTitle: 'Upright',
@@ -323,7 +323,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#10'
     },
     {
-      id: 32, 
+      cardValue: 32, 
       artStatus: 'Draft',
       title: 'Page of Wands', 
       uprightTitle: 'Upright',
@@ -333,7 +333,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#11'
     },
     {
-      id: 33, 
+      cardValue: 33, 
       artStatus: '',
       title: 'Knight of Wands', 
       uprightTitle: 'Upright',
@@ -343,7 +343,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#12'
     },
     {
-      id: 34, 
+      cardValue: 34, 
       artStatus: '',
       title: 'Queen of Wands', 
       uprightTitle: 'Upright',
@@ -353,7 +353,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#13'
     },
     {
-      id: 35, 
+      cardValue: 35, 
       artStatus: '',
       title: 'King of Wands', 
       uprightTitle: 'Upright',
@@ -363,7 +363,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#14'
     },
     {
-      id: 36, 
+      cardValue: 36, 
       artStatus: '',
       title: 'Ace of Cups', 
       uprightCard: 'A spark of joy comes alive as you connect with others, or more deeply with yourself. This is a time of new beginnings, emotional fulfillment, and new or refreshed relationships. Deepen your connection with your emotions and intuition and seek spiritual awakening. Open your heart and embrace the love and abundance that surrounds you.', 
@@ -371,7 +371,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#1'
     },
     {
-      id: 37, 
+      cardValue: 37, 
       artStatus: '',
       title: 'Two of Cups', 
       uprightCard: 'Emotional connections and partnerships, trust in the bonds that connect you to others. A new relationship may be in the works, or the deepening of an existing one. This is a harmonious time of balance, cooperation, and mutual understanding between people.', 
@@ -379,7 +379,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#2'
     },
     {
-      id: 38, 
+      cardValue: 38, 
       artStatus: '',
       title: 'Three of Cups', 
       uprightCard: 'This is a time of celebration with your friends or community. Joyous gatherings, such as weddings, parties, or reunions are likely. There could also be creative collaborations on the horizon. Welcome the support and encouragement of friends and loved ones.', 
@@ -387,7 +387,7 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#3'
     },
     {
-      id: 39, 
+      cardValue: 39, 
       artStatus: '',
       title: 'Four of Cups', 
       uprightCard: 'Introspective, contemplative, and withdrawn, you\'re in a rut. Feeling stuck, bored, and apathetic could cause you to miss opportunities by being too focused on what you don\'t have, rather than appreciating what you have.', 
@@ -395,266 +395,266 @@ function TarotArray() {
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#4'
     },
     {
-      id: 40, 
+      cardValue: 40, 
       artStatus: '',
       title: 'Five of Cups', 
       uprightCard: 'Pessimism permeates your worldview due to recent painful emotional experiences. Loss, grief, betrayal, and disappointment may be on your mind. To move forward, you need to focus on what remains rather than dwelling on what has been lost.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#5'
     },
     {
-      id: 41, 
+      cardValue: 41, 
       artStatus: '',
       title: 'Six of Cups', 
       uprightCard: 'Nostalgia fills you as you reminisce about the past, thinking back to childhood memories, more innocent times, and reaching out to reconnect with people. Take the time you need to find joy in simple pleasures -  approach life with a childlike sense of wonder and curiosity.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#6'
     },
     {
-      id: 42, 
+      cardValue: 42, 
       artStatus: 'Complete',
       title: 'Seven of Cups', 
       uprightCard: 'You have options, but perhaps too many? Many good things present themselves before you - you dream of having it all. When you want everything, having anything concrete becomes a fantasy. Be wary of deception and prioritize practicality and clarity over fanciful daydreams.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#7'
     },
     {
-      id: 43, 
+      cardValue: 43, 
       artStatus: '',
       title: 'Eight of Cups', 
       uprightCard: 'Leave the past behind, move on, and seek new horizons. Let go of what no longer serves you, pursue a new path, and embrace emotional growth. It\'s time to take a break from the familiar and embark on a journey of self-discovery - take a leap of faith towards a new direction in life.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#8'
     },
     {
-      id: 44, 
+      cardValue: 44, 
       artStatus: 'Draft',
       title: 'Nine of Cups', 
       uprightCard: 'Enjoy the fruits of your labor. Satisfaction, abundance, and fulfillment - this is a time of joy, contentment, and gratitude for the blessings in life. You have achieved goals or wishes have come to pass.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#9'
     },
     {
-      id: 45, 
+      cardValue: 45, 
       artStatus: '',
       title: 'Ten of Cups', 
       uprightCard: 'Accomplishments leave you and all involved feeling emotional fulfillment, harmony, and happiness in relationships. There is joy and contentment all around - especially in your personal life. You have a sense of completion and wholeness, both individually and within your community or family.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#10'
     },
     {
-      id: 46, 
+      cardValue: 46, 
       artStatus: '',
       title: 'Page of Cups', 
       uprightCard: 'Emotional sensitivity is key as your intuition leads you creatively. Inspiration, artistic expression, and imaginative thinking abound. Connect with your emotions, embrace your inner childlike spirit - with this you will find new perspectives and opportunities for growth.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#11'
     },
     {
-      id: 47, 
+      cardValue: 47, 
       artStatus: '',
       title: 'Knight of Cups', 
       uprightCard: 'Take risks and follow your heart\'s desires, especially in romance. It\'s a good moment for an emotional adventure tinged with romance and passion. A charismatic, artistic, or dreamy person may enter your life and bring emotional or creative inspiration.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#12'
     },
     {
-      id: 48, 
+      cardValue: 48, 
       artStatus: 'Complete',
       title: 'Queen of Cups', 
       uprightCard: 'A strong sense of empathy and understanding help you form a deep emotional connection with others. Prioritize self-care and emotional healing - trust your intuition in making important decisions. Value your emotional maturity, intuition, and nurturing nature.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#13'
     },
     {
-      id: 49, 
+      cardValue: 49, 
       artStatus: '',
       title: 'King of Cups', 
       uprightCard: 'Create positive change in the world using emotional balance, wisdom, and compassion. You\'re experiencing inner calm and clarity, able to make decisions with a clear mind and a compassionate heart. Cultivate emotional intelligence and leadership.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#14'
     },
     {
-      id: 50, 
+      cardValue: 50, 
       artStatus: 'Complete',
       title: 'Ace of Swords', 
       uprightCard: 'New beginnings, mental sharpness, and intellectual prowess give you a fresh perspective on the situation. This is a time of intellectual breakthroughs, where you are able to see things clearly and cut through confusion and obstacles to find new solutions. You must be decisive and take action towards a new goal or idea.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#1'
     },
     {
-      id: 51, 
+      cardValue: 51, 
       artStatus: '',
       title: 'Two of Swords', 
       uprightCard: 'Struck with indecision you are in a stalemate being forced to choose amongst difficult options. Torn between two options or perspectives, this is a mental conflict with no clear resolution. Find balance and clarity to gain perspective and make a decision with a clear mind and an open heart.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#2'
     },
     {
-      id: 52, 
+      cardValue: 52, 
       artStatus: '',
       title: 'Three of Swords', 
       uprightCard: 'Step carefully as this is a time of heartbreak, betrayal, and emotional pain. Deep sadness and grief, heartbreak, a painful loss or a difficult separation, or other painful situation could be in store. Be wary of conflict and misunderstandings.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#3'
     },
     {
-      id: 53, 
+      cardValue: 53, 
       artStatus: '',
       title: 'Four of Swords', 
       uprightCard: 'Find solitude to rest and recharge. Take a break from the outside world and regroup. Focus on inner reflection, clarity, and healing. Conserve your energy and pace yourself, watch for burnout.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#4'
     },
     {
-      id: 54, 
+      cardValue: 54, 
       artStatus: '',
       title: 'Five of Swords', 
       uprightCard: 'A victory at the expense of others, a betrayal, manipulation, and selfishness - with the cost of winning, was there a victor at all? With all of this conflict, defeat, and disharmony, examine your motivations and actions - find a way to reconcile with those who may feel hurt or resentful.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#5'
     },
     {
-      id: 55,
+      cardValue: 55,
       artStatus: '',
       title: 'Six of Swords', 
       uprightCard: 'It may be time to leave behind old patterns or situations and embark on a journey, either to travel or towards a new phase of life. This is a time of endings, transition, and letting go. Leave pain in the past, let life lead you forward, and trust in the process of change.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#6'
     },
     {
-      id: 56, 
+      cardValue: 56, 
       artStatus: '',
       title: 'Seven of Swords', 
       uprightCard: 'Deception, betrayal, and hidden motives swirl around you. Be cautious and aware of potential deception or manipulation in situations and consider the motives of those involved. Someone may be acting dishonestly or taking advantage of others for personal gain.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#7'
     },
     {
-      id: 57, 
+      cardValue: 57, 
       artStatus: '',
       title: 'Eight of Swords', 
       uprightCard: 'Trapped in negative thinking or by external forces, there\'s a lack of compassion for you and your situation. You may feel restricted and fearful, unable to move forward due to the obstacles ensnaring you. Despite a lack of confidence, confront the fears or beliefs that are limiting you to find a way forward. There\'s no need to panic, but stay cautious.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#8'
     },
     {
-      id: 58, 
+      cardValue: 58, 
       artStatus: '',
       title: 'Nine of Swords', 
       uprightCard: 'Worry, anxiety, and fear, plague your nightmares. You are experiencing intense feelings of worry or despair causing deep emotional turmoil and mental distress. Confront and address your fears and anxieties in order to find peace and release from negative thought patterns.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#9'
     },
     {
-      id: 59, 
+      cardValue: 59, 
       artStatus: '',
       title: 'Ten of Swords', 
       uprightCard: 'At rock bottom, this is a time of endings, betrayal, and change. Through great pain and suffering, you have experienced a devastating loss or reached a point of complete defeat. Let go of old wounds and patterns in order to begin a new cycle of growth and renewal.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#10'
     },
     {
-      id: 60, 
+      cardValue: 60, 
       artStatus: '',
       title: 'Page of Swords', 
       uprightCard: 'View situations with curiosity, seek knowledge or new perspectives, and use your analytical abilities to uncover the truth. Communicate honestly and openly, and be mindful of the impact of your words on others.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#11'
     },
     {
-      id: 61, 
+      cardValue: 61, 
       artStatus: '',
       title: 'Knight of Swords', 
       uprightCard: 'Use your energy to make things happen, charge forward with your ideas and goals. This is a time of action and drive. Let your ambition guide you but don\'t become impulsive. You may need to be strategic and focused in your pursuits while staying mindful of the impact on others.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#12'
     },
     {
-      id: 62, 
+      cardValue: 62, 
       artStatus: 'Draft',
       title: 'Queen of Swords', 
       uprightCard: 'This is a moment of independence, clear thinking, and objectivity.  You see the situation objectively, unclouded by any emotions. Use your intellect and logic to make decisions. Be fair and just towards others, but set boundaries and protect yourself.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#13'
     },
     {
-      id: 63, 
+      cardValue: 63, 
       artStatus: '',
       title: 'King of Swords', 
       uprightCard: 'Use your wisdom and experience to make sound decisions while maintaining a sense of authority and leadership. Rely on reason and logic rather than emotion. Consider how to balance being fair and impartial in your judgments with maintaining compassion and consideration of others.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#14'
     },
     {
-      id: 64, 
+      cardValue: 64, 
       artStatus: '',
       title: 'Ace of Pentacles', 
       uprightCard: 'Open the door to prosperity, opportunity, and abundance. This is a time of material and financial growth, and could indicate a new opportunity or investment that will lead to long-term stability. Be mindful of your resources and take care to make wise financial decisions.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#1'
     },
     {
-      id: 65, 
+      cardValue: 65, 
       artStatus: '',
       title: 'Two of Pentacles', 
       uprightCard: 'Find ways to maintain harmony and equilibrium as you juggle multiple priorities and responsibilities. You may need to be flexible and adaptable in the face of changing circumstances, and to embrace new challenges with a positive and open mindset.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#2'
     },
     {
-      id: 66, 
+      cardValue: 66, 
       artStatus: '',
       title: 'Three of Pentacles', 
       uprightCard: 'Collaboration, teamwork, and cooperation are critical. Work with others to achieve a common goal, and recognize the value of everyone\'s contributions. Hone your skills and seek out opportunities to learn from others, in order to achieve mastery and success in one\'s endeavors.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#3'
     },
     {
-      id: 67, 
+      cardValue: 67, 
       artStatus: 'Ideation',
       title: 'Four of Pentacles', 
       uprightCard: 'Accumulating wealth and possessions, you are being mindful of your resources in order to maintain a sense of stability and security. Be wary of the potential pitfalls of excessive attachment to material possessions. Cultivate a sense of generosity and openness in your dealings with others in order to avoid becoming overly possessive.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#4'
     },
     {
-      id: 68, 
+      cardValue: 68, 
       artStatus: 'Draft',
       title: 'Five of Pentacles', 
       uprightCard: 'Struggling with material or financial difficulties while feeling cut off from others, you must find ways to overcome adversity and isolation. Seek help and support from others in order to overcome challenges and find a sense of belonging.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#5'
     },
     {
-      id: 69, 
+      cardValue: 69, 
       artStatus: '',
       title: 'Six of Pentacles', 
       uprightCard: 'This is a time of generosity, charity, and sharing. That could mean giving to others and being in a position of abundance, or it could be the other end -  receiving help and support when needed. Be mindful of power imbalances and use your resources and influence in a fair and just manner.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#6'
     },
     {
-      id: 70, 
+      cardValue: 70, 
       artStatus: 'Ideation',
       title: 'Seven of Pentacles', 
       uprightCard: 'This is a time to invest in yourself or your projects. Some hard work and patience will allow the fruits of your labor to grow and mature. Take a step back. Reassess your goals and progress in order to be sure that your efforts are aligned with your vision and values.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#7'
     },
     {
-      id: 71, 
+      cardValue: 71, 
       artStatus: '',
       title: 'Eight of Pentacles', 
       uprightCard: 'Dedication to study or apprenticeship is its own reward. Diligent effort is worth it - commit yourself to learning and perfecting your craft or skill. Find fulfillment in the process of working towards a goal, rather than solely focusing on the end result.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#8'
     },
     {
-      id: 72, 
+      cardValue: 72, 
       artStatus: '',
       title: 'Nine of Pentacles', 
       uprightCard: 'A time of abundance. Enjoy the fruits of your labor, and feel secure in your material possessions and resources. Cultivate a sense of self-sufficiency and independence while appreciating the simple pleasures in life.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#9'
     },
     {
-      id: 73, 
+      cardValue: 73, 
       artStatus: '',
       title: 'Ten of Pentacles', 
       uprightCard: 'In this time of abundance and wealth, pass down traditions and wisdom to family and loved ones. Consider the importance of family and community. Invest in the well-being of future generations, create a lasting legacy.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#10'
     },
     {
-      id: 74, 
+      cardValue: 74, 
       artStatus: '',
       title: 'Page of Pentacles', 
       uprightCard: 'You are surrounded by a youthful, curious, and studious energy. Take the time to explore new interests, learn new skills, and discover your passions. Approach your goals with a sense of practicality and attention to detail in order to lay a strong foundation for future success.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#11'
     },
     {
-      id: 75,
+      cardValue: 75,
       artStatus: '',
       title: 'Knight of Pentacles', 
       uprightCard: 'With hard work and careful planning, you reliably make steady progress towards your goals. Methodically pursuing your goals is key. Stay grounded and focused on the task at hand. Be patient and persistent in order to achieve long-term success.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#12'
     },
     {
-      id: 76,
+      cardValue: 76,
       artStatus: '', 
       title: 'Queen of Pentacles', 
       uprightCard: 'Secure in your material and physical well-being, it is a time of abundance and care. Use your resources wisely in order to create a sense of stability and comfort. Focus on caring for yourself and others during this moment of  a time of financial and material security.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#13'
     },
     {
-      id: 77,
+      cardValue: 77,
       artStatus: '',
       title: 'King of Pentacles', 
       uprightCard: 'Focus on using your resources wisely. This is a time of financial success and material security driven by stability, and practicality. Take a responsible and disciplined approach to achieving your goals. Stay grounded and focused on the long-term picture, others will follow your lead.', 
