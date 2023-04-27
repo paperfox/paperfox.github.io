@@ -19,7 +19,6 @@ function ImageModal({ dataImg, dataContent }) {
         show={show} 
         onHide={handleClose} 
         centered
-        size="lg"
       >
         <Modal.Header closeButton>
           <Modal.Title as="h2" className="text-center">{dataContent.title}</Modal.Title>
