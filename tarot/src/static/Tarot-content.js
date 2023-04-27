@@ -459,7 +459,7 @@ function TarotArray() {
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
       uprightCard: 'Accomplishments leave you and all involved feeling emotional fulfillment, harmony, and happiness in relationships. There is joy and contentment all around - especially in your personal life. You have a sense of completion and wholeness, both individually and within your community or family.', 
-      reverseCard: 'Discord plagues your home, creating a lack of security.  Conflicts or negative dynamics need to be addressed and resolved before the situation becomes toxic.'
+      reverseCard: 'Discord plagues your home, creating a lack of security.  Conflicts or negative dynamics need to be addressed and resolved before the situation becomes toxic.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#10'
     },
     {
