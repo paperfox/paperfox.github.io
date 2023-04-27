@@ -9,7 +9,7 @@ html {
 
 body {
   min-height: 100%;
-  background-color: #282c34;
+  background-color: #282a31;
   font-family: 'Quicksand', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -39,9 +39,19 @@ a            { font-weight: 400; }
 p            { color: #d4d4d6;}
 
 a,
-.btn-tertiary                     { color: #DE7826; text-decoration: none; font-weight: 600; }
+.btn-tertiary { 
+  color: #DE7826; 
+  text-decoration: none; 
+  font-weight: 600; 
+}
+
 a:hover,
-.btn-tertiary:hover               { color: #DE7826; text-decoration: underline; }
+.btn-tertiary:hover { 
+  color: #DE7826; 
+  text-decoration: underline; 
+  text-decoration-color: goldenrod;
+}
+
 .btn:focus                        { box-shadow: none; }
 .btn:focus-visible,
 .nav-tabs .nav-link:focus-visible { outline: .1rem dotted goldenrod; }
@@ -54,30 +64,35 @@ a:hover,
   padding: 0 .75rem; 
   scroll-margin-top: 4.8rem;
 }
-.btn-secondary { 
-  /* background-color: #404651;
-  border-color: #404651; */
-  background-color: transparent;
-  border-color: antiquewhite;
-  opacity: .8;
-  color: antiquewhite;
-  border-radius: .4rem;
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active { 
+  min-width: 3rem;
+  border-color: goldenrod;
+  border-radius: 0;
 }
 
-.btn-secondary:hover {
-  background-color: #191c22;
-  border-color: goldenrod;
+.btn-secondary { 
+  background-color: transparent;
+  color: goldenrod;
+  opacity: .8;
+}
+
+.btn-secondary:hover  { 
+  background-color: #191c22; 
+  box-shadow: inset 0px 0px 0px 1px goldenrod;
 }
 
 .btn-secondary:focus,
 .btn-secondary:active {
   background-color: #000000;
-  border-color: goldenrod;
   opacity: 1;
 }
 
 .btn-group > .btn-group:not(:last-child) > .btn, 
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle) { border-right: .1rem dashed antiquewhite; }
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle),
 .btn-group > .btn-group:not(:last-child) > .btn:hover, 
 .btn-group > .btn-group:not(:last-child) > .btn:focus, 
 .btn-group > .btn-group:not(:last-child) > .btn:active, 
@@ -98,7 +113,7 @@ a:hover,
 }
 
 .nav-tabs .nav-link {
-  color: antiquewhite;
+  color: goldenrod;
   border-bottom: .2rem solid transparent;
 }
 
@@ -115,12 +130,14 @@ a:hover,
   border-bottom: none;
   position: relative; 
 }
+
 .modal-header .btn-close {
   position: absolute;
   top: 2rem;
   right: 2rem;
 }
-.modal-content { background-color: #282c34; }
+
+.modal-content { background-color: #2d2f36; }
 .modal-footer  { border-top: none; }
 .modal-header,
 .modal-footer { justify-content: space-around; }
