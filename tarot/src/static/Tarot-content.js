@@ -409,7 +409,7 @@ function TarotArray() {
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
       uprightCard: 'Pessimism permeates your worldview due to recent painful emotional experiences. Loss, grief, betrayal, and disappointment may be on your mind. To move forward, you need to focus on what remains rather than dwelling on what has been lost.', 
-      reverseCard: 'Forgiveness is for yourself - no one else. Extend yourself some compassion and move forward with greater emotional resilience. You may be coming out of a difficult time so focus on healing and look towards the positive aspects of your life as you move forward.',
+      reverseCard: 'The hurt has passed. Heal in order to move on. Extend yourself some compassion and move forward with greater emotional resilience. Coming out of a difficult time, focus on healing and look towards the positive aspects of your life as you move forward.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#5'
     },
     {
