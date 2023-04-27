@@ -366,32 +366,40 @@ function TarotArray() {
       cardValue: 36, 
       artStatus: '',
       title: 'Ace of Cups', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'A spark of joy comes alive as you connect with others, or more deeply with yourself. This is a time of new beginnings, emotional fulfillment, and new or refreshed relationships. Deepen your connection with your emotions and intuition and seek spiritual awakening. Open your heart and embrace the love and abundance that surrounds you.', 
-      reverseCard: '',
+      reverseCard: 'Emotional difficulties cloud your thoughts leaving you unhappy. It is a struggle to connect with your feelings - is it because of avoidance, loss, manipulation, or something else? Even if you are feeling lonely or  unloved, find it in yourself to heal internally before looking outward again.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#1'
     },
     {
       cardValue: 37, 
       artStatus: '',
-      title: 'Two of Cups', 
+      title: 'Two of Cups',
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Emotional connections and partnerships, trust in the bonds that connect you to others. A new relationship may be in the works, or the deepening of an existing one. This is a harmonious time of balance, cooperation, and mutual understanding between people.', 
-      reverseCard: '',
+      reverseCard: 'Fractured trust - communication is breaking down. There is a lack of harmony, intimacy, or connection in a relationship. Or maybe, you’ve missed the chance to start a new relationship of some kind?',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#2'
     },
     {
       cardValue: 38, 
       artStatus: '',
       title: 'Three of Cups', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'This is a time of celebration with your friends or community. Joyous gatherings, such as weddings, parties, or reunions are likely. There could also be creative collaborations on the horizon. Welcome the support and encouragement of friends and loved ones.', 
-      reverseCard: '',
+      reverseCard: 'Be cautious in your social interactions. Clouds are forming and there could be a breakdown in friendships or your social connections. Watch for trouble and cultivate greater emotional balance and stability to weather the troubles ahead with relationships intact.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#3'
     },
     {
       cardValue: 39, 
       artStatus: '',
       title: 'Four of Cups', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Introspective, contemplative, and withdrawn, you\'re in a rut. Feeling stuck, bored, and apathetic could cause you to miss opportunities by being too focused on what you don\'t have, rather than appreciating what you have.', 
-      reverseCard: 'this is the halfway point!',
+      reverseCard: 'Take action, make changes, or open yourself up to new possibilities. Move forward with positivity and break away from apathy or emotional stagnation. Life is full of potential - it is time for you to explore new opportunities.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#4'
     },
     {
@@ -440,7 +448,7 @@ function TarotArray() {
       cardValue: 46, 
       artStatus: '',
       title: 'Page of Cups', 
-      uprightCard: 'Emotional sensitivity is key as your intuition leads you creatively. Inspiration, artistic expression, and imaginative thinking abound. Connect with your emotions, embrace your inner childlike spirit - with this you will find new perspectives and opportunities for growth.', 
+      uprightCard: 'Emotional sensitivity is key as your intuition leads you creatively. Inspiration, artistic expression, and imaginative thinking abound. Connect with your emotions, embrace your inner childlike spirit - with this, you will find new perspectives and opportunities for growth.', 
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#11'
     },
     {
