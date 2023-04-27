@@ -406,42 +406,60 @@ function TarotArray() {
       cardValue: 40, 
       artStatus: '',
       title: 'Five of Cups', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Pessimism permeates your worldview due to recent painful emotional experiences. Loss, grief, betrayal, and disappointment may be on your mind. To move forward, you need to focus on what remains rather than dwelling on what has been lost.', 
+      reverseCard: 'Forgiveness is for yourself - no one else. Extend yourself some compassion and move forward with greater emotional resilience. You may be coming out of a difficult time so focus on healing and look towards the positive aspects of your life as you move forward.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#5'
     },
     {
       cardValue: 41, 
       artStatus: '',
-      title: 'Six of Cups', 
+      title: 'Six of Cups',
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Nostalgia fills you as you reminisce about the past, thinking back to childhood memories, more innocent times, and reaching out to reconnect with people. Take the time you need to find joy in simple pleasures -  approach life with a childlike sense of wonder and curiosity.', 
+      reverseCard: 'Memories are colored by nostalgic feelings and letting go of the past is hard, as is all change. Cultivating greater emotional maturity and awareness will help you move forward and focus on the present.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#6'
     },
     {
       cardValue: 42, 
       artStatus: 'Complete',
-      title: 'Seven of Cups', 
+      title: 'Seven of Cups',
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'You have options, but perhaps too many? Many good things present themselves before you - you dream of having it all. When you want everything, having anything concrete becomes a fantasy. Be wary of deception and prioritize practicality and clarity over fanciful daydreams.', 
+      reverseCard: 'Avoid daydreaming and escapism, channel your energy towards constructive pursuits to achieve your goals. Determination will serve you well as long as you pair that with realistic expectations and clear thinking.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#7'
     },
     {
       cardValue: 43, 
       artStatus: '',
-      title: 'Eight of Cups', 
+      title: 'Eight of Cups',
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Leave the past behind, move on, and seek new horizons. Let go of what no longer serves you, pursue a new path, and embrace emotional growth. It\'s time to take a break from the familiar and embark on a journey of self-discovery - take a leap of faith towards a new direction in life.', 
+      reverseCard: 'It\'s easy to lean into avoidance and denial to maintain unhealthy patterns and stay rooted in the past. Moving forward is hard - more so if emotional pain and difficulty must be confronted to do so. Faced with doubt and indecision, the way ahead isn\'t clear.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#8'
     },
     {
       cardValue: 44, 
       artStatus: 'Draft',
-      title: 'Nine of Cups', 
+      title: 'Nine of Cups',
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed',
       uprightCard: 'Enjoy the fruits of your labor. Satisfaction, abundance, and fulfillment - this is a time of joy, contentment, and gratitude for the blessings in life. You have achieved goals or wishes have come to pass.', 
+      reverseCard: 'Overindulgence in the abundance around you leads to unrealistic expectations. Don\'t look at what you still lack - consider all that you have. Look inward for fulfillment - don\'t measure yourself by another\'s standard.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#9'
     },
     {
       cardValue: 45, 
       artStatus: '',
-      title: 'Ten of Cups', 
+      title: 'Ten of Cups',
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Accomplishments leave you and all involved feeling emotional fulfillment, harmony, and happiness in relationships. There is joy and contentment all around - especially in your personal life. You have a sense of completion and wholeness, both individually and within your community or family.', 
+      reverseCard: 'Discord plagues your home, creating a lack of security.  Conflicts or negative dynamics need to be addressed and resolved before the situation becomes toxic.'
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#10'
     },
     {
