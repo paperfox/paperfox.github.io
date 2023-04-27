@@ -466,28 +466,40 @@ function TarotArray() {
       cardValue: 46, 
       artStatus: '',
       title: 'Page of Cups', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Emotional sensitivity is key as your intuition leads you creatively. Inspiration, artistic expression, and imaginative thinking abound. Connect with your emotions, embrace your inner childlike spirit - with this, you will find new perspectives and opportunities for growth.', 
+      reverseCard: 'Embracing your inner child has unleashed instead emotional immaturity and a flair for the over-dramatic. It\'s tempting to laze about and simply fantasize about things you may do, especially when there is no clear easy forward.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#11'
     },
     {
       cardValue: 47, 
       artStatus: '',
       title: 'Knight of Cups', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Take risks and follow your heart\'s desires, especially in romance. It\'s a good moment for an emotional adventure tinged with romance and passion. A charismatic, artistic, or dreamy person may enter your life and bring emotional or creative inspiration.', 
+      reverseCard: 'Watch out for emotional impulsiveness or recklessness.  Following passion can become twisted into emotional deception or manipulation. Ground yourself and be wary of trickery.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#12'
     },
     {
       cardValue: 48, 
       artStatus: 'Complete',
       title: 'Queen of Cups', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'A strong sense of empathy and understanding help you form a deep emotional connection with others. Prioritize self-care and emotional healing - trust your intuition in making important decisions. Value your emotional maturity, intuition, and nurturing nature.', 
+      reverseCard: 'Suppressing emotions leads to detachment and instability. This may lead to overreacting or escapism. Watch yourself - don\'t become a martyr, but also don\'t withdraw from the world around you.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#13'
     },
     {
       cardValue: 49, 
       artStatus: '',
       title: 'King of Cups', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Create positive change in the world using emotional balance, wisdom, and compassion. You\'re experiencing inner calm and clarity, able to make decisions with a clear mind and a compassionate heart. Cultivate emotional intelligence and leadership.', 
+      reverseCard: 'Emotionally manipulative, dominating, and volatile - reversed this card indicates a lack of balance and empathy. Vengeful actions and unjust actions do not befit a King, but you may be prone to either.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#14'
     },
     {
