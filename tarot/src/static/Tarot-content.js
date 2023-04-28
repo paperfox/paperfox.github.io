@@ -696,7 +696,7 @@ function TarotArray() {
       title: 'Ten of Pentacles', 
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
-      uprightCard: 'In this time of abundance and wealth, pass down traditions and wisdom to family and loved ones. Consider the importance of family and community. Invest in the well-being of future generations, create a lasting legacy.', 
+      uprightCard: 'In this time of abundance and wealth, pass down traditions and wisdom to family and loved ones. Consider the importance of family and community. Invest in the well-being of future generations, and create a lasting legacy.', 
       reverseCard: 'A lack of harmony and stability exists within the family or community, likely regarding money or inheritance. You may come out victorious, but is it worth the cost? Financial issues spawn tension and sow discord.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#10'
     },
@@ -704,28 +704,40 @@ function TarotArray() {
       cardValue: 74, 
       artStatus: '',
       title: 'Page of Pentacles', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'You are surrounded by a youthful, curious, and studious energy. Take the time to explore new interests, learn new skills, and discover your passions. Approach your goals with a sense of practicality and attention to detail in order to lay a strong foundation for future success.', 
+      reverseCard: 'Confusion about your goals causes a lack of direction. Motivation is missing and distractions are ever-present. You may need to find the self-disciple or self-control to stay focused. Trust in your abilities - don\'t look for outside validation.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#11'
     },
     {
       cardValue: 75,
       artStatus: '',
       title: 'Knight of Pentacles', 
-      uprightCard: 'With hard work and careful planning, you reliably make steady progress towards your goals. Methodically pursuing your goals is key. Stay grounded and focused on the task at hand. Be patient and persistent in order to achieve long-term success.', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
+      uprightCard: 'With hard work and careful planning, you reliably make steady progress toward your goals. Methodically pursuing your goals is key. Stay grounded and focused on the task at hand. Be patient and persistent in order to achieve long-term success.', 
+      reverseCard: 'Stuck and stagnating, you\'re mired in delays. Obstacles prevent you from moving forward. Gather information to make decisions - haste and carelessness from frustration only compound issues.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#12'
     },
     {
       cardValue: 76,
       artStatus: '', 
       title: 'Queen of Pentacles', 
-      uprightCard: 'Secure in your material and physical well-being, it is a time of abundance and care. Use your resources wisely in order to create a sense of stability and comfort. Focus on caring for yourself and others during this moment of  a time of financial and material security.', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
+      uprightCard: 'Secure in your material and physical well-being, it is a time of abundance and care. Use your resources wisely to create a sense of stability and comfort. Focus on caring for yourself and others during this moment of time of financial and material security.', 
+      reverseCard: 'Insecure in all forms of well-being, you tend toward being controlling, possessive, greedy, or materialistic. Emotionally exhausted, you neglect yourself and others. This bodes ill for all your relationships.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#13'
     },
     {
       cardValue: 77,
       artStatus: '',
       title: 'King of Pentacles', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Focus on using your resources wisely. This is a time of financial success and material security driven by stability, and practicality. Take a responsible and disciplined approach to achieving your goals. Stay grounded and focused on the long-term picture, others will follow your lead.', 
+      reverseCard: 'Hoarding wealth is the move of a dragon, not a king. Focusing solely on money and material wealth leaves other important aspects of your life neglected. A lack of balance could lead to corruption.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#14'
     },
   ];
