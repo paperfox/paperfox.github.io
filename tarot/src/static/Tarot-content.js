@@ -606,32 +606,40 @@ function TarotArray() {
       cardValue: 60, 
       artStatus: '',
       title: 'Page of Swords', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'View situations with curiosity, seek knowledge or new perspectives, and use your analytical abilities to uncover the truth. Communicate honestly and openly, and be mindful of the impact of your words on others.', 
-      reverseCard: '',
+      reverseCard: 'There\'s a lack of communication - perhaps it\'s even intentional. Be mindful of your words. Something suspicious is going on - deception and dishonesty are at play. Consider things carefully rather than rushing in impulsively.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#11'
     },
     {
       cardValue: 61, 
       artStatus: '',
       title: 'Knight of Swords', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Use your energy to make things happen, charge forward with your ideas and goals. This is a time of action and drive. Let your ambition guide you but don\'t become impulsive. You may need to be strategic and focused in your pursuits while staying mindful of the impact on others.', 
-      reverseCard: '',
+      reverseCard: 'Reckless and impulsive, you are rushing into situations without considering the consequences. With a lack of clarity or direction, slowing down and thinking things through before taking action is the wisest path.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#12'
     },
     {
       cardValue: 62, 
       artStatus: 'Draft',
       title: 'Queen of Swords', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'This is a moment of independence, clear thinking, and objectivity.  You see the situation objectively, unclouded by any emotions. Use your intellect and logic to make decisions. Be fair and just towards others, but set boundaries and protect yourself.', 
-      reverseCard: '',
+      reverseCard: 'Vulnerable, bitter, and overly reactive, you may be prone to lashing out or being defensive. Unresponsive to the needs around you, you may be excessively critical, judgmental, and dismise of others\' feelings.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#13'
     },
     {
       cardValue: 63, 
       artStatus: '',
       title: 'King of Swords', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Use your wisdom and experience to make sound decisions while maintaining a sense of authority and leadership. Rely on reason and logic rather than emotion. Consider how to balance being fair and impartial in your judgments with maintaining compassion and consideration of others.', 
-      reverseCard: '',
+      reverseCard: 'Abuse of authority and intellectual power - your decision-making is clouded by emotions or personal biases leading to unjust actions. Communication is abrasive, critical, and unclear. The truth is being twisted to serve the desired narrative.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#14'
     },
     {
