@@ -13,7 +13,7 @@ function TarotCard({ reverseCard, dataImg, dataContent }) {
     <div className="col-auto" id={'tarot-content-' + dataImg + reverseCard}>
       <div className="card text-white bg-dark mb-4">
         <div className="card-body">
-          <div className="mb-4">
+          <div className="mb-3">
             <Button variant="tertiary" onClick={handleVisibility} >
               <div className="flip-card">
                 <div className={'flip-card-inner ' + cardFace}>

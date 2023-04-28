@@ -44,11 +44,11 @@ function MakeNumbers({ tarotContent }) {
           <div className="row justify-content-center">
             <div className="col-auto">
               <div className="mx-4 build-deck">
-                <img src='/images/cards/back.jpg' className="deck-card-stack rounded" alt="..."/>
-                <img src='/images/cards/back.jpg' className="deck-card-stack rounded" alt="..."/>
-                <img src='/images/cards/back.jpg' className="deck-card-stack rounded" alt="..."/>
-                <img src='/images/cards/back.jpg' className="deck-card-stack rounded" alt="..."/>
-                <img src='/images/cards/back.jpg' className="deck-card-stack rounded" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
               </div>
             </div>
           </div>

@@ -33,7 +33,8 @@ function CardList({ tarotContent }) {
         <div className="col-auto">
           <ButtonToolbar aria-label="Toolbar with button groups">
             <ButtonGroup className="me-2" aria-label="Filter cards shown by art">
-              <Button variant="secondary" onClick={handleClickComplete}>Completed Art</Button> <Button variant="secondary" onClick={handleClickDraft}>In Progress Art</Button>
+              <Button variant="secondary" onClick={handleClickComplete}>Completed Art</Button>
+              <Button variant="secondary" onClick={handleClickDraft}>Draft Art</Button>
             </ButtonGroup>
 
             <ButtonGroup aria-label="Clear Filters">
@@ -45,12 +46,12 @@ function CardList({ tarotContent }) {
         
       <div className="row justify-content-center mb-4">
         <div className="col-lg-2 col-md-3">
-          <ul className="list-unstyled h4 mx-2 side-nav">
+          <ul className="list-unstyled h4 side-nav">
             <li><a href="#Major-sectionTitle">Major Arcana</a></li>
-            <li><a href="#Wands-sectionTitle">Minor Arcana - Wands</a></li>
-            <li><a href="#Cups-sectionTitle">Minor Arcana - Cups</a></li>
-            <li><a href="#Swords-sectionTitle">Minor Arcana - Swords</a></li>
-            <li><a href="#Pentacles-sectionTitle">Minor Arcana - Pentacles</a></li>
+            <li><a href="#Wands-sectionTitle"><span>Minor Arcana -</span> Wands</a></li>
+            <li><a href="#Cups-sectionTitle"><span>Minor Arcana -</span> Cups</a></li>
+            <li><a href="#Swords-sectionTitle"><span>Minor Arcana -</span> Swords</a></li>
+            <li><a href="#Pentacles-sectionTitle"><span>Minor Arcana -</span> Pentacles</a></li>
           </ul>
         </div>
         <div className="col-lg-10 col-md-9">
