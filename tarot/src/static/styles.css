@@ -223,6 +223,7 @@ img[class*="_2"]    { rotate: 180deg; }
 
   .side-nav li a span      { display: none; }
   [id*="TarotCardList"] h1 { padding-top: 10rem; }
+  [id*="sectionTitle"]     { scroll-margin-top: 9rem; }
 }
 
 @media (min-width: 576px) and (max-width: 991.98px) {
