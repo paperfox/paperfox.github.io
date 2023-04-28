@@ -647,7 +647,7 @@ function TarotArray() {
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
       uprightCard: 'Struggling with material or financial difficulties while feeling cut off from others, you must find ways to overcome adversity and isolation. Seek help and support from others in order to overcome challenges and find a sense of belonging.', 
-      reverseCard: '',
+      reverseCard: 'A reversal of fortunes in your favor. You may experience an unexpected improvement in your financial situation or your physical health. A new source of income or help and support from those who previously overlooked you may be on the horizon.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#5'
     },
     {
@@ -657,7 +657,7 @@ function TarotArray() {
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
       uprightCard: 'This is a time of generosity, charity, and sharing. That could mean giving to others and being in a position of abundance, or it could be the other end -  receiving help and support when needed. Be mindful of power imbalances and use your resources and influence in a fair and just manner.', 
-      reverseCard: '',
+      reverseCard: 'Giving and receiving in imbalance  - one side is left feeling aggrieved. Take care in you give only what you can or watch out for gifts with strings attached. Be wary of financial loss.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#6'
     },
     {
@@ -667,7 +667,7 @@ function TarotArray() {
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
       uprightCard: 'This is a time to invest in yourself or your projects. Some hard work and patience will allow the fruits of your labor to grow and mature. Take a step back. Reassess your goals and progress in order to be sure that your efforts are aligned with your vision and values.', 
-      reverseCard: '',
+      reverseCard: 'Hard work and effort may not be paying off as expected leaving you feeling frustrated and discouraged about the lack of progress or results. Impatience could cause you to give up on the brink of success.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#7'
     },
     {
@@ -677,7 +677,7 @@ function TarotArray() {
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
       uprightCard: 'Dedication to study or apprenticeship is its own reward. Diligent effort is worth it - commit yourself to learning and perfecting your craft or skill. Find fulfillment in the process of working towards a goal, rather than solely focusing on the end result.', 
-      reverseCard: '',
+      reverseCard: 'Unmotivated and uninspired, you struggle to find meaning in what you do. The work is hard and your skills are not being used to their full potential.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#8'
     },
     {
@@ -687,7 +687,7 @@ function TarotArray() {
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
       uprightCard: 'A time of abundance. Enjoy the fruits of your labor, and feel secure in your material possessions and resources. Cultivate a sense of self-sufficiency and independence while appreciating the simple pleasures in life.', 
-      reverseCard: '',
+      reverseCard: 'It\'s easier to rely heavily on others than find or cultivate the strength inside yourself. Are you beginning to take advantage of them? Financial setbacks, poor decisions, or difficulties make you question your self-sufficiency.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#9'
     },
     {
@@ -697,7 +697,7 @@ function TarotArray() {
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
       uprightCard: 'In this time of abundance and wealth, pass down traditions and wisdom to family and loved ones. Consider the importance of family and community. Invest in the well-being of future generations, create a lasting legacy.', 
-      reverseCard: '',
+      reverseCard: 'A lack of harmony and stability exists within the family or community, likely regarding money or inheritance. You may come out victorious, but is it worth the cost? Financial issues spawn tension and sow discord.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#10'
     },
     {
