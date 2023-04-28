@@ -604,70 +604,100 @@ function TarotArray() {
       cardValue: 64, 
       artStatus: '',
       title: 'Ace of Pentacles', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Open the door to prosperity, opportunity, and abundance. This is a time of material and financial growth, and could indicate a new opportunity or investment that will lead to long-term stability. Be mindful of your resources and take care to make wise financial decisions.', 
+      reverseCard: 'You\'ve missed an opportunity or lost potential of the material sort. Be wary of incoming financial instability. A misplaced focus on material gain is hurting the other aspects of your life.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#1'
     },
     {
       cardValue: 65, 
       artStatus: '',
       title: 'Two of Pentacles', 
-      uprightCard: 'Find ways to maintain harmony and equilibrium as you juggle multiple priorities and responsibilities. You may need to be flexible and adaptable in the face of changing circumstances, and to embrace new challenges with a positive and open mindset.', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
+      uprightCard: 'Find ways to maintain harmony and equilibrium as you juggle multiple priorities and responsibilities. You may need to be flexible and adaptable in the face of changing circumstances and embrace new challenges with a positive and open mindset.', 
+      reverseCard: 'Overwhelmed, scattered, or disorganized - you may need to prioritize your tasks and focus on what is truly important, rather than trying to juggle everything at once. Maintaining balance is a struggle, and faking a smile through it all makes it tougher.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#2'
     },
     {
       cardValue: 66, 
       artStatus: '',
       title: 'Three of Pentacles', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Collaboration, teamwork, and cooperation are critical. Work with others to achieve a common goal, and recognize the value of everyone\'s contributions. Hone your skills and seek out opportunities to learn from others, in order to achieve mastery and success in one\'s endeavors.', 
+      reverseCard: 'Collaboration is lacking and teamwork is falling apart. Finding a common goal or vision is a struggle, which can lead to disorganization and conflict. Doing it alone is not the solution.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#3'
     },
     {
       cardValue: 67, 
       artStatus: 'Ideation',
       title: 'Four of Pentacles', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Accumulating wealth and possessions, you are being mindful of your resources in order to maintain a sense of stability and security. Be wary of the potential pitfalls of excessive attachment to material possessions. Cultivate a sense of generosity and openness in your dealings with others in order to avoid becoming overly possessive.', 
+      reverseCard: 'Gripped by fear of losing control or a fear of scarcity, you are holding on too tightly to what you have, afraid to let go or share with others. Isolated, it may be time to consider reaching out and sharing what you have.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#4'
     },
     {
       cardValue: 68, 
       artStatus: 'Draft',
       title: 'Five of Pentacles', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Struggling with material or financial difficulties while feeling cut off from others, you must find ways to overcome adversity and isolation. Seek help and support from others in order to overcome challenges and find a sense of belonging.', 
+      reverseCard: '',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#5'
     },
     {
       cardValue: 69, 
       artStatus: '',
       title: 'Six of Pentacles', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'This is a time of generosity, charity, and sharing. That could mean giving to others and being in a position of abundance, or it could be the other end -  receiving help and support when needed. Be mindful of power imbalances and use your resources and influence in a fair and just manner.', 
+      reverseCard: '',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#6'
     },
     {
       cardValue: 70, 
       artStatus: 'Ideation',
       title: 'Seven of Pentacles', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'This is a time to invest in yourself or your projects. Some hard work and patience will allow the fruits of your labor to grow and mature. Take a step back. Reassess your goals and progress in order to be sure that your efforts are aligned with your vision and values.', 
+      reverseCard: '',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#7'
     },
     {
       cardValue: 71, 
       artStatus: '',
       title: 'Eight of Pentacles', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Dedication to study or apprenticeship is its own reward. Diligent effort is worth it - commit yourself to learning and perfecting your craft or skill. Find fulfillment in the process of working towards a goal, rather than solely focusing on the end result.', 
+      reverseCard: '',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#8'
     },
     {
       cardValue: 72, 
       artStatus: '',
       title: 'Nine of Pentacles', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'A time of abundance. Enjoy the fruits of your labor, and feel secure in your material possessions and resources. Cultivate a sense of self-sufficiency and independence while appreciating the simple pleasures in life.', 
+      reverseCard: '',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#9'
     },
     {
       cardValue: 73, 
       artStatus: '',
       title: 'Ten of Pentacles', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'In this time of abundance and wealth, pass down traditions and wisdom to family and loved ones. Consider the importance of family and community. Invest in the well-being of future generations, create a lasting legacy.', 
+      reverseCard: '',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#10'
     },
     {

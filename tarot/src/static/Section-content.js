@@ -23,7 +23,7 @@ function SectionArray() {
     {
       id: 'Pentacles-sectionTitle', 
       title: 'Pentacles', 
-      description: 'The Minor Arcana Pentacles is tied to the worldly and the material. They represent the earth element. They are associated with stability, security, and prosperity, and can indicate situations that require practical skills, patience, and perseverance. Long term future, work, health, home, and money fall under the domain of The Pentacles.'
+      description: 'The Minor Arcana Pentacles is tied to the worldly and the material. They represent the earth element. They are associated with stability, security, and prosperity, and can indicate situations that require practical skills, patience, and perseverance. Long-term future, work, health, home, and money fall under the domain of The Pentacles.'
     }
   ];
 }
