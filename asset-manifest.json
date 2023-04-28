@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.87d435d0.css",
-    "main.js": "/static/js/main.49a5d5df.js",
+    "main.js": "/static/js/main.3e500e76.js",
     "static/media/paperfoxlogo.svg": "/static/media/paperfoxlogo.fd79012f7b860fdd4623.svg",
     "index.html": "/index.html",
     "main.87d435d0.css.map": "/static/css/main.87d435d0.css.map",
-    "main.49a5d5df.js.map": "/static/js/main.49a5d5df.js.map"
+    "main.3e500e76.js.map": "/static/js/main.3e500e76.js.map"
   },
   "entrypoints": [
     "static/css/main.87d435d0.css",
-    "static/js/main.49a5d5df.js"
+    "static/js/main.3e500e76.js"
   ]
 }
