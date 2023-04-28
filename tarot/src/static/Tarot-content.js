@@ -506,98 +506,140 @@ function TarotArray() {
       cardValue: 50, 
       artStatus: 'Complete',
       title: 'Ace of Swords', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'New beginnings, mental sharpness, and intellectual prowess give you a fresh perspective on the situation. This is a time of intellectual breakthroughs, where you are able to see things clearly and cut through confusion and obstacles to find new solutions. You must be decisive and take action towards a new goal or idea.', 
+      reverseCard: 'Thoughts thrown into confusion and chaos. Communication is no better. Direction and clarity are absent - slow down or you may magnify the chaos and create collateral damage.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#1'
     },
     {
       cardValue: 51, 
       artStatus: '',
       title: 'Two of Swords', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Struck with indecision you are in a stalemate being forced to choose amongst difficult options. Torn between two options or perspectives, this is a mental conflict with no clear resolution. Find balance and clarity to gain perspective and make a decision with a clear mind and an open heart.', 
+      reverseCard: 'Indecision has evolved into avoidance. You\'re paralyzed and can\'t move forward. Both choices look bad and the longer you wait, the harder it becomes to decide. Choose. Move forward and deal with the outcome.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#2'
     },
     {
       cardValue: 52, 
       artStatus: '',
       title: 'Three of Swords', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Step carefully as this is a time of heartbreak, betrayal, and emotional pain. Deep sadness and grief, heartbreak, a painful loss or a difficult separation, or other painful situation could be in store. Be wary of conflict and misunderstandings.', 
+      reverseCard: 'The hurt or heartbreak has passed, it is time to work on healing. You are stronger and more resiliant now, but still carry the scars of past experiences. Find the support you need to look toward the future.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#3'
     },
     {
       cardValue: 53, 
       artStatus: '',
       title: 'Four of Swords', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Find solitude to rest and recharge. Take a break from the outside world and regroup. Focus on inner reflection, clarity, and healing. Conserve your energy and pace yourself, watch for burnout.', 
+      reverseCard: 'Taking a break, only to spend the time thinking of all the things you should be doing. Not everything is as pressing as it seems. Investing in yourself and working towards greater inner peace and tranquility will serve you well.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#4'
     },
     {
       cardValue: 54, 
       artStatus: '',
       title: 'Five of Swords', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'A victory at the expense of others, a betrayal, manipulation, and selfishness - with the cost of winning, was there a victor at all? With all of this conflict, defeat, and disharmony, examine your motivations and actions - find a way to reconcile with those who may feel hurt or resentful.', 
+      reverseCard: 'A desire to move forward motivates you to consider forgiveness and reconciliation. Let go of bitterness and find closure - approach others with empathy. After a betrayal, it doesn\'t hurt to hold on to some caution though.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#5'
     },
     {
       cardValue: 55,
       artStatus: '',
       title: 'Six of Swords', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'It may be time to leave behind old patterns or situations and embark on a journey, either to travel or towards a new phase of life. This is a time of endings, transition, and letting go. Leave pain in the past, let life lead you forward, and trust in the process of change.', 
+      reverseCard: 'The situation around you is changing, even if you remain stuck in the past. Tied down with unresolved issues, the desire is to simply avoid everything. Consider asking for help to navigate a difficult journey.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#6'
     },
     {
       cardValue: 56, 
       artStatus: '',
       title: 'Seven of Swords', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Deception, betrayal, and hidden motives swirl around you. Be cautious and aware of potential deception or manipulation in situations and consider the motives of those involved. Someone may be acting dishonestly or taking advantage of others for personal gain.', 
+      reverseCard: 'Come clean and take responsibility for your actions. Avoid further attempts at manipulation or deceit. Your deceptions are on the verge of being exposed. Consider instead working to build trust or making amends.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#7'
     },
     {
       cardValue: 57, 
       artStatus: '',
       title: 'Eight of Swords', 
+      uprightTitle: 'Upright',
+      reverseTitle: 'Reversed', 
       uprightCard: 'Trapped in negative thinking or by external forces, there\'s a lack of compassion for you and your situation. You may feel restricted and fearful, unable to move forward due to the obstacles ensnaring you. Despite a lack of confidence, confront the fears or beliefs that are limiting you to find a way forward. There\'s no need to panic, but stay cautious.', 
+      reverseCard: 'Breaking free from restricting beliefs or circumstances you have surpassed your own limits. Tap into your inner strength and courage as you move forward and leave helplessness behind to build new confidence.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#8'
     },
     {
       cardValue: 58, 
       artStatus: '',
       title: 'Nine of Swords', 
+      uprightTitle: '',
+      reverseTitle: '', 
       uprightCard: 'Worry, anxiety, and fear, plague your nightmares. You are experiencing intense feelings of worry or despair causing deep emotional turmoil and mental distress. Confront and address your fears and anxieties in order to find peace and release from negative thought patterns.', 
+      reverseCard: '',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#9'
     },
     {
       cardValue: 59, 
       artStatus: '',
       title: 'Ten of Swords', 
+      uprightTitle: '',
+      reverseTitle: '', 
       uprightCard: 'At rock bottom, this is a time of endings, betrayal, and change. Through great pain and suffering, you have experienced a devastating loss or reached a point of complete defeat. Let go of old wounds and patterns in order to begin a new cycle of growth and renewal.', 
+      reverseCard: '',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#10'
     },
     {
       cardValue: 60, 
       artStatus: '',
       title: 'Page of Swords', 
+      uprightTitle: '',
+      reverseTitle: '', 
       uprightCard: 'View situations with curiosity, seek knowledge or new perspectives, and use your analytical abilities to uncover the truth. Communicate honestly and openly, and be mindful of the impact of your words on others.', 
+      reverseCard: '',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#11'
     },
     {
       cardValue: 61, 
       artStatus: '',
       title: 'Knight of Swords', 
+      uprightTitle: '',
+      reverseTitle: '', 
       uprightCard: 'Use your energy to make things happen, charge forward with your ideas and goals. This is a time of action and drive. Let your ambition guide you but don\'t become impulsive. You may need to be strategic and focused in your pursuits while staying mindful of the impact on others.', 
+      reverseCard: '',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#12'
     },
     {
       cardValue: 62, 
       artStatus: 'Draft',
       title: 'Queen of Swords', 
+      uprightTitle: '',
+      reverseTitle: '', 
       uprightCard: 'This is a moment of independence, clear thinking, and objectivity.  You see the situation objectively, unclouded by any emotions. Use your intellect and logic to make decisions. Be fair and just towards others, but set boundaries and protect yourself.', 
+      reverseCard: '',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#13'
     },
     {
       cardValue: 63, 
       artStatus: '',
       title: 'King of Swords', 
+      uprightTitle: '',
+      reverseTitle: '', 
       uprightCard: 'Use your wisdom and experience to make sound decisions while maintaining a sense of authority and leadership. Rely on reason and logic rather than emotion. Consider how to balance being fair and impartial in your judgments with maintaining compassion and consideration of others.', 
+      reverseCard: '',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#14'
     },
     {

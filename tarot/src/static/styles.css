@@ -192,12 +192,23 @@ img[class*="_2"]    { rotate: 180deg; }
   margin-bottom: 1.5rem;
 }
 
+@media (max-width: 991.98px) {
+  .set-height { height: auto; width: 100%; }
+}
+
 @media (min-width: 768px) {
   .side-nav {
     position: sticky;
     top: 4.8rem;
     margin: 0 .5rem;
   }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .flip-card,
+  .build-deck,
+  .deck-card-stack { width: 15rem; }
+  .build-deck      { height: 25rem; }
 }
 
 @media (max-width: 767.98px) {
@@ -226,13 +237,15 @@ img[class*="_2"]    { rotate: 180deg; }
   [id*="sectionTitle"]     { scroll-margin-top: 9rem; }
 }
 
-@media (min-width: 576px) and (max-width: 991.98px) {
+@media (max-width: 575.98px) {
   .flip-card,
   .build-deck,
-  .deck-card-stack { width: 15rem; }
-  .build-deck      { height: 25rem; }
+  .deck-card-stack { width: calc(95vh * 0.14); }
+  .build-deck      { height: calc(100vh * 0.22); }
+  .card-body { padding: 0.25rem; }
+  [id*="TarotApp"] .row { --bs-gutter-x: 0.25rem; }
 }
 
-@media (max-width: 991.98px) {
-  .set-height { height: auto; width: 100%; }
+@media (max-width: 399.98px) {
+  .card-body { padding: .1rem; }
 }
