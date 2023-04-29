@@ -32,7 +32,7 @@ function TarotArray() {
     },
     {
       cardValue: 3,
-      artStatus: '',
+      artStatus: 'None',
       title: 'The Empress',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -52,7 +52,7 @@ function TarotArray() {
     },
     {
       cardValue: 5,
-      artStatus: '',
+      artStatus: 'None',
       title: 'The Hierophant',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -82,7 +82,7 @@ function TarotArray() {
     },
     {
       cardValue: 8,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Strength',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -102,7 +102,7 @@ function TarotArray() {
     },
     {
       cardValue: 10,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Wheel of Fortune',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -112,7 +112,7 @@ function TarotArray() {
     },
     {
       cardValue: 11,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Justice',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -152,7 +152,7 @@ function TarotArray() {
     },
     {
       cardValue: 15,
-      artStatus: '',
+      artStatus: 'None',
       title: 'The Devil',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -162,7 +162,7 @@ function TarotArray() {
     },
     {
       cardValue: 16,
-      artStatus: '',
+      artStatus: 'None',
       title: 'The Tower',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -202,7 +202,7 @@ function TarotArray() {
     },
     {
       cardValue: 20,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Judgement',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -243,7 +243,7 @@ function TarotArray() {
     },
     {
       cardValue: 24,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Three of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -253,7 +253,7 @@ function TarotArray() {
     },
     {
       cardValue: 25,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Four of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -263,7 +263,7 @@ function TarotArray() {
     },
     {
       cardValue: 26,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Five of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -273,7 +273,7 @@ function TarotArray() {
     },
     {
       cardValue: 27,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Six of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -294,7 +294,7 @@ function TarotArray() {
     },
     {
       cardValue: 29,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Eight of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -304,7 +304,7 @@ function TarotArray() {
     },
     {
       cardValue: 30,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Nine of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -314,7 +314,7 @@ function TarotArray() {
     },
     {
       cardValue: 31,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Ten of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -334,7 +334,7 @@ function TarotArray() {
     },
     {
       cardValue: 33,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Knight of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -344,7 +344,7 @@ function TarotArray() {
     },
     {
       cardValue: 34,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Queen of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -354,7 +354,7 @@ function TarotArray() {
     },
     {
       cardValue: 35,
-      artStatus: '',
+      artStatus: 'None',
       title: 'King of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -364,7 +364,7 @@ function TarotArray() {
     },
     {
       cardValue: 36,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Ace of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -374,7 +374,7 @@ function TarotArray() {
     },
     {
       cardValue: 37,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Two of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -384,7 +384,7 @@ function TarotArray() {
     },
     {
       cardValue: 38,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Three of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -394,7 +394,7 @@ function TarotArray() {
     },
     {
       cardValue: 39,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Four of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -404,7 +404,7 @@ function TarotArray() {
     },
     {
       cardValue: 40,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Five of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -414,7 +414,7 @@ function TarotArray() {
     },
     {
       cardValue: 41,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Six of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -434,7 +434,7 @@ function TarotArray() {
     },
     {
       cardValue: 43,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Eight of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -454,7 +454,7 @@ function TarotArray() {
     },
     {
       cardValue: 45,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Ten of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -464,7 +464,7 @@ function TarotArray() {
     },
     {
       cardValue: 46,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Page of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -474,7 +474,7 @@ function TarotArray() {
     },
     {
       cardValue: 47,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Knight of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -494,7 +494,7 @@ function TarotArray() {
     },
     {
       cardValue: 49,
-      artStatus: '',
+      artStatus: 'None',
       title: 'King of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -514,7 +514,7 @@ function TarotArray() {
     },
     {
       cardValue: 51,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Two of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -524,7 +524,7 @@ function TarotArray() {
     },
     {
       cardValue: 52,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Three of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -534,7 +534,7 @@ function TarotArray() {
     },
     {
       cardValue: 53,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Four of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -544,7 +544,7 @@ function TarotArray() {
     },
     {
       cardValue: 54,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Five of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -554,7 +554,7 @@ function TarotArray() {
     },
     {
       cardValue: 55,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Six of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -564,7 +564,7 @@ function TarotArray() {
     },
     {
       cardValue: 56,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Seven of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -574,7 +574,7 @@ function TarotArray() {
     },
     {
       cardValue: 57,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Eight of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -584,7 +584,7 @@ function TarotArray() {
     },
     {
       cardValue: 58,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Nine of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -594,7 +594,7 @@ function TarotArray() {
     },
     {
       cardValue: 59,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Ten of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -604,7 +604,7 @@ function TarotArray() {
     },
     {
       cardValue: 60,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Page of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -614,7 +614,7 @@ function TarotArray() {
     },
     {
       cardValue: 61,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Knight of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -634,7 +634,7 @@ function TarotArray() {
     },
     {
       cardValue: 63,
-      artStatus: '',
+      artStatus: 'None',
       title: 'King of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -644,7 +644,7 @@ function TarotArray() {
     },
     {
       cardValue: 64,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Ace of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -654,7 +654,7 @@ function TarotArray() {
     },
     {
       cardValue: 65,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Two of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -664,7 +664,7 @@ function TarotArray() {
     },
     {
       cardValue: 66,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Three of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -694,7 +694,7 @@ function TarotArray() {
     },
     {
       cardValue: 69,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Six of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -714,7 +714,7 @@ function TarotArray() {
     },
     {
       cardValue: 71,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Eight of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -724,7 +724,7 @@ function TarotArray() {
     },
     {
       cardValue: 72,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Nine of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -734,7 +734,7 @@ function TarotArray() {
     },
     {
       cardValue: 73,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Ten of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -744,7 +744,7 @@ function TarotArray() {
     },
     {
       cardValue: 74,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Page of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -754,7 +754,7 @@ function TarotArray() {
     },
     {
       cardValue: 75,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Knight of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -764,7 +764,7 @@ function TarotArray() {
     },
     {
       cardValue: 76,
-      artStatus: '',
+      artStatus: 'None',
       title: 'Queen of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -774,7 +774,7 @@ function TarotArray() {
     },
     {
       cardValue: 77,
-      artStatus: '',
+      artStatus: 'None',
       title: 'King of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
