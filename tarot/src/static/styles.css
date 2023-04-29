@@ -1,8 +1,8 @@
-*, 
-*:before, 
+*,
+*:before,
 *:after { box-sizing: border-box;}
 
-html { 
+html {
   height: 100%;
   font-size: 62.5%;
 }
@@ -39,23 +39,37 @@ a            { font-weight: 400; }
 p            { color: #d4d4d6;}
 
 a,
-.btn-tertiary { 
-  color: #DE7826; 
-  text-decoration: none; 
-  font-weight: 600; 
+.btn-tertiary {
+  color: #DE7826;
+  text-decoration: none;
+  font-weight: 600;
   padding: 0;
 }
 
+a:focus,
+a:focus-visible,
 a:hover,
-.btn-tertiary:hover { 
-  color: #DE7826; 
-  text-decoration: underline; 
+.btn-tertiary:hover {
+  color: #DE7826;
+  text-decoration: underline;
   text-decoration-color: goldenrod;
 }
 
-.btn:focus                        { box-shadow: none; }
-.btn:focus-visible                { outline-offset: 0.1rem; }
+
+a:focus,
+.btn:focus,
+.btn-close:focus,
+.btn-close:focus-visible          { box-shadow: none; }
+.btn:focus,
 .btn:focus-visible,
+.btn-close:focus,
+.btn-close:focus-visible          { outline-offset: 0.1rem; }
+a:focus,
+.btn:focus,
+a:focus-visible,
+.btn:focus-visible,
+.btn-close:focus,
+.btn-close:focus-visible,
 .nav-tabs .nav-link:focus-visible { outline: .1rem dotted goldenrod; }
 
 
@@ -66,23 +80,32 @@ a:hover,
 
 [id*="sectionTitle"] { scroll-margin-top: 4.8rem; }
 
+.btn-close {
+  background: transparent url(../../public/images/close.svg) no-repeat center;
+  width: 2rem;
+  height: 2rem;
+  opacity: .8;
+}
+
+.btn-close:hover { filter: grayscale(100%) brightness(400%); opacity: .8; }
+
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus,
-.btn-secondary:active { 
+.btn-secondary:active {
   min-width: 3rem;
   border-color: goldenrod;
   border-radius: 0;
 }
 
-.btn-secondary { 
+.btn-secondary {
   background-color: transparent;
   color: goldenrod;
   opacity: .8;
 }
 
-.btn-secondary:hover  { 
-  background-color: #191c22; 
+.btn-secondary:hover  {
+  background-color: #191c22;
   box-shadow: inset 0px 0px 0px 1px goldenrod;
 }
 
@@ -92,19 +115,19 @@ a:hover,
   opacity: 1;
 }
 
-.btn-group > .btn-group:not(:last-child) > .btn, 
+.btn-group > .btn-group:not(:last-child) > .btn,
 .btn-group > .btn:not(:last-child):not(.dropdown-toggle),
-.btn-group > .btn-group:not(:last-child) > .btn:hover, 
-.btn-group > .btn-group:not(:last-child) > .btn:focus, 
-.btn-group > .btn-group:not(:last-child) > .btn:active, 
+.btn-group > .btn-group:not(:last-child) > .btn:hover,
+.btn-group > .btn-group:not(:last-child) > .btn:focus,
+.btn-group > .btn-group:not(:last-child) > .btn:active,
 .btn-group > .btn:not(:last-child):not(.dropdown-toggle):hover,
 .btn-group > .btn:not(:last-child):not(.dropdown-toggle):focus,
 .btn-group > .btn:not(:last-child):not(.dropdown-toggle):active { border-right: .1rem dashed goldenrod; }
-.btn-group > .btn-group:not(:first-child) > .btn, 
-.btn-group > .btn:nth-child(n+3), 
+.btn-group > .btn-group:not(:first-child) > .btn,
+.btn-group > .btn:nth-child(n+3),
 .btn-group > :not(.btn-check) + .btn { border-left-style: dashed; }
 
-.nav-tabs { 
+.nav-tabs {
   background-color: rgba(30, 33, 39, .85);
   font-size: 1.6rem;
   border-bottom: none;
@@ -120,7 +143,7 @@ a:hover,
 }
 
 .nav-tabs .nav-link.active,
-.nav-tabs .nav-link:focus, 
+.nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus-visible  {
   background-color: rgba(0,0,0,1);
@@ -130,7 +153,7 @@ a:hover,
 
 .modal-header       {
   border-bottom: none;
-  position: relative; 
+  position: relative;
 }
 
 .modal-header .btn-close {
@@ -169,13 +192,13 @@ img[class*="_2"]    { rotate: 180deg; }
 .flip-card-back                    { height: 0; }
 .flip-card-front                   { border: .1rem solid rgba(253, 184, 19, .3); }
 
-.build-deck { 
-  position: relative; 
+.build-deck {
+  position: relative;
   height: calc(100vh * 0.32);
 }
 
-.build-deck .deck-card-stack { 
-  position: absolute; 
+.build-deck .deck-card-stack {
+  position: absolute;
   top: 0;
   left: 0;
   border: .1rem solid rgba(253, 184, 19, .3);
@@ -212,23 +235,23 @@ img[class*="_2"]    { rotate: 180deg; }
 }
 
 @media (max-width: 767.98px) {
-  .side-nav { 
+  .side-nav {
     position: fixed;
     top: 3.6rem;
-    display: flex; 
+    display: flex;
     width: 100%;
     background-color: rgba(30, 33, 39, .75);
     z-index: 1000;
     margin: 0 -1rem;
   }
-  
-  .side-nav li a { 
-    margin: 1.5rem .5rem; 
+
+  .side-nav li a {
+    margin: 1.5rem .5rem;
     display: inline-block;
   }
 
-  .side-nav li { 
-    margin: auto;  
+  .side-nav li {
+    margin: auto;
     text-align: center;
   }
 
