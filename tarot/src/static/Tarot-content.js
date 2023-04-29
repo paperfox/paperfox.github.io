@@ -369,7 +369,7 @@ function TarotArray() {
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
       uprightCard: 'A spark of joy comes alive as you connect with others, or more deeply with yourself. This is a time of new beginnings, emotional fulfillment, and new or refreshed relationships. Deepen your connection with your emotions and intuition and seek spiritual awakening. Open your heart and embrace the love and abundance that surrounds you.', 
-      reverseCard: 'Emotional difficulties cloud your thoughts leaving you unhappy. It is a struggle to connect with your feelings - is it because of avoidance, loss, manipulation, or something else? Even if you are feeling lonely or  unloved, find it in yourself to heal internally before looking outward again.',
+      reverseCard: 'Emotional difficulties cloud your thoughts leaving you unhappy. You avoid the struggle to connect with your feelings, maybe because of avoidance, loss, loneliness, or manipulation. Find it in yourself to heal internally before looking outward again.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-cups.htm#1'
     },
     {
@@ -588,7 +588,7 @@ function TarotArray() {
       title: 'Nine of Swords', 
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
-      uprightCard: 'Worry, anxiety, and fear, plague your nightmares. You are experiencing intense feelings of worry or despair causing deep emotional turmoil and mental distress. Confront and address your fears and anxieties in order to find peace and release from negative thought patterns.', 
+      uprightCard: 'Worry, anxiety, and fear plague your nightmares. You are experiencing intense feelings of worry or despair causing deep emotional turmoil and mental distress. Confront and address your fears and anxieties in order to find peace and release from negative thought patterns.', 
       reverseCard: 'Anxiety and worry begin to unknot and you can allow yourself to look towards a brighter future. Release the thoughts over things that tormented you. Every moment is better than the last.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-swords.htm#9'
     },
@@ -678,7 +678,7 @@ function TarotArray() {
       title: 'Four of Pentacles', 
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
-      uprightCard: 'Accumulating wealth and possessions, you are being mindful of your resources in order to maintain a sense of stability and security. Be wary of the potential pitfalls of excessive attachment to material possessions. Cultivate a sense of generosity and openness in your dealings with others in order to avoid becoming overly possessive.', 
+      uprightCard: 'Accumulating wealth and possessions, you are being mindful of your resources in order to maintain a sense of stability and security. Be wary of the potential pitfalls of excessive attachment to material possessions. Cultivate a sense of generosity and openness in your dealings with others to avoid becoming overly possessive.', 
       reverseCard: 'Gripped by fear of losing control or a fear of scarcity, you are holding on too tightly to what you have, afraid to let go or share with others. Isolated, it may be time to consider reaching out and sharing what you have.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#4'
     },
@@ -688,7 +688,7 @@ function TarotArray() {
       title: 'Five of Pentacles', 
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
-      uprightCard: 'Struggling with material or financial difficulties while feeling cut off from others, you must find ways to overcome adversity and isolation. Seek help and support from others in order to overcome challenges and find a sense of belonging.', 
+      uprightCard: 'Struggling with material or financial difficulties while feeling cut off from others, you must find ways to overcome adversity and isolation. Seek help and support from others to overcome challenges and find a sense of belonging.', 
       reverseCard: 'A reversal of fortunes in your favor. You may experience an unexpected improvement in your financial situation or your physical health. A new source of income or help and support from those who previously overlooked you may be on the horizon.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#5'
     },
@@ -708,7 +708,7 @@ function TarotArray() {
       title: 'Seven of Pentacles', 
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
-      uprightCard: 'This is a time to invest in yourself or your projects. Some hard work and patience will allow the fruits of your labor to grow and mature. Take a step back. Reassess your goals and progress in order to be sure that your efforts are aligned with your vision and values.', 
+      uprightCard: 'This is a time to invest in yourself or your projects. Some hard work and patience will allow the fruits of your labor to grow and mature. Take a step back. Reassess your goals and progress to be sure that your efforts are aligned with your vision and values.', 
       reverseCard: 'Hard work and effort may not be paying off as expected leaving you feeling frustrated and discouraged about the lack of progress or results. Impatience could cause you to give up on the brink of success.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#7'
     },
@@ -718,7 +718,7 @@ function TarotArray() {
       title: 'Eight of Pentacles', 
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
-      uprightCard: 'Dedication to study or apprenticeship is its own reward. Diligent effort is worth it - commit yourself to learning and perfecting your craft or skill. Find fulfillment in the process of working towards a goal, rather than solely focusing on the end result.', 
+      uprightCard: 'Dedication to study or apprenticeship is its own reward. Diligent effort is worth it - commit yourself to learning and perfecting your craft or skill. Find fulfillment in the process of working towards a goal, rather than solely focusing on the result.', 
       reverseCard: 'Unmotivated and uninspired, you struggle to find meaning in what you do. The work is hard and your skills are not being used to their full potential.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#8'
     },
@@ -748,7 +748,7 @@ function TarotArray() {
       title: 'Page of Pentacles', 
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
-      uprightCard: 'You are surrounded by a youthful, curious, and studious energy. Take the time to explore new interests, learn new skills, and discover your passions. Approach your goals with a sense of practicality and attention to detail in order to lay a strong foundation for future success.', 
+      uprightCard: 'You are surrounded by a youthful, curious, and studious energy. Take the time to explore new interests, learn new skills, and discover your passions. Approach your goals with a sense of practicality and attention to detail to lay a strong foundation for future success.', 
       reverseCard: 'Confusion about your goals causes a lack of direction. Motivation is missing and distractions are ever-present. You may need to find the self-disciple or self-control to stay focused. Trust in your abilities - don\'t look for outside validation.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#11'
     },
@@ -758,7 +758,7 @@ function TarotArray() {
       title: 'Knight of Pentacles', 
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed', 
-      uprightCard: 'With hard work and careful planning, you reliably make steady progress toward your goals. Methodically pursuing your goals is key. Stay grounded and focused on the task at hand. Be patient and persistent in order to achieve long-term success.', 
+      uprightCard: 'With hard work and careful planning, you reliably make steady progress toward your goals. Methodically pursuing your goals is key. Stay grounded and focused on the task at hand. Be patient and persistent to achieve long-term success.', 
       reverseCard: 'Stuck and stagnating, you\'re mired in delays. Obstacles prevent you from moving forward. Gather information to make decisions - haste and carelessness from frustration only compound issues.',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-pentacles.htm#12'
     },

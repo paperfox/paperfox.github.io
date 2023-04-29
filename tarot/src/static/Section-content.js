@@ -18,12 +18,12 @@ function SectionArray() {
     {
       id: 'Swords-sectionTitle', 
       title: 'Swords', 
-      description: 'The Minor Arcana Swords is typically associated with the element of air. It deals with matters of the mind - communication, conflict, ambition, logic, and intellect. Many of these things, like swords, can be double-edged. At times helpful, and others harmful, it is critical to find or maintain balance.'
+      description: 'The Minor Arcana Swords correspond with the element of air. They deal with matters of the mind - communication, conflict, ambition, logic, and intellect. Many of these things, like swords, can be double-edged. At times helpful, and others harmful, it is critical to find or maintain balance.'
     },
     {
       id: 'Pentacles-sectionTitle', 
       title: 'Pentacles', 
-      description: 'The Minor Arcana Pentacles is tied to the worldly and the material. They represent the earth element. They are associated with stability, security, and prosperity, and can indicate situations that require practical skills, patience, and perseverance. Long-term future, work, health, home, and money fall under the domain of The Pentacles.'
+      description: 'The Minor Arcana Pentacles are tied to the worldly and the material. They represent the earth element. They are associated with stability, security, and prosperity, and can indicate situations that require practical skills, patience, and perseverance. Long-term future, work, health, home, and money fall under the domain of The Pentacles.'
     }
   ];
 }
