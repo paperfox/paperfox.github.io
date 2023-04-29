@@ -15,9 +15,9 @@ function ImageModal({ dataImg, dataContent }) {
         <img src={'/images/cards/' + dataImg + '.jpg'} className="w-100 rounded" alt={'Image of ' + dataContent.title + ' card'} />
       </Button>
 
-      <Modal 
-        show={show} 
-        onHide={handleClose} 
+      <Modal
+        show={show}
+        onHide={handleClose}
         centered
       >
         <Modal.Header closeButton>
@@ -26,7 +26,7 @@ function ImageModal({ dataImg, dataContent }) {
         <Modal.Body>
           <div className="row justify-content-center">
             <div className="col-auto">
-              <img src={'/images/cards/' + dataImg + '.jpg'} className="set-height rounded" alt={'Image of ' + dataContent.title + ' card'}/>
+              <img src={'/images/cards/' + dataImg + '.jpg'} className="modal-art-view rounded" alt={'Image of ' + dataContent.title + ' card'}/>
             </div>
           </div>
         </Modal.Body>
