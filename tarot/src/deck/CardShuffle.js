@@ -10,10 +10,9 @@ import TitlesArray from '../static/Layout-titles';
 
 function MakeNumbers({ tarotContent }) {
   const [createCard, setCreateCard] = useState([]);
-  const [owoNum, setOwoNum] = useState(0);
 
   let deck = tarotContent;
-  const owo = TitlesArray();
+  const drawTitles = TitlesArray();
 
   // if I section off the array I'll need to flatten it here
   const handleClick = () => {
@@ -21,7 +20,7 @@ function MakeNumbers({ tarotContent }) {
     let max = deck.length - 2;
 
     let randomInt = Math.floor(Math.random() * (max - min + 1) + min);
-    let randomBinary = Math.floor(Math.random() * (2 - 1 + 1) + 1);
+    let randomBinary = Math.floor(Math.random() * 2 + 1);
 
     if (deck.length > 75) {
       setCreateCard([...createCard,
@@ -34,7 +33,6 @@ function MakeNumbers({ tarotContent }) {
 
       deck.splice(randomInt, 1)
     }
-    setOwoNum([77 - deck.length]);
   }
 
   const handleClickReset = () => {
@@ -64,9 +62,9 @@ function MakeNumbers({ tarotContent }) {
         </Button>
       </div>
       <div className="row justify-content-center mb-4">
-        {createCard.map((exampleCard) => {
+        {createCard.map((exampleCard, index) => {
           return (
-            <TarotCard snoot={owo[owoNum].title} key={exampleCard.tarotText.cardValue} dataImg={exampleCard.tarotText.cardValue} dataContent={exampleCard.tarotText} reverseCard={exampleCard.reverseCard} />
+            <TarotCard layoutTitles={drawTitles[index].title} key={exampleCard.tarotText.cardValue} dataImg={exampleCard.tarotText.cardValue} dataContent={exampleCard.tarotText} reverseCard={exampleCard.reverseCard} />
           )
         })}
       </div>

@@ -2,9 +2,8 @@ import React, {  useState } from 'react';
 import CardModal from './CardModal';
 import Button from 'react-bootstrap/Button';
 
-function TarotCard({ reverseCard, dataImg, dataContent, snoot }) {
+function TarotCard({ reverseCard, dataImg, dataContent, layoutTitles }) {
   const [cardFace, setCardFace] = useState('');
-  const drawTitles = ['Past', 'Present', 'Future'];
 
   const handleVisibility = () => {
     setCardFace('show');
@@ -14,8 +13,7 @@ function TarotCard({ reverseCard, dataImg, dataContent, snoot }) {
     <div className="col-auto" id={'tarot-content-' + dataImg + reverseCard}>
       <div className="card text-white bg-dark mb-4">
         <div className="card-body">
-          {drawTitles.map((titles, index) => <p>{titles[index]}</p>)}
-          <p>{snoot}</p>
+          <p>{layoutTitles}</p>
           <div className="mb-3">
             <Button variant="tertiary" onClick={handleVisibility} >
               <div className="flip-card">
