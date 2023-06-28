@@ -61,14 +61,18 @@ function CardList({ tarotContent }) {
           {filteredCards.filter(desc => desc.cardValue <= 21).map(exampleCard => (
             <CardDesc dataContent={exampleCard} key={exampleCard.cardValue}/>
           ))}
+          {/* if i do the index stuff below this section can go away */}
 
           {sectionContent.slice(1).map((sectionHeading, index) => (
             <Fragment key={sectionHeading.id}>
               <SectionDesc sectionData={sectionHeading} key={sectionHeading.id} />
+              {/* filteredCards[index].map - everthing else goes here - */}
               {filteredCards.filter(desc => desc.title.includes(sectionHeading.title)).map(exampleCard => (
                 <CardDesc dataContent={exampleCard} key={exampleCard.cardValue}/>
               ))}
             </Fragment>
+            // if I put everything inside it's own sections in the array I should be  able to use index to simplify this further because the 
+            // index will be the unique Identify for each section insead of doing it by words
           ))}
         </div>
       </div>

@@ -2,7 +2,7 @@ function TarotArray() {
   return [
     {
       cardValue: 0,
-      artStatus: 'Ideation',
+      artStatus: 'Draft',
       title: 'The Fool',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
