@@ -262,10 +262,56 @@ img[class*="_2"]    { rotate: 180deg; }
   .build-deck,
   .deck-card-stack      { width: calc(95vh * 0.14); }
   .build-deck           { height: calc(100vh * 0.22); }
-  .card-body            { padding: 0.25rem; }
-  [id*="TarotApp"] .row { --bs-gutter-x: 0.25rem; }
+  .card-body            { padding: 0.4rem; }
+  [id*="TarotApp"] .row { --bs-gutter-x: 0.4rem; }
 }
 
-@media (max-width: 399.98px) {
-  .card-body { padding: .1rem; }
+
+
+#top {
+ transform: translate();
+ transition-duration: 450ms;
+ opacity: 1;
 }
+
+/* #top.snoot-0 { transform: translate(0, calc(48.75vh - 3.6rem)); }
+#top.snoot-1 { transform: translate(3.95vw, calc(48.75vh - 3.6rem)); }
+#top.snoot-2 { transform: translate(7.8vw, calc(48.75vh - 3.6rem)); } */
+
+#top.snoot-0 { transform: translate(0, 127%); }
+#top.snoot-1 { transform: translate(65%, 127%); }
+#top.snoot-2 { transform: translate(122%, 127%); }
+
+#top.boop {
+  transition-delay: 0ms !important;
+  transition-duration: 0ms !important;
+}
+
+/* .deck-card-stack:hover {
+  transform: height 100ms ease;
+  height: calc(100vh * 0.28);
+} */
+
+[id*="tarot-content-"] .card {
+  background-color: transparent !important;
+  border-color: transparent;
+  color: #282a31;
+  transition: all 1s ease 100ms;
+}
+
+[id*="tarot-content-"] .card.snoots {
+  background-color:#212529 !important;
+  border-color: rgba(0,0,0,.125);
+}
+
+[id*="tarot-content-"] .card .card-body p { color: transparent; transition: color 1s ease 50ms; }
+[id*="tarot-content-"] .card.snoots .card-body p { color: inherit; }
+[id*="tarot-content-"] .card .card-body .btn { opacity: 0; }
+[id*="tarot-content-"] .card.snoots .card-body .btn { opacity: 1; }
+
+[id*="tarot-content-"] .card .card-body .btn { opacity: 0; }
+[id*="tarot-content-"] .card.snoots .card-body .btn { position: relative; }
+/* .card.snoots {
+  transition: background-color 1s ease;
+  background-color: red;
+} */

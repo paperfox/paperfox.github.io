@@ -10,6 +10,8 @@ import TitlesArray from '../static/Layout-titles';
 
 function MakeNumbers({ tarotContent }) {
   const [createCard, setCreateCard] = useState([]);
+  const [animateCard, setAnimateCard] = useState('')
+  const [counter, setCounter] = useState(0)
 
   let deck = tarotContent;
   const drawTitles = TitlesArray();
@@ -30,8 +32,14 @@ function MakeNumbers({ tarotContent }) {
           tarotText: deck[randomInt]
         }
       ]);
+      setAnimateCard(`snoot-${counter}`);
+      setTimeout(() => {
+        setAnimateCard('boop');
+      }, 500);
 
       deck.splice(randomInt, 1)
+
+      setCounter(counter + 1)
     }
   }
 
@@ -55,6 +63,7 @@ function MakeNumbers({ tarotContent }) {
                 <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
                 <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
                 <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/back.jpg' className={`deck-card-stack ${animateCard}`} alt="..." id="top"/>
                 {/* for or while loop here */}
               </div>
             </div>
@@ -64,7 +73,14 @@ function MakeNumbers({ tarotContent }) {
       <div className="row justify-content-center mb-4">
         {createCard.map((exampleCard, index) => {
           return (
-            <TarotCard layoutTitles={drawTitles[index].title} key={exampleCard.tarotText.cardValue} dataImg={exampleCard.tarotText.cardValue} dataContent={exampleCard.tarotText} reverseCard={exampleCard.reverseCard} />
+            <TarotCard
+              layoutTitles={drawTitles[index].title}
+              key={exampleCard.tarotText.cardValue}
+              dataImg={exampleCard.tarotText.cardValue}
+              dataContent={exampleCard.tarotText}
+              reverseCard={exampleCard.reverseCard}
+              // showCard={showCard}
+            />
           )
         })}
       </div>
