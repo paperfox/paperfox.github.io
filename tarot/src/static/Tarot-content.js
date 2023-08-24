@@ -354,7 +354,7 @@ function TarotArray() {
     },
     {
       cardValue: 35,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'King of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
