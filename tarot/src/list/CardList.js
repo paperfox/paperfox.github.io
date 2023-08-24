@@ -7,7 +7,7 @@ import { Button, ButtonGroup, ButtonToolbar } from 'react-bootstrap';
 function CardList({ tarotContent }) {
   const [filteredCards, setFilteredCards] = useState(tarotContent)
   const sectionContent = SectionArray();
-  
+
   const handleClickComplete = () => {
     setFilteredCards(
       tarotContent.filter(t=>t.artStatus === 'Complete')
@@ -41,9 +41,10 @@ function CardList({ tarotContent }) {
               <Button variant="secondary" onClick={handleClickReset}>X</Button>
             </ButtonGroup>
           </ButtonToolbar>
+          <p className='text-center'>Cards matching filter: {filteredCards.length}</p>
         </div>
       </div>
-        
+
       <div className="row justify-content-center mb-4">
         <div className="col-lg-2 col-md-3">
           <ul className="list-unstyled h4 side-nav">
@@ -71,7 +72,7 @@ function CardList({ tarotContent }) {
                 <CardDesc dataContent={exampleCard} key={exampleCard.cardValue}/>
               ))}
             </Fragment>
-            // if I put everything inside it's own sections in the array I should be  able to use index to simplify this further because the 
+            // if I put everything inside it's own sections in the array I should be  able to use index to simplify this further because the
             // index will be the unique Identify for each section insead of doing it by words
           ))}
         </div>
