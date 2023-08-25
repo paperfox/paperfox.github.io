@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import TarotCard from './Card';
+import TitlesArray from '../static/Layout-titles';
 
 // To do list:
 // make art
@@ -9,31 +10,44 @@ import TarotCard from './Card';
 
 function MakeNumbers({ tarotContent }) {
   const [createCard, setCreateCard] = useState([]);
-  let deck = tarotContent;
+  const [animateCard, setAnimateCard] = useState('')
+  const [counter, setCounter] = useState(0)
 
+  let deck = tarotContent;
+  const drawTitles = TitlesArray();
+
+  // if I section off the array I'll need to flatten it here
   const handleClick = () => {
     let min = 1;
     let max = deck.length - 2;
 
     let randomInt = Math.floor(Math.random() * (max - min + 1) + min);
-    let randomBinary = Math.floor(Math.random() * (2 - 1 + 1) + 1);
+    let randomBinary = Math.floor(Math.random() * 2 + 1);
 
     if (deck.length > 75) {
-      setCreateCard([...createCard, 
+      setCreateCard([...createCard,
         {
           id: randomInt,
           reverseCard: '_' + randomBinary,
           tarotText: deck[randomInt]
         }
-      ]);    
-  
+      ]);
+      setAnimateCard(`snoot-${counter}`);
+      setTimeout(() => {
+        setAnimateCard('boop');
+      }, 500);
+
       deck.splice(randomInt, 1)
+
+      setCounter(counter + 1)
     }
   }
 
   const handleClickReset = () => {
     // there's got to be a better way to do this than refreshing the whole page
     window.location.reload(false);
+    // setCreateCard([])
+    // tarotContent.filter(t=>t.artStatus)
   }
 
   return (
@@ -49,19 +63,28 @@ function MakeNumbers({ tarotContent }) {
                 <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
                 <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
                 <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
+                <img src='/images/cards/back.jpg' className={`deck-card-stack ${animateCard}`} alt="..." id="top"/>
+                {/* for or while loop here */}
               </div>
             </div>
           </div>
         </Button>
       </div>
       <div className="row justify-content-center mb-4">
-        {createCard.map((exampleCard) => {
+        {createCard.map((exampleCard, index) => {
           return (
-            <TarotCard key={exampleCard.tarotText.id} dataImg={exampleCard.tarotText.id} dataContent={exampleCard.tarotText} reverseCard={exampleCard.reverseCard} />
+            <TarotCard
+              layoutTitles={drawTitles[index].title}
+              key={exampleCard.tarotText.cardValue}
+              dataImg={exampleCard.tarotText.cardValue}
+              dataContent={exampleCard.tarotText}
+              reverseCard={exampleCard.reverseCard}
+              // showCard={showCard}
+            />
           )
         })}
       </div>
-      
+
       <Button variant="secondary" className="mb-4" onClick={handleClickReset}>
         Reset
       </Button>

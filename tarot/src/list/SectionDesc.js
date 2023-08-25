@@ -1,7 +1,6 @@
 import React from 'react';
 
 function SectionDesc({ sectionData }) {
-  console.log(sectionData);
   return (
     <div className="row justify-content-center">
       <div className="col-xl-9 col-lg-10 mb-4">

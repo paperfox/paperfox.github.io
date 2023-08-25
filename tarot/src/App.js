@@ -16,10 +16,10 @@ function App() {
         id="uncontrolled-tab-example"
         className="mb-3"
       >
-        <Tab eventKey="TarotApp" title="Tarot App">
+        <Tab eventKey="TarotApp" title="Deck">
           <MakeNumbers tarotContent={tarotContent} />
         </Tab>
-        <Tab eventKey="TarotCardList" title="Tarot Card List">
+        <Tab eventKey="TarotCardList" title="Card List">
           <CardList tarotContent={tarotContent} />
         </Tab>
         <Tab eventKey="TarotAboutPage" title="About">

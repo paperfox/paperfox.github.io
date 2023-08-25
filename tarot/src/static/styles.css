@@ -1,68 +1,141 @@
-*, 
-*:before, 
+*,
+*:before,
 *:after { box-sizing: border-box;}
 
-html { 
+html {
   height: 100%;
   font-size: 62.5%;
 }
 
 body {
   min-height: 100%;
-  background-color: #282c34;
+  background-color: #282a31;
   font-family: 'Quicksand', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
 }
 
+[id*="sectionTitle"] { scroll-margin-top: 4.8rem; }
+
+/* Typography */
 h1:empty,
 h2:empty,
 h3:empty,
 p:empty,
 a:empty      { display: none; }
-
 h1,
-h2,
-h3           { font-weight: 500; }
-h1           { font-size: 3.4rem; margin-bottom: 3rem; }
-h2           { font-size: 2.4rem; margin-bottom: 3rem; }
+h2           { font-weight: 500; }
+h3           { font-weight: 600; }
+h1           { font-size: 3.4rem; margin-bottom: 3rem; padding-top: 4.8rem; }
+h2           { font-size: 2.4rem; margin-bottom: 2.2rem; }
 h3           { font-size: 1.8rem; margin-bottom: 1.6rem; }
 small        { font-size: .75em; color: rgba(255, 255, 255, .75); }
 .side-nav li { margin-bottom: 1.5rem; }
 p,
 h4,
 a            { font-size: 1.6rem; }
+.btn         { font-size: 1.4rem; font-weight: 500; opacity: .8; }
 p,
 a            { font-weight: 400; }
-p            { opacity: .8; }
+p            { color: #d4d4d6; }
 
+/* Buttons and Nav Tabs */
 a,
-.btn-tertiary                     { color: #DE7826; text-decoration: none; font-weight: 600; }
-a:hover,
-.btn-tertiary:hover               { color: #DE7826; text-decoration: underline; }
-.btn:focus                        { box-shadow: none; }
-.btn:focus-visible,
-.nav-tabs .nav-link:focus-visible { outline: .1rem dotted goldenrod; }
-.nav-tabs .nav-link.active        { color: white; }
-.set-height                       { height: 80vh; }
-.list-unstyled img[src$=".svg"]   { height: 3.2rem; opacity: .8; }
-.list-unstyled img[src$=".svg"]:hover   { opacity: 1; }
-[id*="sectionTitle"] { padding: 0 .75rem; }
+.btn-tertiary {
+  color: #DE7826;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0;
+}
 
-.nav-tabs { 
-  background-color: rgba(0,0,0,.25);
+.btn-close {
+  background: transparent url(../../public/images/close.svg) no-repeat center;
+  width: 2rem;
+  height: 2rem;
+  opacity: .8;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  min-width: 3rem;
+  border-color: goldenrod;
+  border-radius: 0;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: goldenrod;
+  opacity: .8;
+}
+
+.btn-group > .btn-group:not(:last-child) > .btn,
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle),
+.btn-group > .btn-group:not(:last-child) > .btn:hover,
+.btn-group > .btn-group:not(:last-child) > .btn:focus,
+.btn-group > .btn-group:not(:last-child) > .btn:active,
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle):hover,
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle):focus,
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle):active { border-right: .1rem dashed goldenrod; }
+.btn-group > .btn-group:not(:first-child) > .btn,
+.btn-group > .btn:nth-child(n+3),
+.btn-group > :not(.btn-check) + .btn { border-left-style: dashed; }
+
+.nav-tabs {
+  background-color: rgba(30, 33, 39, .85);
   font-size: 1.6rem;
   border-bottom: none;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
 }
 
 .nav-tabs .nav-link {
-  color: antiquewhite;
+  font-weight: 500;
+  color: goldenrod;
   border-bottom: .2rem solid transparent;
 }
 
+/* Button and Nav Tab States */
+a:focus,
+a:focus-visible,
+a:hover,
+.btn-tertiary:hover {
+  color: #DE7826;
+  text-decoration: underline;
+  text-decoration-color: goldenrod;
+}
+
+a:focus,
+.btn:focus,
+.btn-close:focus,
+.btn-close:focus-visible          { box-shadow: none; }
+.btn:focus,
+.btn:focus-visible,
+.btn-close:focus,
+.btn-close:focus-visible          { outline-offset: 0.1rem; }
+a:focus,
+.btn:focus,
+a:focus-visible,
+.btn:focus-visible,
+.btn-close:focus,
+.btn-close:focus-visible,
+.nav-tabs .nav-link:focus-visible { outline: .1rem dotted goldenrod; }
+
+.btn-secondary:hover  {
+  background-color: #191c22;
+  box-shadow: inset 0px 0px 0px 1px goldenrod;
+}
+
+.btn-secondary:focus,
+.btn-secondary:active      { background-color: #000000; opacity: 1; }
+.btn-close:hover           { filter: grayscale(100%) brightness(400%); opacity: .8; }
+.nav-tabs .nav-link.active { color: white; }
+
 .nav-tabs .nav-link.active,
-.nav-tabs .nav-link:focus, 
+.nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus-visible  {
   background-color: rgba(0,0,0,1);
@@ -70,52 +143,49 @@ a:hover,
   border-bottom: .2rem solid goldenrod;
 }
 
+/* Modals */
 .modal-header       {
   border-bottom: none;
-  position: relative; 
+  position: relative;
 }
+
 .modal-header .btn-close {
   position: absolute;
   top: 2rem;
   right: 2rem;
 }
-.modal-content { background-color: #3b474f; }
-.modal-footer  { border-top: none; }
-.modal-header,
-.modal-footer { justify-content: space-around; }
 
-.logo               { height: 4rem; width: 4rem; }
+.modal-content  { background-color: #2d2f36; }
+.modal-footer   { border-top: none; }
+.modal-header,
+.modal-footer   { justify-content: space-around; }
+.modal-art-view { height: 80vh; }
+
+/* Images */
+.paperfox-logo {
+  height: 3rem;
+  width: 3rem;
+  background: transparent url(../../public/images/paperfoxlogo.svg) no-repeat center;
+  margin-bottom: 1.5rem;
+}
+
+.list-unstyled img[src$=".svg"]       { height: 3.2rem; opacity: .8; }
+.list-unstyled img[src$=".svg"]:hover { opacity: 1; }
+
 img[class*="_2"]    { rotate: 180deg; }
 .info-icon          { width: 2.4rem; } /* Info icon created by i cons from the noun project - tinyurl.com/47b8m4an */
 .flip-card,
 .build-deck,
-.deck-card-stack    { width: 20rem; }
-.flip-card          { perspective: 1000px; }
+.deck-card-stack    { width: calc(95vh * 0.2); }
 
-.flip-card-inner {
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+/* Tarot Deck Card Stack */
+.build-deck {
+  position: relative;
+  height: calc(100vh * 0.32);
 }
 
-.flip-card-front, .flip-card-back {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-back,
-.flip-card .flip-card-inner.show,
-.flip-card:active .flip-card-inner { transform: rotateX(180deg); }
-.flip-card-back                    { height: 0; }
-.flip-card-front                   { border: .1rem solid rgba(253, 184, 19, .3); }
-
-.build-deck { 
-  position: relative; 
-  height: 33rem;
-}
-
-.build-deck .deck-card-stack { 
-  position: absolute; 
+.build-deck .deck-card-stack {
+  position: absolute;
   top: 0;
   left: 0;
   border: .1rem solid rgba(253, 184, 19, .3);
@@ -126,17 +196,122 @@ img[class*="_2"]    { rotate: 180deg; }
 .build-deck img:nth-child(3) { rotate: 1deg; }
 .build-deck img:nth-child(4) { rotate: -2deg; }
 
-@media (min-width: 768px) {
-  .side-nav { position: fixed; }
+/* Animate Card Flip */
+.flip-card-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {
+.flip-card                         { perspective: 1000px; }
+.flip-card-back,
+.flip-card .flip-card-inner.show,
+.flip-card:active .flip-card-inner { transform: rotateX(180deg); }
+.flip-card-back                    { height: 0; }
+.flip-card-front                   { border: .1rem solid rgba(253, 184, 19, .3); }
+.flip-card-front, .flip-card-back  { -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+
+/* Responsive */
+@media (max-width: 991.98px) {
+  .modal-art-view { height: auto; width: 100%; }
+}
+
+@media (min-width: 768px) {
+  .side-nav {
+    position: sticky;
+    top: 4.8rem;
+    margin: 0 .5rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
   .flip-card,
   .build-deck,
   .deck-card-stack { width: 15rem; }
-  .build-deck { height: 25rem; }
+  .build-deck      { height: 25rem; }
 }
 
-@media (max-width: 991.98px) {
-  .set-height { height: auto; width: 100%; }
+@media (max-width: 767.98px) {
+  .side-nav {
+    position: fixed;
+    top: 3.6rem;
+    display: flex;
+    width: 100%;
+    background-color: rgba(30, 33, 39, .75);
+    z-index: 1000;
+    margin: 0 -1rem;
+  }
+
+  .side-nav li a {
+    margin: 1.5rem .5rem;
+    display: inline-block;
+  }
+
+  .side-nav li {
+    margin: auto;
+    text-align: center;
+  }
+
+  .side-nav li a span      { display: none; }
+  [id*="TarotCardList"] h1 { padding-top: 10rem; }
+  [id*="sectionTitle"]     { scroll-margin-top: 9rem; }
 }
+
+@media (max-width: 575.98px) {
+  .flip-card,
+  .build-deck,
+  .deck-card-stack      { width: calc(95vh * 0.14); }
+  .build-deck           { height: calc(100vh * 0.22); }
+  .card-body            { padding: 0.4rem; }
+  [id*="TarotApp"] .row { --bs-gutter-x: 0.4rem; }
+}
+
+
+
+#top {
+ transform: translate();
+ transition-duration: 450ms;
+ opacity: 1;
+}
+
+/* #top.snoot-0 { transform: translate(0, calc(48.75vh - 3.6rem)); }
+#top.snoot-1 { transform: translate(3.95vw, calc(48.75vh - 3.6rem)); }
+#top.snoot-2 { transform: translate(7.8vw, calc(48.75vh - 3.6rem)); } */
+
+#top.snoot-0 { transform: translate(0, 127%); }
+#top.snoot-1 { transform: translate(65%, 127%); }
+#top.snoot-2 { transform: translate(122%, 127%); }
+
+#top.boop {
+  transition-delay: 0ms !important;
+  transition-duration: 0ms !important;
+}
+
+/* .deck-card-stack:hover {
+  transform: height 100ms ease;
+  height: calc(100vh * 0.28);
+} */
+
+[id*="tarot-content-"] .card {
+  background-color: transparent !important;
+  border-color: transparent;
+  color: #282a31;
+  transition: all 1s ease 100ms;
+}
+
+[id*="tarot-content-"] .card.snoots {
+  background-color:#212529 !important;
+  border-color: rgba(0,0,0,.125);
+}
+
+[id*="tarot-content-"] .card .card-body p { color: transparent; transition: color 1s ease 50ms; }
+[id*="tarot-content-"] .card.snoots .card-body p { color: inherit; }
+[id*="tarot-content-"] .card .card-body .btn { opacity: 0; }
+[id*="tarot-content-"] .card.snoots .card-body .btn { opacity: 1; }
+
+[id*="tarot-content-"] .card .card-body .btn { opacity: 0; }
+[id*="tarot-content-"] .card.snoots .card-body .btn { position: relative; }
+/* .card.snoots {
+  transition: background-color 1s ease;
+  background-color: red;
+} */

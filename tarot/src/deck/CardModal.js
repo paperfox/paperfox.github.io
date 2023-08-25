@@ -15,9 +15,9 @@ function CardModal({ reverseCard, dataImg, dataContent }) {
         <img src='/images/info-icon-by-i-con.svg' className="info-icon" alt="info icon"/>
       </Button>
 
-      <Modal 
-        show={show} 
-        onHide={handleClose} 
+      <Modal
+        show={show}
+        onHide={handleClose}
         centered
         size="lg"
       >
@@ -27,7 +27,7 @@ function CardModal({ reverseCard, dataImg, dataContent }) {
         <Modal.Body>
           <div className="row">
             <div className="col-md-4 col-sm-5">
-              <img src={'/images/cards/' + dataImg + '.jpg'} className="w-100 rounded" alt={'Image of ' + dataContent.title + ' card'}/>
+              <img src={'/images/cards/' + dataImg + '.jpg'} className="w-100 rounded mb-4" alt={'Image of ' + dataContent.title + ' card'}/>
             </div>
             <div className="col">
               <h3>{dataContent.uprightTitle}</h3>
