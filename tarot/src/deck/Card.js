@@ -7,7 +7,7 @@ function TarotCard({ reverseCard, dataImg, dataContent, layoutTitles }) {
   const [showCard, setShowCard] = useState('')
 
   setTimeout(() => {
-    setShowCard('snoots');
+    setShowCard('draw-animation-style');
   }, 550);
 
   const handleVisibility = () => {

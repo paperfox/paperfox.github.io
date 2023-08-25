@@ -32,9 +32,9 @@ function MakeNumbers({ tarotContent }) {
           tarotText: deck[randomInt]
         }
       ]);
-      setAnimateCard(`snoot-${counter}`);
+      setAnimateCard(`draw-animation-${counter}`);
       setTimeout(() => {
-        setAnimateCard('boop');
+        setAnimateCard('draw-animation-time');
       }, 500);
 
       deck.splice(randomInt, 1)
