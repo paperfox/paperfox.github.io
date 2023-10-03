@@ -564,7 +564,7 @@ function TarotArray() {
     },
     {
       cardValue: 56,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Seven of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -694,7 +694,7 @@ function TarotArray() {
     },
     {
       cardValue: 69,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Six of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
