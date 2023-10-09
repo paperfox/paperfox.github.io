@@ -384,7 +384,7 @@ function TarotArray() {
     },
     {
       cardValue: 38,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Three of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -714,7 +714,7 @@ function TarotArray() {
     },
     {
       cardValue: 71,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Eight of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
