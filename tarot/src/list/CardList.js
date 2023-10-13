@@ -16,7 +16,7 @@ function CardList({ tarotContent }) {
 
   const handleClickDraft = () => {
     setFilteredCards(
-      tarotContent.filter(t=>t.artStatus === 'Draft')
+      tarotContent.filter(t=>t.artStatus !== 'None')
     )
   }
 
@@ -33,8 +33,8 @@ function CardList({ tarotContent }) {
         <div className="col-auto">
           <ButtonToolbar aria-label="Toolbar with button groups">
             <ButtonGroup className="me-2" aria-label="Filter cards shown by art">
-              <Button variant="secondary" onClick={handleClickComplete}>Completed Art</Button>
-              <Button variant="secondary" onClick={handleClickDraft}>Draft Art</Button>
+              <Button variant="secondary" onClick={handleClickComplete}>Completed</Button>
+              <Button variant="secondary" onClick={handleClickDraft}>Started</Button>
             </ButtonGroup>
 
             <ButtonGroup aria-label="Clear Filters">
