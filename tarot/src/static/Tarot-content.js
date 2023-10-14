@@ -102,7 +102,7 @@ function TarotArray() {
     },
     {
       cardValue: 10,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Wheel of Fortune',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
