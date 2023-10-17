@@ -42,7 +42,7 @@ function TarotArray() {
     },
     {
       cardValue: 4,
-      artStatus: 'Ideation',
+      artStatus: 'None',
       title: 'The Emperor',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
