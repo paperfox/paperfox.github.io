@@ -294,7 +294,7 @@ function TarotArray() {
     },
     {
       cardValue: 29,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Eight of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
