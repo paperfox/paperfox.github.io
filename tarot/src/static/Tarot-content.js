@@ -233,7 +233,7 @@ function TarotArray() {
     },
     {
       cardValue: 23,
-      artStatus: 'Ideation',
+      artStatus: 'None',
       title: 'Two of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -294,7 +294,7 @@ function TarotArray() {
     },
     {
       cardValue: 29,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Eight of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -674,7 +674,7 @@ function TarotArray() {
     },
     {
       cardValue: 67,
-      artStatus: 'Ideation',
+      artStatus: 'None',
       title: 'Four of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -704,7 +704,7 @@ function TarotArray() {
     },
     {
       cardValue: 70,
-      artStatus: 'Ideation',
+      artStatus: 'None',
       title: 'Seven of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
