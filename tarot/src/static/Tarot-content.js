@@ -394,7 +394,7 @@ function TarotArray() {
     },
     {
       cardValue: 39,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Four of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
