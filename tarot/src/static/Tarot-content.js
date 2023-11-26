@@ -243,7 +243,7 @@ function TarotArray() {
     },
     {
       cardValue: 24,
-      artStatus: 'Draft',
+      artStatus: 'Complete',
       title: 'Three of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -384,7 +384,7 @@ function TarotArray() {
     },
     {
       cardValue: 38,
-      artStatus: 'Draft',
+      artStatus: 'Complete',
       title: 'Three of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
