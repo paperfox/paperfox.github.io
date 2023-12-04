@@ -287,7 +287,7 @@ function TarotArray() {
       title: 'Seven of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
-      uprightCard: 'It is a struggle, but with courage you will persevere through adversity. You may be facing opposition or a difficult situation, but you have the inner strength and determination to overcome it. Stand up for yourself, be assertive, and trust in your abilities to succeed.',
+      uprightCard: 'Triumph over adversity. Have the inner strength and determination to overcome the opposition or difficulties thrown your way. Success is not a one time thing - you’ll need to stand up for yourself, be assertive, and continue to defend your position. Trust in yourself and know you have the ability to succeed.',
       reverseCard: 'Feeling overwhelmed with challenges and lacking confidence, you have given up too readily. You\'re not where you want to be but are plagued with anxiety over confronting your fears or obstacles in order to move forward.',
       bkgInfo: 'Mike Hawke - Hrothgar - Player Character, Final Fantasy XIV',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#7'
