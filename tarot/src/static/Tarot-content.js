@@ -404,7 +404,7 @@ function TarotArray() {
     },
     {
       cardValue: 40,
-      artStatus: 'None',
+      artStatus: 'Complete',
       title: 'Five of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
