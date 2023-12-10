@@ -434,7 +434,7 @@ function TarotArray() {
     },
     {
       cardValue: 43,
-      artStatus: 'Completed',
+      artStatus: 'Complete',
       title: 'Eight of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
