@@ -42,7 +42,7 @@ function TarotArray() {
     },
     {
       cardValue: 4,
-      artStatus: 'Ideation',
+      artStatus: 'None',
       title: 'The Emperor',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -102,7 +102,7 @@ function TarotArray() {
     },
     {
       cardValue: 10,
-      artStatus: 'None',
+      artStatus: 'Complete',
       title: 'Wheel of Fortune',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -233,7 +233,7 @@ function TarotArray() {
     },
     {
       cardValue: 23,
-      artStatus: 'Ideation',
+      artStatus: 'None',
       title: 'Two of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -243,7 +243,7 @@ function TarotArray() {
     },
     {
       cardValue: 24,
-      artStatus: 'Draft',
+      artStatus: 'Complete',
       title: 'Three of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -287,14 +287,14 @@ function TarotArray() {
       title: 'Seven of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
-      uprightCard: 'It is a struggle, but with courage you will persevere through adversity. You may be facing opposition or a difficult situation, but you have the inner strength and determination to overcome it. Stand up for yourself, be assertive, and trust in your abilities to succeed.',
+      uprightCard: 'Triumph over adversity. Have the inner strength and determination to overcome the opposition or difficulties thrown your way. Success is not a one time thing - you’ll need to stand up for yourself, be assertive, and continue to defend your position. Trust in yourself and know you have the ability to succeed.',
       reverseCard: 'Feeling overwhelmed with challenges and lacking confidence, you have given up too readily. You\'re not where you want to be but are plagued with anxiety over confronting your fears or obstacles in order to move forward.',
       bkgInfo: 'Mike Hawke - Hrothgar - Player Character, Final Fantasy XIV',
       link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-wands.htm#7'
     },
     {
       cardValue: 29,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Eight of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -344,7 +344,7 @@ function TarotArray() {
     },
     {
       cardValue: 34,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Queen of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -384,7 +384,7 @@ function TarotArray() {
     },
     {
       cardValue: 38,
-      artStatus: 'None',
+      artStatus: 'Complete',
       title: 'Three of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -394,7 +394,7 @@ function TarotArray() {
     },
     {
       cardValue: 39,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Four of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -404,7 +404,7 @@ function TarotArray() {
     },
     {
       cardValue: 40,
-      artStatus: 'None',
+      artStatus: 'Complete',
       title: 'Five of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -434,7 +434,7 @@ function TarotArray() {
     },
     {
       cardValue: 43,
-      artStatus: 'None',
+      artStatus: 'Complete',
       title: 'Eight of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -564,7 +564,7 @@ function TarotArray() {
     },
     {
       cardValue: 56,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Seven of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -674,7 +674,7 @@ function TarotArray() {
     },
     {
       cardValue: 67,
-      artStatus: 'Ideation',
+      artStatus: 'None',
       title: 'Four of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -694,7 +694,7 @@ function TarotArray() {
     },
     {
       cardValue: 69,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Six of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -704,7 +704,7 @@ function TarotArray() {
     },
     {
       cardValue: 70,
-      artStatus: 'Ideation',
+      artStatus: 'None',
       title: 'Seven of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -714,7 +714,7 @@ function TarotArray() {
     },
     {
       cardValue: 71,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Eight of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
