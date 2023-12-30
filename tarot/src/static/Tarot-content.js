@@ -724,7 +724,7 @@ function TarotArray() {
     },
     {
       cardValue: 72,
-      artStatus: 'None',
+      artStatus: 'Complete',
       title: 'Nine of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
