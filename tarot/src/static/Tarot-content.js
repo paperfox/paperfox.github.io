@@ -684,7 +684,7 @@ function TarotArray() {
     },
     {
       cardValue: 68,
-      artStatus: 'Draft',
+      artStatus: 'Complete',
       title: 'Five of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
