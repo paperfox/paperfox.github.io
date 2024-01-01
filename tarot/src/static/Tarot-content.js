@@ -694,7 +694,7 @@ function TarotArray() {
     },
     {
       cardValue: 69,
-      artStatus: 'Draft',
+      artStatus: 'Complete',
       title: 'Six of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
