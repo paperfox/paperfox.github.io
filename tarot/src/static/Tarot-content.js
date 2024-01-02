@@ -654,7 +654,7 @@ function TarotArray() {
     },
     {
       cardValue: 65,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Two of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
