@@ -38,6 +38,7 @@ function MakeNumbers({ tarotContent }) {
       }, 500);
 
       deck.splice(randomInt, 1)
+      // console.log(randomInt);
 
       setCounter(counter + 1)
     }
@@ -47,7 +48,11 @@ function MakeNumbers({ tarotContent }) {
     // there's got to be a better way to do this than refreshing the whole page
     window.location.reload(false);
     // setCreateCard([])
-    // tarotContent.filter(t=>t.artStatus)
+    // setAnimateCard('')
+    // setCounter(0)
+    // setDeck(tarotContent)
+    // console.log(tarotContent.length);
+    // trying to figure out how to un-splice the array above
   }
 
   return (
@@ -86,7 +91,7 @@ function MakeNumbers({ tarotContent }) {
       </div>
 
       <Button variant="secondary" className="mb-4" onClick={handleClickReset}>
-        Reset
+        Reset Deck
       </Button>
     </div>
   );
