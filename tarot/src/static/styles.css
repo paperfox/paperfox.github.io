@@ -264,6 +264,12 @@ img[class*="_2"]    { rotate: 180deg; }
   .build-deck           { height: calc(100vh * 0.22); }
   .card-body            { padding: 0.4rem; }
   [id*="TarotApp"] .row { --bs-gutter-x: 0.4rem; }
+  .mobile-images {
+    width: auto !important;
+    max-height: 30rem;
+    margin-inline: auto;
+    display: block;
+  }
 }
 
 
