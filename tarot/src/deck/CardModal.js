@@ -11,7 +11,7 @@ function CardModal({ reverseCard, dataImg, dataContent }) {
 
   return (
     <Fragment>
-      <Button variant="tertiary" className="float-end" onClick={handleShow} aria-label={`More information about ` + dataContent.title}>
+      <Button variant="tertiary" className="float-end" onClick={handleShow} aria-label={`More information about ` + dataContent.title} data-testid="info-modal-trigger">
         <img src='/images/info-icon-by-i-con.svg' className="info-icon" alt="info icon"/>
       </Button>
 
@@ -40,11 +40,6 @@ function CardModal({ reverseCard, dataImg, dataContent }) {
             </div>
           </div>
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-        </Modal.Footer>
       </Modal>
     </Fragment>
   );
