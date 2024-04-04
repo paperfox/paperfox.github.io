@@ -674,7 +674,7 @@ function TarotArray() {
     },
     {
       cardValue: 67,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Four of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
