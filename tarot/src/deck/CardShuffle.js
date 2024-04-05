@@ -13,7 +13,7 @@ function MakeNumbers({ tarotContent }) {
   const [animateCard, setAnimateCard] = useState('')
   const [counter, setCounter] = useState(0)
 
-  let deck = tarotContent;
+  let deck = [...tarotContent];
   const drawTitles = TitlesArray();
 
   // if I section off the array I'll need to flatten it here
@@ -21,7 +21,7 @@ function MakeNumbers({ tarotContent }) {
     let min = 1;
     let max = deck.length - 2;
 
-    let randomInt = Math.floor(Math.random() * (max - min + 1) + min);
+    let randomInt = Math.floor(Math.random() * (max - min));
     let randomBinary = Math.floor(Math.random() * 2 + 1);
 
     if (deck.length > 75) {
@@ -59,7 +59,7 @@ function MakeNumbers({ tarotContent }) {
     <div className="container-xxl text-center">
       <h1>Three Card Draw</h1>
       <div className="mb-4">
-        <Button className="tarot-deck" variant="tertiary" onClick={handleClick} aria-label="Click to draw card from Tarot Deck">
+        <Button className="tarot-deck" variant="tertiary" onClick={handleClick} aria-label="Click to draw card from Tarot Deck" disabled={counter === 3 ? true : false}>
           <div className="row justify-content-center">
             <div className="col-auto">
               <div className="mx-4 build-deck">

@@ -1,4 +1,4 @@
-import { findByText, render, screen, waitFor } from '@testing-library/react'
+import { render, screen, within } from '@testing-library/react'
 import user from '@testing-library/user-event'
 import '@testing-library/jest-dom'
 import App from './App'
@@ -20,16 +20,16 @@ test('draw a card from the deck', async () => {
 });
 
 test('draw 3 cards from the deck', async () => {
-  render(<App />);
+  const { container } = render(<App />);
 
   // draw 3 cards
   user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
   user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
   user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
 
-  const spreadInfoButtons = screen.getAllByAltText(/info icon/i);
+  const spreadTitles = within(container.querySelector('#paperfox--tabpane-TarotApp')).getAllByRole('heading', { level: 2 });
 
-  expect(spreadInfoButtons).toHaveLength(3);
+  expect(spreadTitles).toHaveLength(3);
 });
 
 test('disabled after drawing 3 cards', async () => {
