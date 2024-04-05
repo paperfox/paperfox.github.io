@@ -1,5 +1,6 @@
-import { render, screen, within } from '@testing-library/react'
+import { render, screen, within, act } from '@testing-library/react'
 import user from '@testing-library/user-event'
+import userEvent from '@testing-library/user-event'
 import '@testing-library/jest-dom'
 import App from './App'
 
@@ -16,6 +17,7 @@ test('draw a card from the deck', async () => {
   user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
 
   const cardInfo = screen.getAllByAltText(/info icon/i);
+
   expect(cardInfo).toBeTruthy();
 });
 
@@ -49,11 +51,25 @@ test('open drawn card details modal', async () => {
   render(<App />);
 
   user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
-  user.click(await screen.getByTestId('info-modal-trigger'));
+  user.click(screen.getByTestId('info-modal-trigger'));
 
   const closeButton = await screen.findByRole('button', {name: 'Close'});
 
   expect(closeButton).toBeTruthy();
+});
+
+test('drawn card details modal closes', async () => {
+  render(<App />);
+
+  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
+  user.click(screen.getByTestId('info-modal-trigger'));
+
+  const closeButton = screen.getByRole('button', { name: /close/i });
+  await act(async () => {
+    userEvent.click(closeButton);
+  });
+
+  expect(screen.queryByRole('dialog')).toBeNull();
 });
 
 test('select and view about page', async () => {
