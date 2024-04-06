@@ -87,20 +87,26 @@ test('drawn card details modal closes', async () => {
   expect(screen.queryByRole('dialog')).toBeNull();
 });
 
-// test('deck is reset to suffled and undrawn', async () => {
-// cant be tested till I fix the reset function
-//   render(<App />);
+test('deck is reset to shuffled and undrawn', async () => {
+  render(<App />);
 
-//   const deckButton = await screen.findByLabelText('Click to draw card from Tarot Deck');
-//   user.click(deckButton);
+  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
 
-//   const cardInfo = screen.findByLabelText('More information about');
-//   expect(cardInfo).toBeTruthy();
+  const cardInfo = screen.findByRole('heading', {name: 'Past'});
+  expect(cardInfo).toBeTruthy();
+
+  const resetButton = screen.getByRole('button', { name: /Reset/i });
+  await act(async () => {
+    userEvent.click(resetButton);
+  });
+
+  expect(screen.queryByRole('heading', {name: 'Past'})).toBeNull();
+
 
 // await user.click(deckButton);
 
 // const resetButton = await screen.findByRole('button', {
-//   name: /Reset Deck/i
+//   name: /Reset/i
 // });
 // user.click(resetButton);
 
@@ -109,7 +115,7 @@ test('drawn card details modal closes', async () => {
 
 // const cardInfo = screen.findByLabelText('More information about');
 //   expect(cardInfo).toBeFalsy();
-// });
+});
 
 
 // Card List Tab

@@ -5,18 +5,22 @@ import TitlesArray from '../static/Layout-titles';
 
 // To do list:
 // make art
-// rewrite array in json
 // make it pretty
+
+// Improvements:
+// render card when user clicks to flip instead of on draw
 
 function MakeNumbers({ tarotContent }) {
   const [createCard, setCreateCard] = useState([]);
   const [animateCard, setAnimateCard] = useState('')
   const [counter, setCounter] = useState(0)
+  const [deck, setDeck] = useState([...tarotContent])
 
-  let deck = [...tarotContent];
+  // setDeck([tarotContent]);
+  // let deck = new Array(78).fill(null).map(()=> tarotContent)
+  // let deck = new Array(78).[tarotContent];
   const drawTitles = TitlesArray();
 
-  // if I section off the array I'll need to flatten it here
   const handleClick = () => {
     let min = 1;
     let max = deck.length - 2;
@@ -38,21 +42,16 @@ function MakeNumbers({ tarotContent }) {
       }, 500);
 
       deck.splice(randomInt, 1)
-      // console.log(randomInt);
 
       setCounter(counter + 1)
     }
   }
 
   const handleClickReset = () => {
-    // there's got to be a better way to do this than refreshing the whole page
-    window.location.reload(false);
-    // setCreateCard([])
-    // setAnimateCard('')
-    // setCounter(0)
-    // setDeck(tarotContent)
-    // console.log(tarotContent.length);
-    // trying to figure out how to un-splice the array above
+    setCreateCard([])
+    setAnimateCard('')
+    setCounter(0)
+    setDeck([...tarotContent])
   }
 
   return (
@@ -91,7 +90,7 @@ function MakeNumbers({ tarotContent }) {
       </div>
 
       <Button variant="secondary" className="mb-4" onClick={handleClickReset}>
-        Reset Deck
+        Reset
       </Button>
     </div>
   );
