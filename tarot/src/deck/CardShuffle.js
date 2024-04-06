@@ -60,16 +60,16 @@ function MakeNumbers({ tarotContent }) {
     <div className="container-xxl text-center">
       <h1>Three Card Draw</h1>
       <div className="mb-4">
-        <Button className="tarot-deck" variant="tertiary" onClick={handleClick} aria-live="polite" aria-label={'Click to draw ' + deckLabel + 'card from Tarot Deck'} disabled={counter === 3 ? true : false}>
+        <Button className="tarot-deck" variant="tertiary" onClick={handleClick} aria-live="polite" aria-label={'Draw ' + deckLabel + 'card from Tarot Deck'} disabled={counter === 3 ? true : false}>
           <div className="row justify-content-center">
             <div className="col-auto">
               <div className="mx-4 build-deck">
-                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
-                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
-                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
-                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
-                <img src='/images/cards/back.jpg' className="deck-card-stack" alt="..."/>
-                <img src='/images/cards/back.jpg' className={`deck-card-stack ${animateCard}`} alt="..." id="top"/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt=""/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt=""/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt=""/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt=""/>
+                <img src='/images/cards/back.jpg' className="deck-card-stack" alt=""/>
+                <img src='/images/cards/back.jpg' className={`deck-card-stack ${animateCard}`} alt="" id="top"/>
                 {/* for or while loop here */}
               </div>
             </div>
