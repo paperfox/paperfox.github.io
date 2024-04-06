@@ -11,6 +11,7 @@ test('loads and shows deck', () => {
   expect(deck).toBeTruthy();
 });
 
+
 // Deck Tab
 
 test('draw a card from the deck', async () => {
@@ -49,6 +50,17 @@ test('deck disabled after drawing 3 cards', async () => {
   expect(disabledDeck).toBeDisabled();
 });
 
+test('drawn card can be flipped over to view face', async () => {
+  const { container } = render(<App />);
+
+  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
+
+  const cardView = await screen.findByRole('button', {name: 'Reveal card'});
+  user.click(cardView);
+
+  expect(container.querySelector('.flip-card-inner.show')).toBeTruthy();
+});
+
 test('open drawn card details modal', async () => {
   render(<App />);
 
@@ -61,6 +73,7 @@ test('open drawn card details modal', async () => {
 });
 
 test('drawn card details modal closes', async () => {
+  // something is unstable with this test... look into it more
   render(<App />);
 
   user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
@@ -73,6 +86,31 @@ test('drawn card details modal closes', async () => {
 
   expect(screen.queryByRole('dialog')).toBeNull();
 });
+
+// test('deck is reset to suffled and undrawn', async () => {
+// cant be tested till I fix the reset function
+//   render(<App />);
+
+//   const deckButton = await screen.findByLabelText('Click to draw card from Tarot Deck');
+//   user.click(deckButton);
+
+//   const cardInfo = screen.findByLabelText('More information about');
+//   expect(cardInfo).toBeTruthy();
+
+// await user.click(deckButton);
+
+// const resetButton = await screen.findByRole('button', {
+//   name: /Reset Deck/i
+// });
+// user.click(resetButton);
+
+// const button = await screen.findByLabelText('Click to draw card from Tarot Deck');
+// user.click(button);
+
+// const cardInfo = screen.findByLabelText('More information about');
+//   expect(cardInfo).toBeFalsy();
+// });
+
 
 // Card List Tab
 
@@ -136,6 +174,7 @@ test('drawn card image view modal closes', async () => {
 
   expect(screen.queryByRole('dialog')).toBeNull();
 });
+
 
 // About Tab
 

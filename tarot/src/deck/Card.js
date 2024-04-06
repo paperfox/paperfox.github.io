@@ -20,7 +20,7 @@ function TarotCard({ reverseCard, dataImg, dataContent, layoutTitles }) {
         <div className="card-body">
           <h2 className="p">{layoutTitles}</h2>
           <div className="mb-3">
-            <Button variant="tertiary" onClick={handleVisibility} >
+            <Button variant="tertiary" onClick={handleVisibility} aria-label="Reveal card">
               <div className="flip-card">
                 <div className={'flip-card-inner ' + cardFace}>
                   <div className="flip-card-front">
