@@ -7,12 +7,10 @@ import TitlesArray from '../static/Layout-titles';
 // make art
 // make it pretty
 
-// Improvements:
-// render card when user clicks to flip instead of on draw
-
 function MakeNumbers({ tarotContent }) {
   const [createCard, setCreateCard] = useState([]);
   const [animateCard, setAnimateCard] = useState('')
+  const [deckLabel, setDeckLabel] = useState('')
   const [counter, setCounter] = useState(0)
   const [deck, setDeck] = useState([...tarotContent])
 
@@ -41,6 +39,12 @@ function MakeNumbers({ tarotContent }) {
       deck.splice(randomInt, 1)
 
       setCounter(counter + 1)
+
+      if (counter === 0) {
+        setDeckLabel('another ')
+      } else if (counter === 1) {
+        setDeckLabel('final ')
+      }
     }
   }
 
@@ -48,6 +52,7 @@ function MakeNumbers({ tarotContent }) {
     setCreateCard([])
     setAnimateCard('')
     setCounter(0)
+    setDeckLabel('')
     setDeck([...tarotContent])
   }
 
@@ -55,7 +60,7 @@ function MakeNumbers({ tarotContent }) {
     <div className="container-xxl text-center">
       <h1>Three Card Draw</h1>
       <div className="mb-4">
-        <Button className="tarot-deck" variant="tertiary" onClick={handleClick} aria-label="Click to draw card from Tarot Deck" disabled={counter === 3 ? true : false}>
+        <Button className="tarot-deck" variant="tertiary" onClick={handleClick} aria-live="polite" aria-label={'Click to draw ' + deckLabel + 'card from Tarot Deck'} disabled={counter === 3 ? true : false}>
           <div className="row justify-content-center">
             <div className="col-auto">
               <div className="mx-4 build-deck">

@@ -101,20 +101,6 @@ test('deck is reset to shuffled and undrawn', async () => {
   });
 
   expect(screen.queryByRole('heading', {name: 'Past'})).toBeNull();
-
-
-// await user.click(deckButton);
-
-// const resetButton = await screen.findByRole('button', {
-//   name: /Reset/i
-// });
-// user.click(resetButton);
-
-// const button = await screen.findByLabelText('Click to draw card from Tarot Deck');
-// user.click(button);
-
-// const cardInfo = screen.findByLabelText('More information about');
-//   expect(cardInfo).toBeFalsy();
 });
 
 
