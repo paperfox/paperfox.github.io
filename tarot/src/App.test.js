@@ -7,7 +7,7 @@ import App from './App'
 test('loads and shows deck', () => {
   render(<App />);
 
-  const deck = screen.findByLabelText('Click to draw card from Tarot Deck');
+  const deck = screen.findByLabelText('Draw card from Tarot Deck');
   expect(deck).toBeTruthy();
 });
 
@@ -17,7 +17,7 @@ test('loads and shows deck', () => {
 test('draw a card from the deck', async () => {
   render(<App />);
 
-  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
+  user.click(await screen.findByLabelText('Draw card from Tarot Deck'));
 
   const cardInfo = screen.getAllByAltText(/info icon/i);
 
@@ -28,9 +28,9 @@ test('draw 3 cards from the deck', async () => {
   const { container } = render(<App />);
 
   // draw 3 cards
-  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
-  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
-  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
+  user.click(await screen.findByLabelText(/from Tarot Deck/i));
+  user.click(await screen.findByLabelText(/from Tarot Deck/i));
+  user.click(await screen.findByLabelText(/from Tarot Deck/i));
 
   const spreadTitles = within(container.querySelector('#paperfox--tabpane-TarotApp')).getAllByRole('heading', { level: 2 });
 
@@ -41,11 +41,11 @@ test('deck disabled after drawing 3 cards', async () => {
   render(<App />);
 
   // draw 3 cards
-  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
-  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
-  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
+  user.click(await screen.findByLabelText(/from Tarot Deck/i));
+  user.click(await screen.findByLabelText(/from Tarot Deck/i));
+  user.click(await screen.findByLabelText(/from Tarot Deck/i));
 
-  const disabledDeck = await screen.findByLabelText(/Click to draw card from Tarot Deck/i);
+  const disabledDeck = await screen.findByLabelText(/Draw final card from Tarot Deck/i);
 
   expect(disabledDeck).toBeDisabled();
 });
@@ -53,7 +53,7 @@ test('deck disabled after drawing 3 cards', async () => {
 test('drawn card can be flipped over to view face', async () => {
   const { container } = render(<App />);
 
-  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
+  user.click(await screen.findByLabelText('Draw card from Tarot Deck'));
 
   const cardView = await screen.findByRole('button', {name: 'Reveal card'});
   user.click(cardView);
@@ -64,7 +64,7 @@ test('drawn card can be flipped over to view face', async () => {
 test('open drawn card details modal', async () => {
   render(<App />);
 
-  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
+  user.click(await screen.findByLabelText('Draw card from Tarot Deck'));
   user.click(screen.getByTestId('info-modal-trigger'));
 
   const closeButton = await screen.findByRole('button', {name: 'Close'});
@@ -76,7 +76,7 @@ test('drawn card details modal closes', async () => {
   // something is unstable with this test... look into it more
   render(<App />);
 
-  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
+  user.click(await screen.findByLabelText('Draw card from Tarot Deck'));
   user.click(screen.getByTestId('info-modal-trigger'));
 
   const closeButton = screen.getByRole('button', { name: /close/i });
@@ -90,7 +90,7 @@ test('drawn card details modal closes', async () => {
 test('deck is reset to shuffled and undrawn', async () => {
   render(<App />);
 
-  user.click(await screen.findByLabelText('Click to draw card from Tarot Deck'));
+  user.click(await screen.findByLabelText('Draw card from Tarot Deck'));
 
   const cardInfo = screen.findByRole('heading', {name: 'Past'});
   expect(cardInfo).toBeTruthy();
