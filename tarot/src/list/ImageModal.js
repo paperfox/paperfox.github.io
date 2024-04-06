@@ -30,11 +30,6 @@ function ImageModal({ dataImg, dataContent }) {
             </div>
           </div>
         </Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-        </Modal.Footer>
       </Modal>
     </Fragment>
   );
