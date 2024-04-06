@@ -654,7 +654,7 @@ function TarotArray() {
     },
     {
       cardValue: 65,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Two of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -674,7 +674,7 @@ function TarotArray() {
     },
     {
       cardValue: 67,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Four of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -684,7 +684,7 @@ function TarotArray() {
     },
     {
       cardValue: 68,
-      artStatus: 'Draft',
+      artStatus: 'Complete',
       title: 'Five of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -694,7 +694,7 @@ function TarotArray() {
     },
     {
       cardValue: 69,
-      artStatus: 'Draft',
+      artStatus: 'Complete',
       title: 'Six of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -724,7 +724,7 @@ function TarotArray() {
     },
     {
       cardValue: 72,
-      artStatus: 'None',
+      artStatus: 'Complete',
       title: 'Nine of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',

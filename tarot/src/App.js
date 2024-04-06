@@ -13,7 +13,7 @@ function App() {
     <div>
       <Tabs
         defaultActiveKey="TarotApp"
-        id="uncontrolled-tab-example"
+        id="paperfox-"
         className="mb-3"
       >
         <Tab eventKey="TarotApp" title="Deck">

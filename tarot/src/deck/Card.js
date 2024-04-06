@@ -18,9 +18,9 @@ function TarotCard({ reverseCard, dataImg, dataContent, layoutTitles }) {
     <div className="col-auto" id={'tarot-content-' + dataImg + reverseCard}>
       <div className={`card text-white bg-dark mb-4 ${showCard}`}>
         <div className="card-body">
-          <p>{layoutTitles}</p>
+          <h2 className="p">{layoutTitles}</h2>
           <div className="mb-3">
-            <Button variant="tertiary" onClick={handleVisibility} >
+            <Button variant="tertiary" onClick={handleVisibility} aria-label="Reveal card">
               <div className="flip-card">
                 <div className={'flip-card-inner ' + cardFace}>
                   <div className="flip-card-front">

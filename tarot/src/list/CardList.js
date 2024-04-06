@@ -32,13 +32,13 @@ function CardList({ tarotContent }) {
       <div className="row justify-content-center mb-4">
         <div className="col-auto">
           <ButtonToolbar aria-label="Toolbar with button groups">
-            <ButtonGroup className="me-2" aria-label="Filter cards shown by art">
+            <ButtonGroup className="me-2">
               <Button variant="secondary" onClick={handleClickComplete}>Completed</Button>
               <Button variant="secondary" onClick={handleClickDraft}>Started</Button>
             </ButtonGroup>
 
-            <ButtonGroup aria-label="Clear Filters">
-              <Button variant="secondary" onClick={handleClickReset}>X</Button>
+            <ButtonGroup>
+              <Button variant="secondary" onClick={handleClickReset} aria-label="Clear Filters">X</Button>
             </ButtonGroup>
           </ButtonToolbar>
           <p className='text-center'>Cards matching filter: {filteredCards.length}</p>
