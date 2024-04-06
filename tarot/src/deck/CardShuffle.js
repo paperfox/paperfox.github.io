@@ -16,9 +16,6 @@ function MakeNumbers({ tarotContent }) {
   const [counter, setCounter] = useState(0)
   const [deck, setDeck] = useState([...tarotContent])
 
-  // setDeck([tarotContent]);
-  // let deck = new Array(78).fill(null).map(()=> tarotContent)
-  // let deck = new Array(78).[tarotContent];
   const drawTitles = TitlesArray();
 
   const handleClick = () => {
