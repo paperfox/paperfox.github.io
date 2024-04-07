@@ -152,7 +152,7 @@ function TarotArray() {
     },
     {
       cardValue: 15,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'The Devil',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
