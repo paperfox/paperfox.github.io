@@ -273,7 +273,7 @@ function TarotArray() {
     },
     {
       cardValue: 27,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Six of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
