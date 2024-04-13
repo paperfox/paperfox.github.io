@@ -123,7 +123,7 @@ test('view only completed cards and descriptions', async () => {
   user.click(screen.getByRole('button', {name: 'Completed'}));
   const cardTitles = within(container.querySelector('#paperfox--tabpane-TarotCardList')).getAllByRole('heading', { level: 3 });
 
-  expect(cardTitles).toHaveLength(17);
+  expect(cardTitles).toHaveLength(18);
 });
 
 test('view all started cards and descriptions', async () => {
