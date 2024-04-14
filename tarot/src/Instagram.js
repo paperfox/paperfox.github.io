@@ -15,8 +15,8 @@ function InstagramPage() {
     .then((data) => {
       setInstaPost(data.data);
     });
-  }, []);
-
+  }, [fullUrl]);
+  console.log(instaPost)
   return (
     <div className="container-xxl">
       <div className="row justify-content-center">
@@ -35,7 +35,7 @@ function InstagramPage() {
               )
             })}
             <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4 align-self-stretch rounded instagram-link">
-                <a href="https://www.instagram.com/paperfoxmakesart/" target="_blank" className="d-flex align-items-center">
+                <a href="https://www.instagram.com/paperfoxmakesart/" target="_blank" rel="noreferrer"  className="d-flex align-items-center">
                   <p className="text-center align-middle">View more on instagram</p>
                 </a>
             </div>
