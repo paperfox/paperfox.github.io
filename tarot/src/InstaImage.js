@@ -1,5 +1,4 @@
 function InstaImage({ dataId, mediaUrl, link }) {
-console.log(dataId);
   return (
     <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6">
       <a href={link} target="_blank">
