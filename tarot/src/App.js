@@ -6,12 +6,9 @@ import CardList from './list/CardList';
 import AboutPage from './About';
 import InstagramPage from './Instagram';
 import Footer from './Footer';
-import returnInstaFeed from './api';
 
 function App() {
   const tarotContent = TarotArray();
-  const instaData = returnInstaFeed();
-  console.log(instaData);
 
   return (
     <div>
@@ -30,7 +27,7 @@ function App() {
           <AboutPage />
         </Tab>
         <Tab eventKey="InstagramTest" title="Instagram">
-          <InstagramPage instaData={instaData} />
+          <InstagramPage />
         </Tab>
       </Tabs>
       <Footer />

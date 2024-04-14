@@ -1,18 +1,25 @@
 import React, { useState } from 'react';
-// import ImageShow from './ImageShow';
+import ImageShow from './ImageShow';
+import returnInstaFeed from './api';
 
-function InstagramPage(instaData) {
-
- console.log(instaData[0]);
-
+function InstagramPage() {
+  const [instaPost, setInstaPost] = useState([]);
+  const instaData = returnInstaFeed();
+  console.log(instaData);
 
   return (
     <div className="container-xxl">
         <h1 className="text-center">Instagram Feed</h1>
         <div className="row">
-          {/* {returnInstaFeed.map(data => (
-            <img src={data.media_url} key={data.id} />
-          ))} */}
+          {instaPost.map((instaData, index) => {
+            return (
+              <ImageShow
+                dataId={instaData[index].id}
+                mediaUrl={instaData[index].medial_url}
+                link={instaData[index].permalink}
+              />
+            )
+          })}
         </div>
         <div className="row justify-content-center mb-4">
           <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6">
