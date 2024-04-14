@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-// import ImageShow from './ImageShow';
+// import InstaImage from './InstaImage';
 
 function InstagramPage(instaData) {
 
   // const instaDataRender = instaData;
-  
+
 // const ReturnInstaFeed = async () => {
 //   let domainUrl ="https://graph.instagram.com/me/media?";
 //   let fields ="fields=media_url,permalink";
@@ -60,7 +60,7 @@ function InstagramPage(instaData) {
     <div className="container-xxl">
         <h1 className="text-center">Instagram Feed</h1>
         <div className="row">
-          {/* <ImageShow /> */}
+          {/* <InstaImage /> */}
           {/* <ImageList images={images} /> */}
           {/* <TodoList /> */}
           {/* <ReturnInstaFeed /> */}
@@ -71,7 +71,7 @@ function InstagramPage(instaData) {
 
         {/* {sectionContent.filter(desc => desc.id.includes('Major')).map(sectionHeading => (
             // <SectionDesc sectionData={sectionHeading} key={sectionHeading.id} />
-            <ImageShow key/>
+            <InstaImage key/>
           // <ImageList images={images} />
           ))} */}
 

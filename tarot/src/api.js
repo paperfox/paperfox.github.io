@@ -8,7 +8,7 @@ const returnInstaFeed = async () => {
 
   const response = await axios.get(fullUrl);
   const imageData = response.data.data;
-  console.log(imageData);
+  // console.log(imageData);
 
   return imageData;
 };

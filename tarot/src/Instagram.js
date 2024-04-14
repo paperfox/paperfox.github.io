@@ -1,11 +1,26 @@
-import React, { useState } from 'react';
-import ImageShow from './ImageShow';
+import React, { useState, useEffect } from 'react';
+import InstaImage from './InstaImage';
 import returnInstaFeed from './api';
 
 function InstagramPage() {
   const [instaPost, setInstaPost] = useState([]);
-  const instaData = returnInstaFeed();
-  console.log(instaData);
+  const [counter, setCounter] = useState(0)
+  const [allImages, setAllImages] = useState([]);
+
+  let domainUrl ="https://graph.instagram.com/me/media?";
+  let fields ="fields=media_url,permalink";
+  var access_token = "IGQWRPUjZAFZA204V1MzV0VId0R4VjhIc2NvY2k0aUt4bDExYWU5dkRsQWVITFgzNHZALR1paYVZAROXppQjNRQ3luXzhGbHBIaGszeTlqcUlFZA0ZATd2l2LWU0TEVnenI1MW0zLTdaTjNiYlRiUkJ1SmhTWl9KOExBejAZD";
+  var fullUrl = domainUrl + fields + '&access_token=' + access_token;
+
+  useEffect(() => {
+    fetch(fullUrl)
+      .then((response) => response.json())
+      .then((data) => {
+            setAllImages(data.data)
+            const randomIndex = Math.floor(Math.random() * allImages.length);
+            setInstaPost([data.data]);
+      });
+    }, []);
 
   return (
     <div className="container-xxl">
@@ -13,9 +28,9 @@ function InstagramPage() {
         <div className="row">
           {instaPost.map((instaData, index) => {
             return (
-              <ImageShow
+              <InstaImage
                 dataId={instaData[index].id}
-                mediaUrl={instaData[index].medial_url}
+                mediaUrl={instaData[index].media_url}
                 link={instaData[index].permalink}
               />
             )
