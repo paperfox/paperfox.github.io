@@ -7,9 +7,6 @@ import AboutPage from './About';
 import InstagramPage from './Instagram';
 import Footer from './Footer';
 import returnInstaFeed from './api';
-// import axios from 'axios';
-
-returnInstaFeed();
 
 function App() {
   const tarotContent = TarotArray();
