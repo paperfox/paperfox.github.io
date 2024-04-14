@@ -17,6 +17,7 @@ body {
 }
 
 [id*="sectionTitle"] { scroll-margin-top: 4.8rem; }
+.container-xxl       { padding-right: 1.6rem; padding-left: 1.6rem; }
 
 /* Typography */
 h1:empty,
@@ -321,3 +322,16 @@ img[class*="_2"]    { rotate: 180deg; }
 
 [id*="tarot-content-"] .card .card-body .btn { opacity: 0; }
 [id*="tarot-content-"] .card.draw-animation-style .card-body .btn { position: relative; }
+
+.instagram-formatting {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.instagram-link {
+  background-color: rgba(0, 0, 0, .5);
+  border: .1rem solid goldenrod;
+}
+
+.instagram-link a { height: 100%; }
+.instagram-link a p { margin-inline: auto; }

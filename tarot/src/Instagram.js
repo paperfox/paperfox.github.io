@@ -17,20 +17,30 @@ function InstagramPage() {
     });
   }, []);
 
-          // console.log(instaPost);
   return (
     <div className="container-xxl">
-      <h1 className="text-center">Instagram Feed</h1>
       <div className="row justify-content-center">
-        {instaPost.map((instaData) => {
-          return (
-            <InstaImage
-              dataId={instaData.id}
-              mediaUrl={instaData.media_url}
-              link={instaData.permalink}
-            />
-          )
-        })}
+        <div className="col-md-11 col-lg-10">
+          <h1 className="text-center">Instagram Feed</h1>
+          <p className="mb-5 text-center">A good sampling of my current work based on my latest instagram updates. Click on any image to see the full post over there.</p>
+          <div className="row justify-content-center">
+            {instaPost.map((instaData) => {
+              return (
+                <InstaImage
+                  key={instaData.id}
+                  dataId={instaData.id}
+                  mediaUrl={instaData.media_url}
+                  link={instaData.permalink}
+                />
+              )
+            })}
+            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4 align-self-stretch rounded instagram-link">
+                <a href="https://www.instagram.com/paperfoxmakesart/" target="_blank" className="d-flex align-items-center">
+                  <p className="text-center align-middle">View more on instagram</p>
+                </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
