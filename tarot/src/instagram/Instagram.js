@@ -16,7 +16,7 @@ function InstagramPage() {
       setInstaPost(data.data);
     });
   }, [fullUrl]);
-  console.log(instaPost)
+
   return (
     <div className="container-xxl">
       <div className="row justify-content-center">

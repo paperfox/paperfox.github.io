@@ -4,7 +4,7 @@ import MakeNumbers from './deck/CardShuffle';
 import TarotArray from './static/Tarot-content';
 import CardList from './list/CardList';
 import AboutPage from './About';
-import InstagramPage from './Instagram';
+import InstagramPage from './instagram/Instagram';
 import Footer from './Footer';
 
 function App() {
