@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import InstaImage from './InstaImage';
+import InstaAltLabel from './InstaAltLabel';
+import AltTextArray from '../static/Alt-text';
 
 function InstagramPage() {
   const [instaPost, setInstaPost] = useState([]);
+
+  const instaAltText = AltTextArray();
 
   let domainUrl ="https://graph.instagram.com/me/media?";
   let fields ="fields=media_url,permalink";
@@ -45,6 +49,17 @@ function InstagramPage() {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        {instaAltText.map((altData) => {
+          return (
+            <InstaAltLabel
+              key={altData.altId}
+              altId={altData.altId}
+              altText={altData.altText}
+            />
+          )
+        })}
       </div>
     </div>
   );
