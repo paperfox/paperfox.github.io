@@ -194,3 +194,16 @@ test('select and view instagram page', async () => {
 
   expect(instagramTabClicked).toBeTruthy();
 });
+
+test('instagram feed loads', async () => {
+  const { container } = render(<App />);
+
+  user.click(await screen.findByRole('tab', {name: 'Instagram', selected: false }));
+  const instagramTabClicked = await screen.findByRole('tab', {name: 'Instagram', selected: true });
+
+  await waitFor(() => {
+    expect(within(container.querySelector('#paperfox--tabpane-InstagramFeed')).getAllByRole('img')).toHaveLength(25)
+  })
+
+  expect(instagramTabClicked).toBeTruthy();
+});
