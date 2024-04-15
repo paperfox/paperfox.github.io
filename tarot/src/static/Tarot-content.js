@@ -8,7 +8,8 @@ function TarotArray() {
       reverseTitle: 'Reversed',
       uprightCard: 'You stand on the brink of the unknown about to plunge into something new. Opportunity is hand in hand with risk, but optimism leads you to step forward without knowing what the future holds. Embrace the unlimited potential of an unwritten future and seek new experiences - trust in the journey ahead, even if you don\'t know where it may lead. Caution and mindfulness along the way are key as this card can also indicate naivety and falling into recklessness and extravagance. Take the leap of faith toward the unknown, embrace change, but don\'t lose yourself. Remember, nothing is without consequences.',
       reverseCard: 'In reverse, this card signifies blindly charging forth into the unknown, believing oneself invulnerable to risks. The fool neglects to consider dangers - to oneself or others. Overvaluing your achievements, accomplishments, or looks will lead you down a negative path.',
-      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-fool.htm'
+      link: 'https://www.tarotcardmeanings.net/waite-tarot-comments/waite-on-tarot-fool.htm',
+      altText: 'A sketch of Jason Asano, the main character from He Who Fights With Monsters, about to step off of a cliff while holding a glass of lemonade. Colin, a hivemind swarm of leeches follows along.'
     },
     {
       cardValue: 1,
