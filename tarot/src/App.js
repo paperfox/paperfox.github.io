@@ -26,7 +26,7 @@ function App() {
         <Tab eventKey="TarotAboutPage" title="About">
           <AboutPage />
         </Tab>
-        <Tab eventKey="InstagramTest" title="Instagram">
+        <Tab eventKey="InstagramFeed" title="Instagram">
           <InstagramPage />
         </Tab>
       </Tabs>

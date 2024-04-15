@@ -22,7 +22,7 @@ function InstagramPage() {
       <div className="row justify-content-center">
         <div className="col-md-11 col-lg-10">
           <h1 className="text-center">Instagram Feed</h1>
-          <p className="mb-5 text-center">A good sampling of my current work based on my latest instagram updates. Click on any image to see the full post over there.</p>
+          <p className="mb-5 text-center">A good sampling of my current work, and maybe some puppy and garden photos, based on my latest instagram updates. Click on any image to see the full post over on instagram.</p>
           <div className="row justify-content-center">
             {instaPost.map((instaData) => {
               return (

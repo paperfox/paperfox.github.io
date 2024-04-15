@@ -1,4 +1,4 @@
-import { render, screen, within, act } from '@testing-library/react'
+import { render, screen, within, act, fireEvent, waitFor, waitForElementToBeRemoved } from '@testing-library/react'
 import user from '@testing-library/user-event'
 import userEvent from '@testing-library/user-event'
 import '@testing-library/jest-dom'
@@ -73,18 +73,23 @@ test('open drawn card details modal', async () => {
 });
 
 test('drawn card details modal closes', async () => {
-  // something is unstable with this test... look into it more
   render(<App />);
 
   user.click(await screen.findByLabelText('Draw card from Tarot Deck'));
   user.click(screen.getByTestId('info-modal-trigger'));
 
-  const closeButton = screen.getByRole('button', { name: /close/i });
-  await act(async () => {
-    userEvent.click(closeButton);
-  });
+  // const closeButton = screen.getByRole('button', { name: /close/i });
+  // await act(async () => {
+  //   userEvent.click(closeButton);
+  // });
 
-  expect(screen.queryByRole('dialog')).toBeNull();
+  // expect(screen.queryByRole('dialog')).toBeNull();
+
+  await waitFor(() => screen.getByRole('button', { name: /close/i }));
+  fireEvent.click(screen.getByRole('button', { name: /close/i }));
+  await waitForElementToBeRemoved(() => screen.queryByRole('button', { name: /close/i }));
+
+  expect(screen.queryByRole('button', { name: /close/i })).toBeNull();
 });
 
 test('deck is reset to shuffled and undrawn', async () => {
@@ -159,12 +164,11 @@ test('drawn card image view modal closes', async () => {
 
   user.click(await screen.findByLabelText('More information about The Fool'));
 
-  const closeButton = screen.getByRole('button', { name: /close/i });
-  await act(async () => {
-    userEvent.click(closeButton);
-  });
+  await waitFor(() => screen.getByRole('button', { name: /close/i }));
+  fireEvent.click(screen.getByRole('button', { name: /close/i }));
+  await waitForElementToBeRemoved(() => screen.queryByRole('button', { name: /close/i }));
 
-  expect(screen.queryByRole('dialog')).toBeNull();
+  expect(screen.queryByRole('button', { name: /close/i })).toBeNull();
 });
 
 
@@ -177,4 +181,16 @@ test('select and view about page', async () => {
   const aboutTabClicked = await screen.findByRole('tab', {name: 'About', selected: true });
 
   expect(aboutTabClicked).toBeTruthy();
+});
+
+
+// Instagram Tab
+
+test('select and view instagram page', async () => {
+  render(<App />);
+
+  user.click(await screen.findByRole('tab', {name: 'Instagram', selected: false }));
+  const instagramTabClicked = await screen.findByRole('tab', {name: 'Instagram', selected: true });
+
+  expect(instagramTabClicked).toBeTruthy();
 });
