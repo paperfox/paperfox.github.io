@@ -1,8 +1,12 @@
 function AltTextArray() {
   return [
     {
+      altId: '18097221706415787',
+      altText: 'Pen sketches of Miko the shiba inu',
+    },
+    {
       altId: '17892962417934574',
-      altText: 'Watercolor painting of a kingfisher amonst tree banches against a blue sky',
+      altText: 'Watercolor painting of a kingfisher amongst tree banches against a blue sky',
     },
     {
       altId: '17899235267970972',
@@ -14,7 +18,7 @@ function AltTextArray() {
     },
     {
       altId: '18014899253115830',
-      altText: 'Digital sketch moth person picking up books in an abandoned library while backlit by a large arched window',
+      altText: 'Digital sketch of a moth person picking up books in an abandoned library while backlit by a large arched window',
     },
     {
       altId: '18100616998372418',
@@ -39,6 +43,14 @@ function AltTextArray() {
     {
       altId: '18018884923908120',
       altText: 'Watercolor and miron pen art piece of Henry the Eldritch Horror and Damien, a young man, sitting eating pancakes. Fanart for the book My Best Friend is an Eldritch Horror',
+    },
+    {
+      altId: '18212682310248304',
+      altText: 'Pen sketch of Finnley the jindo sleeping on the lawn in dappled shade',
+    },
+    {
+      altId: '17890227146864457',
+      altText: 'Pen sketches of otters in various poses',
     }
   ];
 }
