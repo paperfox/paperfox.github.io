@@ -189,8 +189,8 @@ test('select and view about page', async () => {
 test('select and view instagram page', async () => {
   render(<App />);
 
-  user.click(await screen.findByRole('tab', {name: 'Instagram', selected: false }));
-  const instagramTabClicked = await screen.findByRole('tab', {name: 'Instagram', selected: true });
+  user.click(await screen.findByRole('tab', {name: 'Sketchbook', selected: false }));
+  const instagramTabClicked = await screen.findByRole('tab', {name: 'Sketchbook', selected: true });
 
   expect(instagramTabClicked).toBeTruthy();
 });
@@ -198,8 +198,8 @@ test('select and view instagram page', async () => {
 test('instagram feed loads', async () => {
   const { container } = render(<App />);
 
-  user.click(await screen.findByRole('tab', {name: 'Instagram', selected: false }));
-  const instagramTabClicked = await screen.findByRole('tab', {name: 'Instagram', selected: true });
+  user.click(await screen.findByRole('tab', {name: 'Sketchbook', selected: false }));
+  const instagramTabClicked = await screen.findByRole('tab', {name: 'Sketchbook', selected: true });
 
   await waitFor(() => {
     expect(within(container.querySelector('#paperfox--tabpane-InstagramFeed')).getAllByRole('img')).toHaveLength(25)
