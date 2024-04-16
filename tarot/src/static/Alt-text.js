@@ -34,7 +34,7 @@ function AltTextArray() {
     },
     {
       altId: '17895914162933220',
-      altText: 'Watercolor and micron pen art piece of an otter resting on a pair of logs with shelf fungi growing on them that have fallen across a river',
+      altText: 'Watercolor and micron pen art piece of an otter resting on a pair of logs with shelf fungi growing on them that have fallen across a river - this is an update of an older piece',
     },
     {
       altId: '17960661569680510',
@@ -51,6 +51,34 @@ function AltTextArray() {
     {
       altId: '17890227146864457',
       altText: 'Pen sketches of otters in various poses',
+    },
+    {
+      altId: '18377598265066287',
+      altText: 'Pen sketch of a T-rex with binoculars "birdwatching" but the birds are all actually pterodactyls',
+    },
+    {
+      altId: '18296133901131925',
+      altText: 'Photo of all of my color drawings done for Artober 2023 Undying Tales prompt list',
+    },
+    {
+      altId: '17863284693023582',
+      altText: 'Photo of all of black and white line drawings done for Artober 2023 Undying Tales prompt list',
+    },
+    {
+      altId: '18025423291686597',
+      altText: 'Watercolor and micron pen art piece of an otter resting on a pair of logs with shelf fungi growing on them that have fallen across a river - original version, the colors are less dynamic and less saturated. I later redrew and repainted it',
+    },
+    {
+      altId: '17900179403867082',
+      altText: 'Digital line drawing of an otter resting on a pair of logs with shelf fungi growing on them that have fallen across a river',
+    },
+    {
+      altId: '17955980921674478',
+      altText: 'Watercolor and micron pen art piece of a himalayan brown bear sitting on a rock in front of a sunset with birds flying in the distance',
+    },
+    {
+      altId: '18067545994432085',
+      altText: 'Digital line drawing of a himalayan brown bear sitting on a rock with birds flying in the distance',
     }
   ];
 }
