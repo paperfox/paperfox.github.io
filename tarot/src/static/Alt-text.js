@@ -79,6 +79,26 @@ function AltTextArray() {
     {
       altId: '18067545994432085',
       altText: 'Digital line drawing of a himalayan brown bear sitting on a rock with birds flying in the distance',
+    },
+    {
+      altId: '17954763725565602',
+      altText: 'Watercolor painting of the left half of the face of an indian bison staring straight ahead',
+    },
+    {
+      altId: '18018229822874346',
+      altText: 'Digital line drawing of the right half of the face of an indian bison staring straight ahead',
+    },
+    {
+      altId: '18269205532085766',
+      altText: 'Micron pen drawing in black, brown, and red of a straw-colored fruit bat hanging from a branch with both feet and one wing claw while staring at viewer',
+    },
+    {
+      altId: '17974123844446833',
+      altText: 'Micron pen black line drawing of a straw-colored fruit bat hanging from a branch with both feet and one wing claw while staring at viewer',
+    },
+    {
+      altId: '18204867091277589',
+      altText: 'Watercolor and micron pen art piece of a woman in a white dress in the woods stepping on a tree root with a shepherd\'s crook in her left hand and an owl perched on her right arm looking at her',
     }
   ];
 }

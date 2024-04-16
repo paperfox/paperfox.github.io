@@ -11,7 +11,7 @@ function App() {
   const tarotContent = TarotArray();
 
   return (
-    <div>
+    <main>
       <Tabs
         defaultActiveKey="TarotApp"
         id="paperfox-"
@@ -31,7 +31,7 @@ function App() {
         </Tab>
       </Tabs>
       <Footer />
-    </div>
+    </main>
   );
 }
 
