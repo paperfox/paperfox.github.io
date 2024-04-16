@@ -20,6 +20,12 @@ function CardList({ tarotContent }) {
     )
   }
 
+  const handleClickNotStarted = () => {
+    setFilteredCards(
+      tarotContent.filter(t=>t.artStatus === 'None')
+    )
+  }
+
   const handleClickReset = () => {
     setFilteredCards(
       tarotContent.filter(t=>t.artStatus)
@@ -35,6 +41,7 @@ function CardList({ tarotContent }) {
             <ButtonGroup className="me-2">
               <Button variant="secondary" onClick={handleClickComplete}>Completed</Button>
               <Button variant="secondary" onClick={handleClickDraft}>Started</Button>
+              <Button variant="secondary" onClick={handleClickNotStarted}>RWS</Button>
             </ButtonGroup>
 
             <ButtonGroup>
