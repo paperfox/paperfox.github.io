@@ -745,7 +745,7 @@ function TarotArray() {
     },
     {
       cardValue: 74,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Page of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
