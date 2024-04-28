@@ -128,7 +128,7 @@ test('view only completed cards and descriptions', async () => {
   user.click(screen.getByRole('button', {name: 'Completed'}));
   const cardTitles = within(container.querySelector('#paperfox--tabpane-TarotCardList')).getAllByRole('heading', { level: 3 });
 
-  expect(cardTitles).toHaveLength(18);
+  expect(cardTitles).toHaveLength(19);
 });
 
 test('view all started cards and descriptions', async () => {
@@ -137,7 +137,7 @@ test('view all started cards and descriptions', async () => {
   user.click(screen.getByRole('button', {name: 'Started'}));
   const cardTitles = within(container.querySelector('#paperfox--tabpane-TarotCardList')).getAllByRole('heading', { level: 3 });
 
-  expect(cardTitles).toHaveLength(40);
+  expect(cardTitles).toHaveLength(42);
 });
 
 test('clear card filters', async () => {
@@ -206,4 +206,43 @@ test('instagram feed loads', async () => {
   })
 
   expect(instagramTabClicked).toBeTruthy();
+});
+
+
+// Tracking for myself
+
+test('count wands not started', async () => {
+  const { container } = render(<App />);
+
+  user.click(screen.getByRole('button', {name: 'RWS'}));
+  const cardTitlesWands = within(container.querySelector('#paperfox--tabpane-TarotCardList')).getAllByRole('heading', { level: 3, name: /of wands/i });
+ 
+  expect(cardTitlesWands).toHaveLength(5);
+});
+
+test('count cups not started', async () => {
+  const { container } = render(<App />);
+
+  user.click(screen.getByRole('button', {name: 'RWS'}));
+  const cardTitlesCups = within(container.querySelector('#paperfox--tabpane-TarotCardList')).getAllByRole('heading', { level: 3, name: /of cups/i });
+ 
+  expect(cardTitlesCups).toHaveLength(6);
+});
+
+test('count swords not started', async () => {
+  const { container } = render(<App />);
+
+  user.click(screen.getByRole('button', {name: 'RWS'}));
+  const cardTitlesSwords = within(container.querySelector('#paperfox--tabpane-TarotCardList')).getAllByRole('heading', { level: 3, name: /of swords/i });
+ 
+  expect(cardTitlesSwords).toHaveLength(11);
+});
+
+test('count pentacles not started', async () => {
+  const { container } = render(<App />);
+
+  user.click(screen.getByRole('button', {name: 'RWS'}));
+  const cardTitlesPentacles = within(container.querySelector('#paperfox--tabpane-TarotCardList')).getAllByRole('heading', { level: 3, name: /of pentacles/i });
+ 
+  expect(cardTitlesPentacles).toHaveLength(7);
 });

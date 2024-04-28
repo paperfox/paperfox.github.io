@@ -335,7 +335,7 @@ function TarotArray() {
     },
     {
       cardValue: 33,
-      artStatus: 'None',
+      artStatus: 'Complete',
       title: 'Knight of Wands',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
@@ -365,7 +365,7 @@ function TarotArray() {
     },
     {
       cardValue: 36,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Ace of Cups',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
