@@ -2,6 +2,23 @@
 *:before,
 *:after { box-sizing: border-box;}
 
+:root { 
+  color-scheme: light dark; 
+
+  --main-bg-color-dark-theme: #282a31;
+  --text-body-dark-theme: #d4d4d6;
+  --text-headings-dark-theme: #ffffff;
+  --accent-dark-theme: #DAA520;
+  --link-dark-theme: #DE7826;
+  --btn-hover-dark-theme: #191c22;
+  --btn-active-dark-theme: #000000;
+
+  --main-bg-color-light-theme: #FFFFFF;
+  --text-body-light-theme: #282a31;
+  --accent-marron: ;
+
+}
+
 html {
   height: 100%;
   font-size: 62.5%;
@@ -9,11 +26,11 @@ html {
 
 body {
   min-height: 100%;
-  background-color: #282a31;
+  background-color: light-dark(var(--main-bg-color-light-theme), var(--main-bg-color-dark-theme));
   font-family: 'Quicksand', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: white;
+  color: light-dark(var(--text-heading-light-theme), var(--text-heading-dark-theme));
 }
 
 [id*="sectionTitle"] { scroll-margin-top: 4.8rem; }
@@ -31,7 +48,7 @@ h3           { font-weight: 600; }
 h1           { font-size: 3.4rem; margin-bottom: 3rem; padding-top: 4.8rem; }
 h2           { font-size: 2.4rem; margin-bottom: 2.2rem; }
 h3           { font-size: 1.8rem; margin-bottom: 1.6rem; }
-small        { font-size: .75em; color: rgba(255, 255, 255, .75); }
+small        { font-size: .75em; }
 .side-nav li { margin-bottom: 1.5rem; }
 .p           { margin-bottom: 1rem; }
 p,
@@ -41,9 +58,10 @@ a            { font-size: 1.6rem; }
 .btn         { font-size: 1.4rem; font-weight: 500; opacity: .8; }
 p,
 .p,
-a     { font-weight: 400; }
+a            { font-weight: 400; }
 p,
-.p        { color: #d4d4d6; }
+.p,
+small        { color: light-dark(var(--text-body-light-theme), var(--text-body-dark-theme)); }
 
 /* Buttons and Nav Tabs */
 a,
@@ -306,7 +324,7 @@ img[class*="_2"]    { rotate: 180deg; }
 [id*="tarot-content-"] .card {
   background-color: transparent !important;
   border-color: transparent;
-  color: #282a31;
+  color: light-dark(var(--main-bg-color-light-theme), var(--main-bg-color-dark-theme));
   transition: all 1s ease 100ms;
 }
 
