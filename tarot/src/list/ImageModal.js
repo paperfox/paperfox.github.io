@@ -25,7 +25,7 @@ function ImageModal({ dataImg, dataContent }) {
         </Modal.Header>
         <Modal.Body>
           <div className="row justify-content-center">
-            <div className="col-auto">
+            <div className="col-auto mb-2">
               <img src={'/images/cards/' + dataImg + '.jpg'} className="modal-art-view rounded" alt={'Image of ' + dataContent.title + ' card'}/>
             </div>
           </div>
