@@ -101,7 +101,7 @@ a,
 .btn-group > .btn:not(:last-child):not(.dropdown-toggle):active { border-right: .1rem dashed var(--accent); }
 .btn-group > .btn-group:not(:first-child) > .btn,
 .btn-group > .btn:nth-child(n+3),
-.btn-group > :not(.btn-check) + .btn { border-left-style: dashed; }
+.btn-group > :not(.btn-check) + .btn                            { border-left-style: dashed; }
 
 .nav-tabs {
   background-color: rgba(var(--nav-bg-alpha), .9);

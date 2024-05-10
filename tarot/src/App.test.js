@@ -202,7 +202,7 @@ test('instagram feed loads', async () => {
   const instagramTabClicked = await screen.findByRole('tab', {name: 'Sketchbook', selected: true });
 
   await waitFor(() => {
-    expect(within(container.querySelector('#paperfox--tabpane-InstagramFeed')).getAllByRole('img')).toHaveLength(25)
+    expect(within(container.querySelector('#paperfox--tabpane-InstagramFeed')).getAllByRole('img')).toHaveLength(26)
   })
 
   expect(instagramTabClicked).toBeTruthy();
@@ -216,7 +216,7 @@ test('count wands not started', async () => {
 
   user.click(screen.getByRole('button', {name: 'RWS'}));
   const cardTitlesWands = within(container.querySelector('#paperfox--tabpane-TarotCardList')).getAllByRole('heading', { level: 3, name: /of wands/i });
- 
+
   expect(cardTitlesWands).toHaveLength(5);
 });
 
@@ -225,7 +225,7 @@ test('count cups not started', async () => {
 
   user.click(screen.getByRole('button', {name: 'RWS'}));
   const cardTitlesCups = within(container.querySelector('#paperfox--tabpane-TarotCardList')).getAllByRole('heading', { level: 3, name: /of cups/i });
- 
+
   expect(cardTitlesCups).toHaveLength(6);
 });
 
@@ -234,7 +234,7 @@ test('count swords not started', async () => {
 
   user.click(screen.getByRole('button', {name: 'RWS'}));
   const cardTitlesSwords = within(container.querySelector('#paperfox--tabpane-TarotCardList')).getAllByRole('heading', { level: 3, name: /of swords/i });
- 
+
   expect(cardTitlesSwords).toHaveLength(11);
 });
 
@@ -243,6 +243,6 @@ test('count pentacles not started', async () => {
 
   user.click(screen.getByRole('button', {name: 'RWS'}));
   const cardTitlesPentacles = within(container.querySelector('#paperfox--tabpane-TarotCardList')).getAllByRole('heading', { level: 3, name: /of pentacles/i });
- 
+
   expect(cardTitlesPentacles).toHaveLength(7);
 });
