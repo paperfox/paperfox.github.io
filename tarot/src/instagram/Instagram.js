@@ -42,10 +42,11 @@ function InstagramPage() {
                 />
               )
             })}
-            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4 align-self-stretch rounded instagram-link">
-                <a href="https://www.instagram.com/paperfoxmakesart/" target="_blank" rel="noreferrer"  className="d-flex align-items-center">
-                  <p className="text-center align-middle">View more on instagram</p>
-                </a>
+            <div className="col-xl-4 col-lg-4 col-md-4 col-sm-6 mb-4 align-self-center text-center">
+              <a href="https://www.instagram.com/paperfoxmakesart/" target="_blank" rel="noreferrer"  className="instagram-link">
+                <div><img src="../images/instagramlogo.svg" alt="instagram" /></div>
+                View more on instagram
+              </a>
             </div>
           </div>
         </div>
