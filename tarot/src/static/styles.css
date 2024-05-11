@@ -2,21 +2,17 @@
 *:before,
 *:after { box-sizing: border-box;}
 
-:root { 
-  color-scheme: light dark; 
+:root {
+  --main-bg: #282a31;
+  --nav-bg-alpha: 30, 33, 39;
+  --modal-bg: #2d2f36;
+  --text-body: #d4d4d6;
+  --accent: #DAA520;
+  --link: #DE7826;
+  --border-tarot-card: rgba(253, 184, 19, .3);
 
-  --main-bg-color-dark-theme: #282a31;
-  --text-body-dark-theme: #d4d4d6;
-  --text-headings-dark-theme: #ffffff;
-  --accent-dark-theme: #DAA520;
-  --link-dark-theme: #DE7826;
-  --btn-hover-dark-theme: #191c22;
-  --btn-active-dark-theme: #000000;
-
-  --main-bg-color-light-theme: #FFFFFF;
-  --text-body-light-theme: #282a31;
-  --accent-marron: ;
-
+  --white: #ffffff;
+  --black: 0, 0, 0;
 }
 
 html {
@@ -26,11 +22,11 @@ html {
 
 body {
   min-height: 100%;
-  background-color: light-dark(var(--main-bg-color-light-theme), var(--main-bg-color-dark-theme));
+  background-color: var(--main-bg);
   font-family: 'Quicksand', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: light-dark(var(--text-heading-light-theme), var(--text-heading-dark-theme));
+  color: var(--white);
 }
 
 [id*="sectionTitle"] { scroll-margin-top: 4.8rem; }
@@ -45,7 +41,7 @@ a:empty      { display: none; }
 h1,
 h2           { font-weight: 500; }
 h3           { font-weight: 600; }
-h1           { font-size: 3.4rem; margin-bottom: 3rem; padding-top: 4.8rem; }
+h1           { font-size: 3.4rem; margin-bottom: 3rem; padding-top: 6.4rem; }
 h2           { font-size: 2.4rem; margin-bottom: 2.2rem; }
 h3           { font-size: 1.8rem; margin-bottom: 1.6rem; }
 small        { font-size: .75em; }
@@ -61,12 +57,13 @@ p,
 a            { font-weight: 400; }
 p,
 .p,
-small        { color: light-dark(var(--text-body-light-theme), var(--text-body-dark-theme)); }
+small        { color: var(--text-body); }
+ul li a      { text-decoration: none; }
 
 /* Buttons and Nav Tabs */
 a,
 .btn-tertiary {
-  color: #DE7826;
+  color: var(--link);
   text-decoration: none;
   font-weight: 600;
   padding: 0;
@@ -84,13 +81,13 @@ a,
 .btn-secondary:focus,
 .btn-secondary:active {
   min-width: 3rem;
-  border-color: goldenrod;
+  border-color: var(--accent);
   border-radius: 0;
 }
 
 .btn-secondary {
   background-color: transparent;
-  color: goldenrod;
+  color: var(--accent);
   opacity: .8;
 }
 
@@ -101,13 +98,13 @@ a,
 .btn-group > .btn-group:not(:last-child) > .btn:active,
 .btn-group > .btn:not(:last-child):not(.dropdown-toggle):hover,
 .btn-group > .btn:not(:last-child):not(.dropdown-toggle):focus,
-.btn-group > .btn:not(:last-child):not(.dropdown-toggle):active { border-right: .1rem dashed goldenrod; }
+.btn-group > .btn:not(:last-child):not(.dropdown-toggle):active { border-right: .1rem dashed var(--accent); }
 .btn-group > .btn-group:not(:first-child) > .btn,
 .btn-group > .btn:nth-child(n+3),
-.btn-group > :not(.btn-check) + .btn { border-left-style: dashed; }
+.btn-group > :not(.btn-check) + .btn                            { border-left-style: dashed; }
 
 .nav-tabs {
-  background-color: rgba(30, 33, 39, .85);
+  background-color: rgba(var(--nav-bg-alpha), .9);
   font-size: 1.6rem;
   border-bottom: none;
   position: fixed;
@@ -117,7 +114,7 @@ a,
 
 .nav-tabs .nav-link {
   font-weight: 500;
-  color: goldenrod;
+  color: var(--accent);
   border-bottom: .2rem solid transparent;
 }
 
@@ -126,44 +123,44 @@ a:focus,
 a:focus-visible,
 a:hover,
 .btn-tertiary:hover {
-  color: #DE7826;
+  color: var(--link);
   text-decoration: underline;
-  text-decoration-color: goldenrod;
+  text-decoration-color: var(--accent);
 }
 
 a:focus,
 .btn:focus,
 .btn-close:focus,
-.btn-close:focus-visible          { box-shadow: none; }
-.btn:focus,
-.btn:focus-visible,
-.btn-close:focus,
-.btn-close:focus-visible          { outline-offset: 0.1rem; }
+.btn-close:focus-visible {
+  box-shadow: none;
+  outline-offset: 0.1rem;
+}
+
+.btn-secondary:hover  {
+  background-color: rgba(var(--black), .4);
+  box-shadow: inset 0px 0px 0px 1px var(--accent);
+}
+
 a:focus,
 .btn:focus,
 a:focus-visible,
 .btn:focus-visible,
 .btn-close:focus,
 .btn-close:focus-visible,
-.nav-tabs .nav-link:focus-visible { outline: .1rem dotted goldenrod; }
-
-.btn-secondary:hover  {
-  background-color: #191c22;
-  box-shadow: inset 0px 0px 0px 1px goldenrod;
-}
-
+.nav-tabs .nav-link:focus-visible { outline: .1rem dotted var(--accent); }
+.btn-tarotcard                    { opacity: 1; }
 .btn-secondary:focus,
-.btn-secondary:active      { background-color: #000000; opacity: 1; }
-.btn-close:hover           { filter: grayscale(100%) brightness(400%); opacity: .8; }
-.nav-tabs .nav-link.active { color: white; }
+.btn-secondary:active             { background-color: rgba(var(--black), 1); }
+.btn-close:hover                  { filter: grayscale(100%) brightness(400%); opacity: .8; }
+.nav-tabs .nav-link.active        { color: var(--white); }
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus-visible  {
-  background-color: rgba(0,0,0,1);
+  background-color: rgb(var(--black));
   border: .1rem solid transparent;
-  border-bottom: .2rem solid goldenrod;
+  border-bottom: .2rem solid var(--accent);
 }
 
 /* Modals */
@@ -178,7 +175,7 @@ a:focus-visible,
   right: 2rem;
 }
 
-.modal-content  { background-color: #2d2f36; }
+.modal-content  { background-color: var(--main-bg); }
 .modal-footer   { border-top: none; }
 .modal-header,
 .modal-footer   { justify-content: space-around; }
@@ -194,12 +191,17 @@ a:focus-visible,
 
 .list-unstyled img[src$=".svg"]       { height: 3.2rem; opacity: .8; }
 .list-unstyled img[src$=".svg"]:hover { opacity: 1; }
-
-img[class*="_2"]    { rotate: 180deg; }
-.info-icon          { width: 2.4rem; } /* Info icon created by i cons from the noun project - tinyurl.com/47b8m4an */
+img[class*="_2"]                      { rotate: 180deg; }
+.info-icon                            { width: 2.4rem; } /* Info icon created by i cons from the noun project - tinyurl.com/47b8m4an */
 .flip-card,
 .build-deck,
-.deck-card-stack    { width: calc(95vh * 0.2); }
+.deck-card-stack                      { width: calc(95vh * 0.2); }
+.instagram-link img                   { filter: invert(68%) sepia(72%) saturate(1450%) hue-rotate(355deg) brightness(91%) contrast(86%); }
+
+.instagram-formatting {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
 
 /* Tarot Deck Card Stack */
 .build-deck {
@@ -211,8 +213,8 @@ img[class*="_2"]    { rotate: 180deg; }
   position: absolute;
   top: 0;
   left: 0;
-  border: .1rem solid rgba(253, 184, 19, .3);
-  box-shadow: 0 .3rem 1rem 0 rgba(0,0,0,0.6);
+  border: .1rem solid var(--border-tarot-card);
+  box-shadow: 0 .3rem 1rem 0 rgba(var(--black), .6);
 }
 
 .build-deck img:nth-child(2) { rotate: -2deg; }
@@ -223,7 +225,7 @@ img[class*="_2"]    { rotate: 180deg; }
 .flip-card-inner {
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(var(--black), .2);
 }
 
 .flip-card                         { perspective: 1000px; }
@@ -231,8 +233,9 @@ img[class*="_2"]    { rotate: 180deg; }
 .flip-card .flip-card-inner.show,
 .flip-card:active .flip-card-inner { transform: rotateX(180deg); }
 .flip-card-back                    { height: 0; }
-.flip-card-front                   { border: .1rem solid rgba(253, 184, 19, .3); }
+.flip-card-front                   { border: .1rem solid var(--border-tarot-card); }
 .flip-card-front, .flip-card-back  { -webkit-backface-visibility: hidden; backface-visibility: hidden; }
+
 
 /* Responsive */
 @media (max-width: 991.98px) {
@@ -260,7 +263,7 @@ img[class*="_2"]    { rotate: 180deg; }
     top: 3.6rem;
     display: flex;
     width: 100%;
-    background-color: rgba(30, 33, 39, .75);
+    background-color: rgba(var(--nav-bg-alpha), .8);
     z-index: 1000;
     margin: 0 -1rem;
   }
@@ -296,16 +299,12 @@ img[class*="_2"]    { rotate: 180deg; }
 }
 
 
-
+/* Animate draw */
 #top {
  transform: translate();
  transition-duration: 450ms;
  opacity: 1;
 }
-
-/* #top.draw-animation-0 { transform: translate(0, calc(48.75vh - 3.6rem)); }
-#top.draw-animation-1 { transform: translate(3.95vw, calc(48.75vh - 3.6rem)); }
-#top.draw-animation-2 { transform: translate(7.8vw, calc(48.75vh - 3.6rem)); } */
 
 #top.draw-animation-0 { transform: translate(0, 127%); }
 #top.draw-animation-1 { transform: translate(65%, 127%); }
@@ -316,40 +315,19 @@ img[class*="_2"]    { rotate: 180deg; }
   transition-duration: 0ms !important;
 }
 
-/* .deck-card-stack:hover {
-  transform: height 100ms ease;
-  height: calc(100vh * 0.28);
-} */
-
 [id*="tarot-content-"] .card {
-  background-color: transparent !important;
+  background-color: transparent;
   border-color: transparent;
-  color: light-dark(var(--main-bg-color-light-theme), var(--main-bg-color-dark-theme));
+  color: var(--main-bg);
   transition: all 1s ease 100ms;
 }
 
 [id*="tarot-content-"] .card.draw-animation-style {
-  background-color:#212529 !important;
-  border-color: rgba(0,0,0,.125);
+  background-color: rgba(var(--black), .09);
+  border-color: rgba(var(--black), .125);
 }
 
 [id*="tarot-content-"] .card .card-body .p { color: transparent; transition: color 1s ease 50ms; }
-[id*="tarot-content-"] .card.draw-animation-style .card-body .p { color: inherit; }
+[id*="tarot-content-"] .card.draw-animation-style .card-body .p { color: var(--white); }
 [id*="tarot-content-"] .card .card-body .btn { opacity: 0; }
-[id*="tarot-content-"] .card.draw-animation-style .card-body .btn { opacity: 1; }
-
-[id*="tarot-content-"] .card .card-body .btn { opacity: 0; }
-[id*="tarot-content-"] .card.draw-animation-style .card-body .btn { position: relative; }
-
-.instagram-formatting {
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
-.instagram-link {
-  background-color: rgba(0, 0, 0, .35);
-  border: .1rem solid goldenrod;
-}
-
-.instagram-link a { height: 100%; }
-.instagram-link a p { margin-inline: auto; }
+[id*="tarot-content-"] .card.draw-animation-style .card-body .btn { opacity: 1; position: relative;}
