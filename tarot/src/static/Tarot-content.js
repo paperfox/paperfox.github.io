@@ -705,7 +705,7 @@ function TarotArray() {
     },
     {
       cardValue: 70,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Seven of Pentacles',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
