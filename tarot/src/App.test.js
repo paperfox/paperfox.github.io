@@ -137,7 +137,7 @@ test('view all started cards and descriptions', async () => {
   user.click(screen.getByRole('button', {name: 'Started'}));
   const cardTitles = within(container.querySelector('#paperfox--tabpane-TarotCardList')).getAllByRole('heading', { level: 3 });
 
-  expect(cardTitles).toHaveLength(43);
+  expect(cardTitles).toHaveLength(44);
 });
 
 test('clear card filters', async () => {
@@ -235,7 +235,7 @@ test('count swords not started', async () => {
   user.click(screen.getByRole('button', {name: 'RWS'}));
   const cardTitlesSwords = within(container.querySelector('#paperfox--tabpane-TarotCardList')).getAllByRole('heading', { level: 3, name: /of swords/i });
 
-  expect(cardTitlesSwords).toHaveLength(11);
+  expect(cardTitlesSwords).toHaveLength(10);
 });
 
 test('count pentacles not started', async () => {

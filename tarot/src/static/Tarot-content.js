@@ -555,7 +555,7 @@ function TarotArray() {
     },
     {
       cardValue: 55,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Six of Swords',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
