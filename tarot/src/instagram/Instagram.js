@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import InstaImage from './InstaImage';
 import InstaAltLabel from './InstaAltLabel';
 import AltTextArray from '../static/Alt-text';
+import AccessToken from '../static/owo';
 
 function InstagramPage() {
   const [instaPost, setInstaPost] = useState([]);
@@ -10,7 +11,9 @@ function InstagramPage() {
 
   let domainUrl ="https://graph.instagram.com/me/media?";
   let fields ="fields=media_url,permalink";
-  var access_token = "IGQWRPUjZAFZA204V1MzV0VId0R4VjhIc2NvY2k0aUt4bDExYWU5dkRsQWVITFgzNHZALR1paYVZAROXppQjNRQ3luXzhGbHBIaGszeTlqcUlFZA0ZATd2l2LWU0TEVnenI1MW0zLTdaTjNiYlRiUkJ1SmhTWl9KOExBejAZD";
+  var accessToken = AccessToken([0].token);
+  var access_token = accessToken[0].token;
+  console.log(access_token);
   var fullUrl = domainUrl + fields + '&access_token=' + access_token;
 
   useEffect(() => {
