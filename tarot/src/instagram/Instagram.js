@@ -11,7 +11,6 @@ function InstagramPage() {
   let domainUrl ="https://graph.instagram.com/me/media?";
   let fields ="fields=media_url,permalink";
   var access_token = process.env.REACT_APP_API_KEY;
-  console.log(access_token);
   var fullUrl = domainUrl + fields + '&access_token=' + access_token;
 
   useEffect(() => {
