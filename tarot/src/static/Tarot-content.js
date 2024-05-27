@@ -203,7 +203,7 @@ function TarotArray() {
     },
     {
       cardValue: 20,
-      artStatus: 'None',
+      artStatus: 'Draft',
       title: 'Judgement',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
