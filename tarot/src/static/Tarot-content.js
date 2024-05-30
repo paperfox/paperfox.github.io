@@ -23,7 +23,7 @@ function TarotArray() {
     },
     {
       cardValue: 2,
-      artStatus: 'Draft',
+      artStatus: 'Complete',
       title: 'The High Priestess',
       uprightTitle: 'Upright',
       reverseTitle: 'Reversed',
