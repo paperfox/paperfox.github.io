@@ -1,6 +1,34 @@
 function AltTextArray() {
   return [
     {
+      altId: '17911566701952935',
+      altText: 'Digital painting of the Raven Queen from A Practical Guide to Sorcery. She holds a feather and the bottom of her body dissolves into feathers. A raven like shadow is behind her. She is a meduim skin toned woman with black hair and reddish black eyes.',
+    },
+    {
+      altId: '17999689109343060',
+      altText: 'Digital sketch of the Raven Queen from A Practical Guide to Sorcery. She holds a feather and the bottom of her body dissolves into feathers. A raven like shadow is behind her.',
+    },
+    {
+      altId: '18040254955856642',
+      altText: 'Digital sketch of a horned devil perching on a window ledge holding a coiled whip. The wall near him is made of stone.',
+    },
+    {
+      altId: '17987795381648042',
+      altText: 'Watercolor painting of a white-throated magpie jay on a branch holding a chain with a pentacle on it. The background is a mix of purple and black',
+    },
+    {
+      altId: '18042286396826289',
+      altText: 'Pencil sketch of a white-throated magpie jay on a branch holding a chain with a pentacle on it',
+    },
+    {
+      altId: '18047555995710749',
+      altText: 'Pen sketches of daffodils',
+    },
+    {
+      altId: '18023719538295114',
+      altText: 'Pen sketch of Mascot the magical cat from Return of the Runebound Professor',
+    },
+    {
       altId: '18097221706415787',
       altText: 'Pen sketches of Miko the shiba inu',
     },
