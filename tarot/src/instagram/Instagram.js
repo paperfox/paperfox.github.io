@@ -8,18 +8,15 @@ function InstagramPage() {
 
   const instaAltText = AltTextArray();
 
-  let domainUrl ="https://graph.instagram.com/me/media?";
-  let fields ="fields=media_url,permalink";
-  var access_token = process.env.REACT_APP_API_KEY;
-  var fullUrl = domainUrl + fields + '&access_token=' + access_token;
+  var valUrl = 'https://paperfox-instagramFeed.web.val.run';
 
   useEffect(() => {
-    fetch(fullUrl)
+    fetch(valUrl)
     .then((response) => response.json())
     .then((data) => {
       setInstaPost(data.data);
     });
-  }, [fullUrl]);
+  }, [valUrl]);
 
   return (
     <div className="container-xxl">
