@@ -1,3 +1,33 @@
+*,
+*:before,
+*:after { box-sizing: border-box;}
+
+:root {
+  --main-bg: #282a31;
+  --nav-bg-alpha: 30, 33, 39;
+  --modal-bg: #2d2f36;
+  --text-body: #d4d4d6;
+  --accent: #DAA520;
+  --link: #DE7826;
+  --border-tarot-card: rgba(253, 184, 19, .3);
+  --white: #ffffff;
+  --black: 0, 0, 0;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100%;
+  background-color: var(--main-bg);
+  font-family: 'Quicksand', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--white);
+}
+
 h1                                          { padding-top: 0; }
 ul li                                       { background-color: rgba(var(--nav-bg-alpha), .8);}
 ul li a                                     { display: block; border: 2px solid transparent; }
