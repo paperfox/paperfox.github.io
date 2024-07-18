@@ -5,8 +5,6 @@
 :root {
   --main-bg: #282a31;
   --nav-bg-alpha: 30, 33, 39;
-  --modal-bg: #2d2f36;
-  --text-body: #d4d4d6;
   --link: #DE7826;
   --white: #ffffff;
   --black: 0, 0, 0;
@@ -25,9 +23,6 @@ body {
   color: var(--white);
 }
 
-/* a, a:hover {  color: #DE7826; } */
-
-
 html,
 body,
 #root,
@@ -36,14 +31,13 @@ main              { display: flex; flex-direction: column; }
 .paperfox-content { flex: 1 0 auto; }
 footer            { flex-shrink: 0; }
 
-h1                                          { padding-top: 0; }
-ul li                                       { background-color: rgba(var(--nav-bg-alpha), .8);}
-ul li a                                     { display: block; border: 2px solid transparent; }
-ul li a:hover                               { border: 2px solid rgba(0, 0, 0, .2); }
-.list-unstyled img[src$=".svg"]             { opacity: .6; }
-.list-unstyled img[src$="paperfoxlogo.svg"] { opacity: 1; }
-.convert-to-white                           { filter: invert(70%) sepia(100%) saturate(0%) hue-rotate(166deg) brightness(113%) contrast(112%); }
-.paperfox-links img                         { height: 3.2rem; width: 3.2rem; }
+/* Typography */
+h1, h2       { font-weight: 500; }
+h1           { font-size: 3.4rem; margin-bottom: 3rem; padding-top: 6.4rem; }
+h2           { font-size: 2.4rem; margin-bottom: 2.2rem; }
+small        { font-size: .75em; }
+.p           { margin-bottom: 1rem; }
+p, .p, h4, a { font-size: 1.6rem; }
 
 a {
   color: var(--link);
@@ -59,3 +53,14 @@ a:hover {
   text-decoration: underline;
   text-decoration-color: var(--link);
 }
+
+
+/* Homepage specific code */
+/* h1                                          { padding-top: 0; } */
+ul li                                       { background-color: rgba(var(--nav-bg-alpha), .8);}
+ul li a                                     { display: block; border: 2px solid transparent; }
+ul li a:hover                               { border: 2px solid rgba(0, 0, 0, .2); }
+.list-unstyled img[src$=".svg"]             { opacity: .6; }
+.list-unstyled img[src$="paperfoxlogo.svg"] { opacity: 1; }
+.convert-to-white                           { filter: invert(70%) sepia(100%) saturate(0%) hue-rotate(166deg) brightness(113%) contrast(112%); }
+.paperfox-links img                         { height: 3.2rem; width: 3.2rem; }
