@@ -6,8 +6,6 @@
   --main-bg: #282a31;
   --nav-bg-alpha: 30, 33, 39;
   --link: #DE7826;
-  --white: #ffffff;
-  --black: 0, 0, 0;
 }
 
 html {
@@ -20,7 +18,7 @@ body {
   font-family: 'Quicksand', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: var(--white);
+  color: #ffffff;
 }
 
 html,
@@ -53,7 +51,7 @@ a:hover {
 }
 
 /* Homepage specific code */
-ul li                                       { background-color: rgba(var(--nav-bg-alpha), .8);}
+ul li                                       { background-color: rgba(30, 33, 39, .8);}
 ul li a                                     { display: block; border: 2px solid transparent; }
 ul li a:hover                               { border: 2px solid rgba(0, 0, 0, .2); }
 .list-unstyled img[src$=".svg"]             { opacity: .6; }
