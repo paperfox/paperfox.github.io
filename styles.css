@@ -48,6 +48,11 @@ a:hover {
   text-decoration: underline;
   text-decoration-color: var(--link);
 }
+a:focus,
+a:focus-visible {
+  outline-offset: 0.1rem;
+  outline: .1rem dotted var(--accent);
+}
 
 /* Homepage specific code */
 ul li                                            { background-color: rgba(30, 33, 39, .8);}
