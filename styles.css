@@ -30,8 +30,8 @@ footer            { flex-shrink: 0; }
 h1, h2            { font-weight: 500; }
 h1                { font-size: 3.4rem; margin-bottom: 3rem; }
 h2                { font-size: 2.4rem; margin-bottom: 2.2rem; }
-small,
-small a           { font-size: .75em; }
+small             { font-size: .75em; }
+small a           { font-size: inherit; }
 .p                { margin-bottom: 1rem; }
 p, .p, h4, a      { font-size: 1.6rem; }
 
