@@ -58,7 +58,6 @@ a:focus-visible {
 /* Homepage specific code */
 ul li                                            { background-color: rgba(30, 33, 39, .8);}
 ul li a                                          { display: block; border: 2px solid transparent; }
-ul li a:hover                                    { border: 2px solid rgba(0, 0, 0, .2); }
 .list-unstyled img[src$=".svg"]                  { opacity: .6; }
 .list-unstyled img[src$="paperfoxlogo-bold.svg"] { opacity: 1; }
 .convert-to-white                                { filter: invert(70%) sepia(100%) saturate(0%) hue-rotate(166deg) brightness(113%) contrast(112%); }
